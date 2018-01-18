@@ -1,0 +1,2 @@
+from root/dm_control/suite/demos: 
+python mocap_demo.py --filename=../../../cmu-data/filename.amc
