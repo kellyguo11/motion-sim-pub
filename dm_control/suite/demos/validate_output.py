@@ -35,45 +35,44 @@ from absl import flags
 from dm_control.suite import humanoid_CMU
 from dm_control.suite.utils import parse_amc
 
+import collections
 import csv
 import itertools
 import matplotlib.pyplot as plt
 import numpy as np
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string('filename', None, 'amc file to be converted.')
+flags.DEFINE_string('filename', None, 'input csv file.')
 flags.DEFINE_integer('max_num_frames', 90,
                      'Maximum number of frames for plotting/playback')
-flags.DEFINE_string('output_csv', None, 'csv file to contain output.')
 
-def output2csv(converted):
-  if FLAGS.output_csv:
-    with open(FLAGS.output_csv, 'w') as output:
-      writer = csv.writer(output, delimiter=',')
-      writer.writerow(['qpos (position)', 'qvel (velocity)', 'time'])
-      len_qpos = len(converted.qpos)
-      len_qvel = len(converted.qvel)
-      len_time = len(converted.time)
-      count = 0
-      for qpos, qvel, time in list(itertools.izip_longest(converted.qpos, converted.qvel, converted.time)):
-        pos = 'None'
-        vel = 'None'
-        t = 'None'
-        if count < len_qpos:
-          pos = ' '.join([str(i) for i in qpos])
-        if count < len_qvel:
-          vel = ' '.join([str(i) for i in qvel])
-        if count < len_time:
-          t = time
-        writer.writerow([pos, vel, t])
-        count = count + 1
+def readcsv():
+  Converted = collections.namedtuple('Converted',
+                                   ['qpos', 'qvel', 'time'])
+  qpos_list = []
+  qvel_list = []
+  time_list = []
+
+  with open(FLAGS.filename, 'r') as file:
+    reader = csv.reader(file)
+    next(reader, None)
+    for row in reader:
+      qpos = row[0].split(' ')
+      qvel = row[1].split(' ')
+      time = float(row[2])
+      if qpos[0] != 'None':
+        qpos_list.append(np.array(qpos))
+      if qvel[0] != 'None':
+        qvel_list.append(np.array(qvel))
+      if time != 'None':
+        time_list.append(time)
+
+  return Converted(np.array(qpos_list), np.array(qvel_list), np.array(time_list))
 
 def main(unused_argv):
   env = humanoid_CMU.stand()
 
-  # Parse and convert specified clip.
-  converted = parse_amc.convert(FLAGS.filename,
-                                env.physics, env.control_timestep())
+  converted = readcsv()
 
   max_frame = min(FLAGS.max_num_frames, converted.qpos.shape[1] - 1)
 
@@ -87,8 +86,6 @@ def main(unused_argv):
       env.physics.data.qpos[:] = p_i
     video[i] = np.hstack([env.physics.render(height, width, camera_id=0),
                           env.physics.render(height, width, camera_id=1)])
-
-  output2csv(converted)
 
   tic = time.time()
   for i in range(max_frame):
