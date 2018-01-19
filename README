@@ -1,2 +1,7 @@
-from root/dm_control/suite/demos: 
-python mocap_demo.py --filename=../../../cmu-data/filename.amc
+Installation:
+Install Mujoco
+Follow installation process of dm_control: https://github.com/deepmind/dm_control
+
+Script for converting CMU acm data to Mujoco qpos and qvel:
+from root: 
+python dm_control/suite/demos/mocap_demo.py --filename=cmu-data/filename.amc --max_num_frames=10000
