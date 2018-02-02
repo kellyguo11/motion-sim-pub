@@ -109,13 +109,20 @@ def createjointcsv():
       writer.writerow(['frame index', 'joint index', 'joint name', 'joint angle', 'joint velocity', 'local joint axis', 'global joint axis'])
 
 def addnoise(data):
-  y = data + np.random.uniform(-100, 100) * 0.2 # 20% variance
-  yhat = savgol_filter(y, 51, 10) # window size 51, polynomial order 10
+  y = []
+  for i in range(len(data)):
+    y.append(data[i] * np.random.uniform(0.8, 1.2)) # 20% variance
+  y = np.array(y)
 
-  x = range(56)
-  plt.plot(x,y)
-  plt.plot(x,yhat, color='red')
-  plt.show()
+  yhat = savgol_filter(y, 51, 10) # window size 51, polynomial order 10
+  return y
+
+  ## plot
+  # x = range(len(data))
+  # plt.plot(x,y)
+  # plt.plot(x,yhat, color='red')
+  # plt.plot(x, data, color='green')
+  # plt.show()
 
 def main(unused_argv):
   env = humanoid_CMU.stand()
@@ -133,18 +140,22 @@ def main(unused_argv):
   createjointcsv()
 
   data = []
-
+  for i in range(max_frame):
+    p_i = converted.qpos[:, i]
+    #with env.physics.reset_context():
+    data.append(p_i[17])
+  newdata = addnoise(np.array(data))
+    
   for i in range(max_frame):
     p_i = converted.qpos[:, i]
     with env.physics.reset_context():
       for j in range(len(p_i)):
-        # relative to body frame
-        env.physics.data.qpos[j] = p_i[j]
+        #env.physics.data.qpos[:] = converted.qpos[:, i]
+        if j == 17:
+          env.physics.data.qpos[j] = newdata[i]
+        else:
+          env.physics.data.qpos[j] = p_i[j]
       outputjoints2csv(i, env.physics)
-      data.append(env.physics.data.qpos[i][17])
-  addnoise(data)
-    
-  for i in range(max_frame):
     video[i] = np.hstack([env.physics.render(height, width, camera_id=0),
                           env.physics.render(height, width, camera_id=1)])
 
