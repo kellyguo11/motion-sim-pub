@@ -4,7 +4,6 @@ Follow installation process of dm_control: https://github.com/deepmind/dm_contro
 
 Script for converting CMU acm data to Mujoco qpos and qvel:
 from root: 
-python scripts/simulate_cmu.py --filename=cmu-data/filename.amc --max_num_frames=10000 --output_csv=output/filename.csv
-
-Script for validating csv output from above conversion:
-python scripts/validate_output.py --filename=filename.csv --max_num_frames=10000
+python scripts/simulate_cmu.py --filename=cmu-data/filename.amc --max_num_frames=10000 --simulate
+OR
+python scripts/simulate_cmu.py --dir=cmu-data/all_asfamc/subjects --max_num_frames=10000
