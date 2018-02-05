@@ -117,15 +117,17 @@ def addnoise(data):
     y.append(data[i] * np.random.uniform(0.8, 1.2)) # 20% variance
   y = np.array(y)
 
-  yhat = savgol_filter(y, 51, 10) # window size 51, polynomial order 10
-  return y
+  yhat = savgol_filter(y, 21, 10) # window size 51, polynomial order 10
 
   ## plot
-  # x = range(len(data))
-  # plt.plot(x,y)
-  # plt.plot(x,yhat, color='red')
-  # plt.plot(x, data, color='green')
-  # plt.show()
+  x = range(len(data))
+  plt.plot(x,y, label='raw noise')
+  plt.plot(x,yhat, color='red', label='filtered noise')
+  plt.plot(x, data, color='green', label='original motion')
+  plt.legend()
+  plt.show()
+
+  return y
 
 def parsedata(filename, sim, noise):
   output_filename = os.path.basename(filename).split('.')[0] + "_joints.csv"
@@ -158,7 +160,7 @@ def parsedata(filename, sim, noise):
     with env.physics.reset_context():
       for j in range(len(p_i)):
         if noise:
-          if j == 17:
+          if j == 17: # 17 = 17 - 10 --> #7 = rtibiarx
             env.physics.data.qpos[j] = newdata[i]
           else:
             env.physics.data.qpos[j] = p_i[j]
