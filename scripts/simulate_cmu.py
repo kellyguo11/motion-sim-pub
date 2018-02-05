@@ -96,7 +96,7 @@ def outputjoints2csv(output_joints_csv, frame, physics):
     with open(output_joints_csv, 'a') as output:
       writer = csv.writer(output, delimiter=',')
       for i in range(len(JOINTS_ORDER)):
-        joint_name = physics.model.name2id(JOINTS_ORDER[i], 'joints')
+        joint_name = physics.model.name2id(JOINTS_ORDER[i], 'joint')
         row = [str(frame), joint_name, JOINTS_ORDER[i]]
         
         row.append(joint_angle[i])
