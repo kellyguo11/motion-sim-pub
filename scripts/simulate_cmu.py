@@ -52,6 +52,7 @@ flags.DEFINE_integer('max_num_frames', 90,
 #flags.DEFINE_string('output_joints_csv', None, 'csv file to contain output of joints.')
 flags.DEFINE_string('dir', None, 'directory containing all amc files.')
 flags.DEFINE_boolean('simulate', False, 'Simulate results.')
+flags.DEFINE_boolean('noise', False, 'Add noise to motion.')
 
 JOINTS_ORDER = ["lfemurrz", "lfemurry", "lfemurrx", "ltibiarx", "lfootrz", "lfootrx", "ltoesrx" ,
                 "rfemurrz", "rfemurry", "rfemurrx", "rtibiarx", "rfootrz" , "rfootrx" , "rtoesrx" ,
@@ -95,7 +96,7 @@ def outputjoints2csv(output_joints_csv, frame, physics):
     with open(output_joints_csv, 'a') as output:
       writer = csv.writer(output, delimiter=',')
       for i in range(len(JOINTS_ORDER)):
-        joint_name = physics.model.name2id(JOINTS_ORDER[i], 'joint')
+        joint_name = physics.model.name2id(JOINTS_ORDER[i], 'joints')
         row = [str(frame), joint_name, JOINTS_ORDER[i]]
         
         row.append(joint_angle[i])
@@ -126,8 +127,8 @@ def addnoise(data):
   # plt.plot(x, data, color='green')
   # plt.show()
 
-def parsedata(filename, sim):
-  output_filename = os.path.basename(filename).split('.')[0] + "_joint.csv"
+def parsedata(filename, sim, noise):
+  output_filename = os.path.basename(filename).split('.')[0] + "_joints.csv"
 
   env = humanoid_CMU.stand()
 
@@ -144,23 +145,25 @@ def parsedata(filename, sim):
   createjointcsv(output_filename)
 
   ### add noise to data
-  '''
-  data = []
-  for i in range(max_frame):
-    p_i = converted.qpos[:, i]
-    #with env.physics.reset_context():
-    data.append(p_i[17])
-  newdata = addnoise(np.array(data))'''
+  if noise:
+    data = []
+    for i in range(max_frame):
+      p_i = converted.qpos[:, i]
+      #with env.physics.reset_context():
+      data.append(p_i[17])
+    newdata = addnoise(np.array(data))
     
   for i in range(max_frame):
     p_i = converted.qpos[:, i]
     with env.physics.reset_context():
       for j in range(len(p_i)):
-        '''if j == 17:
-          env.physics.data.qpos[j] = newdata[i]
+        if noise:
+          if j == 17:
+            env.physics.data.qpos[j] = newdata[i]
+          else:
+            env.physics.data.qpos[j] = p_i[j]
         else:
-          env.physics.data.qpos[j] = p_i[j]'''
-        env.physics.data.qpos[j] = p_i[j]
+          env.physics.data.qpos[j] = p_i[j]
       outputjoints2csv(output_filename, i, env.physics)
     video[i] = np.hstack([env.physics.render(height, width, camera_id=0),
                           env.physics.render(height, width, camera_id=1)])
@@ -185,9 +188,9 @@ def parsedata(filename, sim):
 def main(unused_argv):
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir + '/**/*.amc', recursive=True):
-      parsedata(filename, FLAGS.simulate)
+      parsedata(filename, FLAGS.simulate, FLAGS.noise)
   elif FLAGS.filename:
-    parsedata(FLAGS.filename, FLAGS.simulate)
+    parsedata(FLAGS.filename, FLAGS.simulate, FLAGS.noise)
   else:
     print("Please provide input source.")
 
