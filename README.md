@@ -8,9 +8,9 @@ Conversion Script:
 From root:  
 
 (for single file)  
-'''python scripts/simulate_cmu.py --filename=cmu-data/filename.amc --max_num_frames=10000 --simulate'''
+`python scripts/simulate_cmu.py --filename=cmu-data/filename.amc --max_num_frames=10000 --simulate`
 OR (for all amc files)  
-'''python scripts/simulate_cmu.py --dir=cmu-data/all_asfamc/subjects --max_num_frames=10000'''
+`python scripts/simulate_cmu.py --dir=cmu-data/all_asfamc/subjects --max_num_frames=10000`
 
 Input arguments:
 ----------------
@@ -22,4 +22,6 @@ Input arguments:
 
 Output File:
 ------------
-from root: <amc_file_name>_joints.csv
+From root: <amc_file_name>_joints.csv
+
+Output Columns:
