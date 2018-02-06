@@ -32,3 +32,6 @@ Output Columns:
 * Joint Velociy: velocity of each joint (qvel)
 * Local Joint Axis: fixed body axis for each joint
 * Global Joint Axis: Computed joint axis in the global frame from joint angle 
+
+Slides:
+https://docs.google.com/presentation/d/1DdoyGRLiAPB51EXB8_uJ7wif-bwUNkAy8J-ltemoeUE/edit?usp=sharing
