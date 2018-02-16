@@ -76,9 +76,6 @@ JOINT_BODIES = ["lfemur", "lfemur", "lfemur", "ltibia", "lfoot", "lfoot", "ltoes
                 "lthumb", "lthumb", "rclavicle", "rclavicle", "rclavicle", "rhumerus", "rhumerus",
                 "rhumerus", "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
 
-bodies = dict()
-joints = dict()
-
 def outputstate2csv(output_state_csv, converted):
   with open(output_state_csv, 'w') as output:
     writer = csv.writer(output, delimiter=',')
@@ -101,14 +98,14 @@ def outputstate2csv(output_state_csv, converted):
       writer.writerow([pos, vel, t])
       count = count + 1
 
-# output all joints information to csv
-def outputjoints2csv(output_joints_csv, frame, physics):
+# output all joints information to csv - human readable
+def outputjoints2csv(output_joints_csv, frame, physics, bodies, joints):
   joint_angle = physics.position()
   joint_vel = physics.velocity()
   joint_axis = physics.data.xaxis
 
   if output_joints_csv:
-    with open(output_joints_csv, 'a') as output:
+    with open("csv.csv", 'a') as output:
       writer = csv.writer(output, delimiter=',')
 
       #output freejoint info
@@ -142,6 +139,67 @@ def outputjoints2csv(output_joints_csv, frame, physics):
 
         writer.writerow(row)
 
+  return joints
+
+# feature packed formatting
+def buildFeatures(frame, physics, bodies, joints):
+  frame_data_world = []
+  frame_data_com = []
+  frame_data_parent = []
+
+  joint_angle = physics.position()
+  joint_vel = physics.velocity()
+  joint_accel = physics.data.qacc
+  joint_axis = physics.data.xaxis
+
+  #output freejoint info
+  #pos (3), orientation (9), linear velocity (3), angular velocity (3), linear acceleration (3), angular acceleration (3)
+  freejoint_data_world = [bodies['root'][0].tolist(), bodies['root'][1].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
+  frame_data_world.append(freejoint_data_world)
+
+  freejoint_data_com = [bodies['root'][2].tolist(), bodies['root'][3].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
+  frame_data_com.append(freejoint_data_com)
+
+  freejoint_data_parent = [bodies['root'][4].tolist(), bodies['root'][5].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
+  frame_data_parent.append(freejoint_data_parent)
+
+  # remove freejoint 'root' due to different dimensions
+  joint_angle = physics.position()[7:]
+  joint_vel = physics.velocity()[6:]
+  joint_accel = physics.data.qacc[6:]
+  joint_axis = physics.data.xaxis[1:]
+
+  for i in range(len(JOINTS_ORDER)):
+    # pos (3), orientation (3 x 3), angle (1), axis (3), velocity (1), acceleration (1)
+    data_world = [bodies[JOINT_BODIES[i]][0].tolist(), bodies[JOINT_BODIES[i]][1].tolist(), joint_angle[i], joint_axis[i].tolist(), joint_vel[i], joint_accel[i]]
+    frame_data_world.append(data_world)
+
+    data_com = [bodies[JOINT_BODIES[i]][2].tolist(), bodies[JOINT_BODIES[i]][3].tolist(), joint_angle[i], convertCOMAxis(physics, joint_axis[i]).tolist(), joint_vel[i], joint_accel[i]]
+    frame_data_com.append(data_com)
+
+    data_parent = [bodies[JOINT_BODIES[i]][4].tolist(), bodies[JOINT_BODIES[i]][5].tolist(), joint_angle[i], convertParentAxis(physics, joint_axis[i], i).tolist(), joint_vel[i], joint_accel[i]]
+    frame_data_parent.append(data_parent)
+
+    # create joints dictionary
+    joint_name = physics.model.name2id(JOINTS_ORDER[i], 'joint')
+    row =  [str(frame), joint_name, JOINTS_ORDER[i]]
+    row.append(joint_angle[i])
+    row.append(np.rad2deg(joint_angle[i]))
+    row.append(joint_vel[i])
+    row.append(joint_axis[i])
+    row.append(bodies[JOINT_BODIES[i]][0])
+    row.append(bodies[JOINT_BODIES[i]][1])
+    row.append(bodies[JOINT_BODIES[i]][2])
+    row.append(bodies[JOINT_BODIES[i]][3])
+    row.append(bodies[JOINT_BODIES[i]][4])
+    row.append(bodies[JOINT_BODIES[i]][5])
+
+    if frame == 0:
+      joints[i] = []
+    joints[i].append(copy.deepcopy(row))
+
+  return joints, frame_data_world, frame_data_com, frame_data_parent
+
 # initializes joints output csv with headers
 def createjointcsv(output_joints_csv):
   with open(output_joints_csv, 'w') as output:
@@ -159,6 +217,7 @@ def outputcppcsv(filename, physics):
       writer.writerow([qpos[i]])
 
 def calcBodyFrames(physics):
+  bodies = dict()
   for i in range(physics.model.nbody):
     world_pos = physics.data.xpos[i]
     world_rot = physics.data.xmat[i].reshape(3, 3)
@@ -167,6 +226,7 @@ def calcBodyFrames(physics):
     (parent_pos, parent_rot) = calcParentFrame(physics, world_pos, world_rot, i)
 
     bodies[physics.model.id2name(i, 'body')] = [world_pos, world_rot, com_pos, com_rot, parent_pos, parent_rot]
+  return bodies
 
 def outputbodies(filename, physics, frame):
   calcBodyFrames(physics)
@@ -194,6 +254,22 @@ def createbodiescsv(filename):
     writer = csv.writer(output, delimiter=',')
     writer.writerow(['frame index', 'body index', 'body name', 'World Position', 'World Orientation', 'COM Position', 'COM Orientation',
       'Parent Position', 'Parent Orientation'])
+
+def convertCOMAxis(physics, axis):
+  com_pos = physics.named.data.subtree_com['thorax']
+  com_rot = physics.named.data.xmat['thorax'].reshape(3, 3)
+
+  new_axis = np.matmul((axis - com_pos), com_rot)
+  return new_axis
+
+def convertParentAxis(physics, axis, i):
+  index = physics.model.name2id(JOINT_BODIES[i], 'body')
+  parent_id = physics.model.body_parentid[index]
+  parent_pos = physics.data.xpos[parent_id]
+  parent_rot = physics.data.xmat[parent_id].reshape(3, 3)
+
+  new_axis = np.matmul((axis - parent_pos), parent_rot)
+  return new_axis
 
 def calcCOMFrame(physics, pos, rot):
   #assume world frame: (0, 0, 0) origin with (1, 0, 0), (0, 1, 0), (1, 0, 0) frame
@@ -242,7 +318,7 @@ def addnoise(data):
 
   return y
 
-def visualizeJoint(index):
+def visualizeJoint(index, joints):
   data = joints[index]
   world_x = []
   world_y = []
@@ -306,8 +382,19 @@ def cleanFiles(prefix):
   except OSError:
       pass
 
+  try:
+    os.remove(prefix + "_features.txt")
+  except OSError:
+      pass
+
+def writeOutput(filename, output):
+  print("Writing to file: " + filename)
+  file = open(filename, 'w')
+  for row in output:
+    file.write("%s\n" % row)
+
 def parsedata(filename, sim, noise):
-  output_filename = os.path.basename(filename).split('.')[0] + "_joints.csv"
+  file_prefix = os.path.basename(filename).split('.')[0]
   cleanFiles(os.path.basename(filename).split('.')[0])
 
   env = humanoid_CMU.stand()
@@ -323,8 +410,13 @@ def parsedata(filename, sim, noise):
   height = 480
   video = np.zeros((max_frame, height, 2 * width, 3), dtype=np.uint8)
 
-  createjointcsv(output_filename)
+  #createjointcsv(output_filename)
   #createbodiescsv(os.path.basename(filename).split('.')[0] + "_bodies.csv")
+  output_world = []
+  output_com = []
+  output_parent = []
+  joints = dict()
+  bodies = dict()
     
   for i in range(int(max_frame)):
     p_i = converted.qpos[:, i]
@@ -334,23 +426,31 @@ def parsedata(filename, sim, noise):
           ## TODO: add noise
           env.physics.data.qpos[j] = p_i[j]
         else:
-          env.physics.data.qpos[j] = p_i[j]
+          #env.physics.data.qpos[j] = p_i[j]
           if j == 56:
             env.physics.data.qpos[j] = converted.qpos[:, i][j]
 
       env.physics.step()
+      print("Processing frame " + str(i))
       #outputbodies(os.path.basename(filename).split('.')[0] + "_bodies.csv", env.physics, i)
-      calcBodyFrames(env.physics)
-      outputjoints2csv(output_filename, i, env.physics)
+      bodies = calcBodyFrames(env.physics)
+      #joints = outputjoints2csv(output_filename, i, env.physics, bodies, joints)
+      joints, frame_data_world, frame_data_com, frame_data_parent = buildFeatures(i, env.physics, bodies, joints)
+      output_world.append(frame_data_world)
+      output_com.append(frame_data_com)
+      output_parent.append(frame_data_parent)
       #outputcppcsv(os.path.basename(filename).split('.')[0] + "_cpp", env.physics)
 
     video[i] = np.hstack([env.physics.render(height, width, camera_id=0),
                           env.physics.render(height, width, camera_id=1)])
 
     #outputstate2csv(filename + "_state.csv", converted)
+  writeOutput(file_prefix + "_features_world.txt", output_world)
+  writeOutput(file_prefix + "_features_com.txt", output_com)
+  writeOutput(file_prefix + "_features_parent.txt", output_parent)
 
   if sim:
-    visualizeJoint(49)
+    visualizeJoint(49, joints)
 
     plt.figure(2)
     tic = time.time()
@@ -368,20 +468,17 @@ def parsedata(filename, sim, noise):
     plt.waitforbuttonpress()
 
 def main(unused_argv):
-  global joints, bodies
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir + '/**/*.amc', recursive=True):
-      try:
-        parsedata(filename, FLAGS.simulate, FLAGS.noise)
-      except Exception as e:
-        print(e)
-      joints = dict()
-      bodies = dict()
+      #try:
+      parsedata(filename, FLAGS.simulate, FLAGS.noise)
+      #except Exception as e:
+        #print(e)
   elif FLAGS.filename:
-    try:
-      parsedata(FLAGS.filename, FLAGS.simulate, FLAGS.noise)
-    except Exception as e:
-      print(e)
+    #try:
+    parsedata(FLAGS.filename, FLAGS.simulate, FLAGS.noise)
+    #except Exception as e:
+    #  print(e)
   else:
     print("Please provide input source.")
 

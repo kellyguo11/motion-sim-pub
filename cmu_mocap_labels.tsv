@@ -1,0 +1,2401 @@
+File Name	Subject Description	Motion Description	KeyWords	Number of Frames	Frame Rate	Length (s)
+01_01.amc	climb, swing, hang on playground equipment	playground - forward jumps, turn around	['jump', 'turn']	1145	120	9.541666666666666
+01_02.amc	climb, swing, hang on playground equipment	playground - climb	['climb']	1810	120	15.083333333333334
+01_03.amc	climb, swing, hang on playground equipment	playground - climb, hang, swing	['climb']	1878	120	15.65
+01_04.amc	climb, swing, hang on playground equipment	playground - climb	['climb']	1790	120	14.916666666666666
+01_05.amc	climb, swing, hang on playground equipment	playground - climb, go under	['climb']	1822	120	15.183333333333334
+01_06.amc	climb, swing, hang on playground equipment	playground - climb, sit, dangle legs, descend	['climb', 'sit']	2138	120	17.816666666666666
+01_07.amc	climb, swing, hang on playground equipment	playground - climb, sit, dangle legs, jump down	['climb', 'jump', 'sit']	2015	120	16.791666666666668
+01_08.amc	climb, swing, hang on playground equipment	playground - climb, sit, dangle legs, rock back, lower self to ground	['climb', 'sit']	1087	120	9.058333333333334
+01_09.amc	climb, swing, hang on playground equipment	playground - climb, hang, hold self up with arms straight, swing, drop, sit, dangle legs, go under	['climb', 'sit']	1767	120	14.725
+01_10.amc	climb, swing, hang on playground equipment	playground - climb, swing, lean back, drop	['climb']	1360	120	11.333333333333334
+01_11.amc	climb, swing, hang on playground equipment	playground - climb, hang, lean over, jump down	['climb', 'jump']	1938	120	16.15
+01_12.amc	climb, swing, hang on playground equipment	playground - climb, pull up, dangle, sit, lower self to ground	['climb', 'sit']	1711	120	14.258333333333333
+01_13.amc	climb, swing, hang on playground equipment	playground - climb, go under, jump down	['climb', 'jump']	1410	120	11.75
+01_14.amc	climb, swing, hang on playground equipment	playground - climb, jump down, dangle, legs push off against	['climb', 'jump']	973	120	8.108333333333333
+02_01.amc	various expressions and human behaviors	walk	['walk']	142	120	1.1833333333333333
+02_02.amc	various expressions and human behaviors	walk	['walk']	123	120	1.025
+02_03.amc	various expressions and human behaviors	run/jog	['run']	71	120	0.5916666666666667
+02_04.amc	various expressions and human behaviors	jump, balance	['jump']	200	120	1.6666666666666667
+02_05.amc	various expressions and human behaviors	punch/strike	['punch']	772	120	6.433333333333334
+02_06.amc	various expressions and human behaviors	bend over, scoop up, rise, lift arm	[]	930	120	7.75
+02_07.amc	various expressions and human behaviors	swordplay	[]	937	120	7.808333333333334
+02_08.amc	various expressions and human behaviors	swordplay	[]	624	120	5.2
+02_09.amc	various expressions and human behaviors	swordplay	[]	430	120	3.5833333333333335
+02_10.amc	various expressions and human behaviors	wash self	[]	1101	120	9.175
+03_01.amc	walk on uneven terrain	walk on uneven terrain	['walk']	179	120	1.4916666666666667
+03_02.amc	walk on uneven terrain	walk on uneven terrain	['walk']	151	120	1.2583333333333333
+03_03.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1900	120	15.833333333333334
+03_04.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1967	120	16.391666666666666
+05_01.amc	modern dance	walk	['walk']	248	120	2.066666666666667
+05_02.amc	modern dance	dance - expressive arms, pirouette	['dance']	467	120	3.8916666666666666
+05_03.amc	modern dance	dance - sideways arabesque, turn step, folding arms	['dance', 'turn']	180	120	1.5
+05_04.amc	modern dance	dance - sideways arabesque, folding arms, bending back	['dance']	499	120	4.158333333333333
+05_05.amc	modern dance	dance - quasi-cou-de-pied, raised leg above hip-height, jete en tourant	['dance']	380	120	3.1666666666666665
+05_06.amc	modern dance	dance - cartwheel-like start, pirouettes, jete	['dance']	368	120	3.066666666666667
+05_07.amc	modern dance	dance - small jetes, attitude/arabesque, shifted-axis pirouette, turn	['dance', 'turn']	495	120	4.125
+05_08.amc	modern dance	dance - rond de jambe in the air, jete, turn	['dance', 'turn']	300	120	2.5
+05_09.amc	modern dance	dance - glissade devant, glissade derriere, attitude/arabesque	['dance']	475	120	3.9583333333333335
+05_10.amc	modern dance	dance - glissade devant, glissade derriere, attitude/arabesque	['dance']	340	120	2.8333333333333335
+05_11.amc	modern dance	dance - sideways steps, pirouette	['dance']	245	120	2.0416666666666665
+05_12.amc	modern dance	dance - arms held high, pointe tendue a terre, upper body rotation	['dance']	563	120	4.691666666666666
+05_13.amc	modern dance	dance - small jetes, pirouette	['dance']	455	120	3.7916666666666665
+05_14.amc	modern dance	dance - retire derriere, attitude/arabesque	['dance']	267	120	2.225
+05_15.amc	modern dance	dance - retire derriere, attitude/arabesque	['dance']	224	120	1.8666666666666667
+05_16.amc	modern dance	dance - coupe dessous, jete en tourant	['dance']	218	120	1.8166666666666667
+05_17.amc	modern dance	dance - coupe dessous, grand jete en tourant	['dance']	434	120	3.6166666666666667
+05_18.amc	modern dance	dance - attitude/arabesque, jete en tourant, bending back	['dance']	761	120	6.341666666666667
+05_19.amc	modern dance	dance - attitude/arabesque, jete en tourant, bending back	['dance']	357	120	2.975
+05_20.amc	modern dance	dance - attitude/arabesque, jete en tourant, bending back	['dance']	455	120	3.7916666666666665
+06_01.amc	dribble, shoot basketball	walk	['walk']	205	120	1.7083333333333333
+06_02.amc	dribble, shoot basketball	basketball - forward dribble	[]	300	120	2.5
+06_03.amc	dribble, shoot basketball	basketball - forward dribble	[]	219	120	1.825
+06_04.amc	dribble, shoot basketball	basketball - forward dribble	[]	164	120	1.3666666666666667
+06_05.amc	dribble, shoot basketball	basketball - forward dribble	[]	160	120	1.3333333333333333
+06_06.amc	dribble, shoot basketball	basketball - backward dribble	[]	167	120	1.3916666666666666
+06_07.amc	dribble, shoot basketball	basketball - backward dribble	[]	239	120	1.9916666666666667
+06_08.amc	dribble, shoot basketball	basketball - sideways dribble	[]	142	120	1.1833333333333333
+06_09.amc	dribble, shoot basketball	basketball - sideways dribble	[]	125	120	1.0416666666666667
+06_10.amc	dribble, shoot basketball	basketball - forward dribble, 90-degree left turns	['turn']	463	120	3.8583333333333334
+06_11.amc	dribble, shoot basketball	basketball - forward dribble, 90-degree right turns	['turn']	477	120	3.975
+06_12.amc	dribble, shoot basketball	basketball - forward dribble, 90-degree right turns, crossover dribble	['turn']	508	120	4.233333333333333
+06_13.amc	dribble, shoot basketball	basketball - low, fast free style dribble, dribble through legs	[]	2043	120	17.025
+06_14.amc	dribble, shoot basketball	basketball - crossover dribble, shoot	[]	199	120	1.6583333333333334
+06_15.amc	dribble, shoot basketball	basketball - dribble, shoot	[]	226	120	1.8833333333333333
+07_01.amc	walk	walk	['walk']	131	120	1.0916666666666666
+07_02.amc	walk	walk	['walk']	136	120	1.1333333333333333
+07_03.amc	walk	walk	['walk']	172	120	1.4333333333333333
+07_04.amc	walk	slow walk	['walk']	186	120	1.55
+07_05.amc	walk	slow walk	['walk']	215	120	1.7916666666666667
+07_06.amc	walk	walk	['walk']	173	120	1.4416666666666667
+07_07.amc	walk	walk	['walk']	157	120	1.3083333333333333
+07_08.amc	walk	walk	['walk']	150	120	1.25
+07_09.amc	walk	walk	['walk']	127	120	1.0583333333333333
+07_10.amc	walk	walk	['walk']	125	120	1.0416666666666667
+07_11.amc	walk	walk	['walk']	130	120	1.0833333333333333
+07_12.amc	walk	brisk walk	['walk']	109	120	0.9083333333333333
+08_01.amc	walk	walk	['walk']	114	120	0.95
+08_02.amc	walk	walk	['walk']	128	120	1.0666666666666667
+08_03.amc	walk	walk	['walk']	146	120	1.2166666666666666
+08_04.amc	walk	slow walk	['walk']	201	120	1.675
+08_05.amc	walk	walk/stride	['walk']	123	120	1.025
+08_06.amc	walk	walk	['walk']	122	120	1.0166666666666666
+08_07.amc	walk	walk, exaggerated stride	['walk']	125	120	1.0416666666666667
+08_08.amc	walk	walk	['walk']	117	120	0.975
+08_09.amc	walk	walk	['walk']	121	120	1.0083333333333333
+08_10.amc	walk	walk	['walk']	114	120	0.95
+08_11.amc	walk	slow walk/stride	['walk']	155	120	1.2916666666666667
+09_01.amc	run	run	['run']	61	120	0.5083333333333333
+09_02.amc	run	run	['run']	53	120	0.44166666666666665
+09_03.amc	run	run	['run']	52	120	0.43333333333333335
+09_04.amc	run	run	['run']	56	120	0.4666666666666667
+09_05.amc	run	run	['run']	59	120	0.49166666666666664
+09_06.amc	run	run	['run']	58	120	0.48333333333333334
+09_07.amc	run	run	['run']	57	120	0.475
+09_08.amc	run	run	['run']	52	120	0.43333333333333335
+09_09.amc	run	run	['run']	62	120	0.5166666666666667
+09_10.amc	run	run	['run']	54	120	0.45
+09_11.amc	run	run	['run']	68	120	0.5666666666666667
+09_12.amc	run	navigate - walk forward, backward, sideways	['walk']	798	120	6.65
+10_01.amc	kick soccer ball	soccer - kick ball	['kick']	333	120	2.775
+10_02.amc	kick soccer ball	soccer - kick ball	['kick']	245	120	2.0416666666666665
+10_03.amc	kick soccer ball	soccer - kick ball	['kick']	150	120	1.25
+10_04.amc	kick soccer ball	walk	['walk']	228	120	1.9
+10_05.amc	kick soccer ball	soccer - kick ball	['kick']	181	120	1.5083333333333333
+10_06.amc	kick soccer ball	soccer - kick ball	['kick']	237	120	1.975
+11_01.amc	kick soccer ball	soccer - kick ball	['kick']	248	120	2.066666666666667
+12_01.amc	tai chi, walk	walk	['walk']	217	120	1.8083333333333333
+12_02.amc	tai chi, walk	walk	['walk']	279	120	2.325
+12_03.amc	tai chi, walk	walk	['walk']	235	120	1.9583333333333333
+12_04.amc	tai chi, walk	tai chi	[]	7415	120	61.791666666666664
+13_01.amc	various everyday behaviors	sit on high stool, stand up	['sit', 'stand']	963	120	8.025
+13_02.amc	various everyday behaviors	sit on high stool, stand up	['sit', 'stand']	1448	120	12.066666666666666
+13_03.amc	various everyday behaviors	sit on high stool, stand up	['sit', 'stand']	1547	120	12.891666666666667
+13_04.amc	various everyday behaviors	sit on stepstool, chin in hand	['sit']	1982	120	16.516666666666666
+13_05.amc	various everyday behaviors	sit on stepstool, hands against chin, fidget, stand up	['sit', 'stand']	1834	120	15.283333333333333
+13_06.amc	various everyday behaviors	sit on stepstool, hands against chin, elbow out, stand up	['sit', 'stand']	1838	120	15.316666666666666
+13_07.amc	various everyday behaviors	unscrew bottlecap, drink soda	[]	604	120	5.033333333333333
+13_08.amc	various everyday behaviors	unscrew bottlecap, drink soda, screw on bottlecap	[]	667	120	5.558333333333334
+13_09.amc	various everyday behaviors	drink soda	[]	458	120	3.816666666666667
+13_10.amc	various everyday behaviors	jump up to grab, reach for, tiptoe	['jump']	997	120	8.308333333333334
+13_11.amc	various everyday behaviors	forward jump	['jump']	172	120	1.4333333333333333
+13_12.amc	various everyday behaviors	jump up to grab, reach for, tiptoe	['jump']	1430	120	11.916666666666666
+13_13.amc	various everyday behaviors	forward jump	['jump']	182	120	1.5166666666666666
+13_14.amc	various everyday behaviors	laugh	[]	1009	120	8.408333333333333
+13_15.amc	various everyday behaviors	laugh	[]	992	120	8.266666666666667
+13_16.amc	various everyday behaviors	laugh	[]	947	120	7.891666666666667
+13_17.amc	various everyday behaviors	boxing	[]	2016	120	16.8
+13_18.amc	various everyday behaviors	boxing	[]	1249	120	10.408333333333333
+13_19.amc	various everyday behaviors	forward jump	['jump']	177	120	1.475
+13_20.amc	various everyday behaviors	wash windows	[]	2382	120	19.85
+13_21.amc	various everyday behaviors	wash windows	[]	2265	120	18.875
+13_22.amc	various everyday behaviors	wash windows	[]	2067	120	17.225
+13_23.amc	various everyday behaviors	sweep floor	[]	1673	120	13.941666666666666
+13_24.amc	various everyday behaviors	sweep floor	[]	1680	120	14.0
+13_25.amc	various everyday behaviors	sweep floor	[]	1670	120	13.916666666666666
+13_26.amc	various everyday behaviors	direct traffic, wave	[]	1261	120	10.508333333333333
+13_27.amc	various everyday behaviors	direct traffic, wave, point	[]	1736	120	14.466666666666667
+13_28.amc	various everyday behaviors	direct traffic, wave, point	[]	1716	120	14.3
+13_29.amc	various everyday behaviors	jumping jacks, side twists, bend over, squats	['jump']	1912	120	15.933333333333334
+13_30.amc	various everyday behaviors	jumping jacks, side twists, squats, jog	['jump']	1026	120	8.55
+13_31.amc	various everyday behaviors	jumping jacks, side twists, bend over, jog	['jump']	1256	120	10.466666666666667
+13_32.amc	various everyday behaviors	forward jump	['jump']	139	120	1.1583333333333334
+13_33.amc	various everyday behaviors	climb ladder	['climb']	624	120	5.2
+13_34.amc	various everyday behaviors	climb ladder	['climb']	590	120	4.916666666666667
+13_35.amc	various everyday behaviors	climb 3 steps	['climb']	500	120	4.166666666666667
+13_36.amc	various everyday behaviors	climb 3 steps	['climb']	574	120	4.783333333333333
+13_37.amc	various everyday behaviors	climb 3 steps	['climb']	615	120	5.125
+13_38.amc	various everyday behaviors	climb 3 steps	['climb']	517	120	4.308333333333334
+13_39.amc	various everyday behaviors	jump	['jump']	145	120	1.2083333333333333
+13_40.amc	various everyday behaviors	jump	['jump']	132	120	1.1
+13_41.amc	various everyday behaviors	jump	['jump']	153	120	1.275
+13_42.amc	various everyday behaviors	jump	['jump']	166	120	1.3833333333333333
+14_01.amc	various everyday behaviors	boxing	[]	2330	120	19.416666666666668
+14_02.amc	various everyday behaviors	boxing	[]	2259	120	18.825
+14_03.amc	various everyday behaviors	boxing	[]	2306	120	19.216666666666665
+14_04.amc	various everyday behaviors	drink soda, screw on bottlecap	[]	315	120	2.625
+14_05.amc	various everyday behaviors	unscrew bottlecap, drink soda	[]	352	120	2.933333333333333
+14_06.amc	various everyday behaviors	jumping jacks, jog, squats, side twists, stretches	['jump']	2231	120	18.591666666666665
+14_07.amc	various everyday behaviors	jump up to grab, reach for, tiptoe	['jump']	923	120	7.691666666666666
+14_08.amc	various everyday behaviors	jump up to grab, reach for, tiptoe	['jump']	1093	120	9.108333333333333
+14_09.amc	various everyday behaviors	jump up to grab, reach for, tiptoe	['jump']	1369	120	11.408333333333333
+14_10.amc	various everyday behaviors	wash windows	[]	1765	120	14.708333333333334
+14_11.amc	various everyday behaviors	wash windows	[]	1764	120	14.7
+14_12.amc	various everyday behaviors	wash windows	[]	1146	120	9.55
+14_13.amc	various everyday behaviors	mop floor	[]	1359	120	11.325
+14_14.amc	various everyday behaviors	jumping jacks, jog, squats, side twists, stretches	['jump']	1938	120	16.15
+14_15.amc	various everyday behaviors	mop floor	[]	1905	120	15.875
+14_16.amc	various everyday behaviors	sweep floor	[]	2396	120	19.966666666666665
+14_17.amc	various everyday behaviors	laugh	[]	1041	120	8.675
+14_18.amc	various everyday behaviors	laugh	[]	1322	120	11.016666666666667
+14_19.amc	various everyday behaviors	laugh	[]	1135	120	9.458333333333334
+14_20.amc	various everyday behaviors	jumping jacks, side twists, reach up, bend over	['jump']	1934	120	16.116666666666667
+14_21.amc	various everyday behaviors	climb 3 steps	['climb']	506	120	4.216666666666667
+14_22.amc	various everyday behaviors	climb 3 steps	['climb']	506	120	4.216666666666667
+14_23.amc	various everyday behaviors	climb 3 steps	['climb']	550	120	4.583333333333333
+14_24.amc	various everyday behaviors	direct traffic, wave, point	[]	1542	120	12.85
+14_25.amc	various everyday behaviors	direct traffic, wave, point	[]	1848	120	15.4
+14_26.amc	various everyday behaviors	direct traffic, wave, point	[]	1966	120	16.383333333333333
+14_27.amc	various everyday behaviors	sit on high stool, stand up	['sit', 'stand']	896	120	7.466666666666667
+14_28.amc	various everyday behaviors	sit on high stool, stand up	['sit', 'stand']	855	120	7.125
+14_29.amc	various everyday behaviors	sit on stepstool, stand up, swing legs	['sit', 'stand']	1050	120	8.75
+14_30.amc	various everyday behaviors	sit on stepstool, ankle on other knee, hand on chin	['sit']	1071	120	8.925
+14_31.amc	various everyday behaviors	sit on stepstool, stand up	['sit', 'stand']	872	120	7.266666666666667
+14_32.amc	various everyday behaviors	sit on stepstool, stand up	['sit', 'stand']	1098	120	9.15
+14_33.amc	various everyday behaviors	climb ladder	['climb']	577	120	4.808333333333334
+14_34.amc	various everyday behaviors	climb ladder	['climb']	596	120	4.966666666666667
+14_35.amc	various everyday behaviors	climb ladder	['climb']	672	120	5.6
+14_36.amc	various everyday behaviors	sit on stepstool, stand up	['sit', 'stand']	872	120	7.266666666666667
+14_37.amc	various everyday behaviors	drink soda	[]	213	120	1.775
+15_01.amc	various everyday behaviors, dance moves	walk/wander	['walk']	2301	120	19.175
+15_02.amc	various everyday behaviors, dance moves	climb, step over, sit on, stand on stepstool	['climb', 'sit', 'stand']	9151	120	76.25833333333334
+15_03.amc	various everyday behaviors, dance moves	walk/wander	['walk']	5228	120	43.56666666666667
+15_04.amc	various everyday behaviors, dance moves	wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing	['dance', 'walk']	9395	120	78.29166666666667
+15_05.amc	various everyday behaviors, dance moves	wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing	['dance', 'walk']	9561	120	79.675
+15_06.amc	various everyday behaviors, dance moves	lean forward, reach for	[]	1501	120	12.508333333333333
+15_07.amc	various everyday behaviors, dance moves	lean forward, tiptoe, reach for	[]	2290	120	19.083333333333332
+15_08.amc	various everyday behaviors, dance moves	hand signals - horizontally revolve forearms	[]	1607	120	13.391666666666667
+15_09.amc	various everyday behaviors, dance moves	walk/wander	['walk']	3280	120	27.333333333333332
+15_10.amc	various everyday behaviors, dance moves	sit on high stool, stand up	['sit', 'stand']	1158	120	9.65
+15_11.amc	various everyday behaviors, dance moves	wash windows, paint figure eights; hand signals	[]	3913	120	32.608333333333334
+15_12.amc	various everyday behaviors, dance moves	wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew	['dance', 'throw', 'walk']	3785	120	31.541666666666668
+15_13.amc	various everyday behaviors, dance moves	boxing	[]	3887	120	32.391666666666666
+15_14.amc	various everyday behaviors, dance moves	walk/wander	['walk']	3750	120	31.25
+16_01.amc	run, jump, walk	jump	['jump']	133	120	1.1083333333333334
+16_02.amc	run, jump, walk	jump	['jump']	193	120	1.6083333333333334
+16_03.amc	run, jump, walk	high jump	['jump']	170	120	1.4166666666666667
+16_04.amc	run, jump, walk	high jump	['jump']	157	120	1.3083333333333333
+16_05.amc	run, jump, walk	forward jump	['jump']	122	120	1.0166666666666666
+16_06.amc	run, jump, walk	forward jump	['jump']	169	120	1.4083333333333334
+16_07.amc	run, jump, walk	forward jump	['jump']	175	120	1.4583333333333333
+16_08.amc	run, jump, walk	run/jog, sudden stop	['run']	99	120	0.825
+16_09.amc	run, jump, walk	forward jump	['jump']	206	120	1.7166666666666666
+16_10.amc	run, jump, walk	forward jump	['jump']	191	120	1.5916666666666666
+16_11.amc	run, jump, walk	walk, veer left	['walk']	222	120	1.85
+16_12.amc	run, jump, walk	walk, veer left	['walk']	183	120	1.525
+16_13.amc	run, jump, walk	walk, veer right	['walk']	184	120	1.5333333333333334
+16_14.amc	run, jump, walk	walk, veer right	['walk']	197	120	1.6416666666666666
+16_15.amc	run, jump, walk	walk	['walk']	195	120	1.625
+16_16.amc	run, jump, walk	walk	['walk']	212	120	1.7666666666666666
+16_17.amc	run, jump, walk	walk, 90-degree left turn	['turn', 'walk']	215	120	1.7916666666666667
+16_18.amc	run, jump, walk	walk, 90-degree left turn	['turn', 'walk']	216	120	1.8
+16_19.amc	run, jump, walk	walk, 90-degree right turn	['turn', 'walk']	170	120	1.4166666666666667
+16_20.amc	run, jump, walk	walk, 90-degree right turn	['turn', 'walk']	209	120	1.7416666666666667
+16_21.amc	run, jump, walk	walk	['walk']	129	120	1.075
+16_22.amc	run, jump, walk	walk	['walk']	127	120	1.0583333333333333
+16_23.amc	run, jump, walk	walk, veer left	['walk']	124	120	1.0333333333333334
+16_24.amc	run, jump, walk	walk, veer left	['walk']	123	120	1.025
+16_25.amc	run, jump, walk	walk, veer right	['walk']	117	120	0.975
+16_26.amc	run, jump, walk	walk, veer right	['walk']	111	120	0.925
+16_27.amc	run, jump, walk	walk, 90-degree left turn	['turn', 'walk']	100	120	0.8333333333333334
+16_28.amc	run, jump, walk	walk, 90-degree left turn	['turn', 'walk']	112	120	0.9333333333333333
+16_29.amc	run, jump, walk	walk, 90-degree right turn	['turn', 'walk']	117	120	0.975
+16_30.amc	run, jump, walk	walk, 90-degree right turn	['turn', 'walk']	110	120	0.9166666666666666
+16_31.amc	run, jump, walk	walk	['walk']	176	120	1.4666666666666666
+16_32.amc	run, jump, walk	walk	['walk']	241	120	2.0083333333333333
+16_33.amc	run, jump, walk	slow walk, stop	['walk']	118	120	0.9833333333333333
+16_34.amc	run, jump, walk	slow walk, stop	['walk']	144	120	1.2
+16_35.amc	run, jump, walk	run/jog	['run']	67	120	0.5583333333333333
+16_36.amc	run, jump, walk	run/jog	['run']	78	120	0.65
+16_37.amc	run, jump, walk	run/jog, veer left	['run']	76	120	0.6333333333333333
+16_38.amc	run, jump, walk	run/jog, veer left	['run']	69	120	0.575
+16_39.amc	run, jump, walk	run/jog, veer right	['run']	60	120	0.5
+16_40.amc	run, jump, walk	run/jog, veer right	['run']	80	120	0.6666666666666666
+16_41.amc	run, jump, walk	run/jog, 90-degree left turn	['run', 'turn']	66	120	0.55
+16_42.amc	run, jump, walk	run/jog, 90-degree left turn	['run', 'turn']	85	120	0.7083333333333334
+16_43.amc	run, jump, walk	run/jog, 90-degree right turn	['run', 'turn']	87	120	0.725
+16_44.amc	run, jump, walk	run/jog, 90-degree right turn	['run', 'turn']	89	120	0.7416666666666667
+16_45.amc	run, jump, walk	run/jog	['run']	55	120	0.4583333333333333
+16_46.amc	run, jump, walk	run/jog	['run']	56	120	0.4666666666666667
+16_47.amc	run, jump, walk	walk	['walk']	172	120	1.4333333333333333
+16_48.amc	run, jump, walk	run, veer left	['run']	52	120	0.43333333333333335
+16_49.amc	run, jump, walk	run, veer right	['run']	52	120	0.43333333333333335
+16_50.amc	run, jump, walk	run, veer right	['run']	53	120	0.44166666666666665
+16_51.amc	run, jump, walk	run, 90-degree left turn	['run', 'turn']	73	120	0.6083333333333333
+16_52.amc	run, jump, walk	run, 90-degree left turn	['run', 'turn']	71	120	0.5916666666666667
+16_53.amc	run, jump, walk	run, 90-degree right turn	['run', 'turn']	59	120	0.49166666666666664
+16_54.amc	run, jump, walk	run, 90-degree right turn	['run', 'turn']	57	120	0.475
+16_55.amc	run, jump, walk	run	['run']	75	120	0.625
+16_56.amc	run, jump, walk	run/jog	['run']	69	120	0.575
+16_57.amc	run, jump, walk	run/jog, sudden stop	['run']	111	120	0.925
+16_58.amc	run, jump, walk	walk	['walk']	142	120	1.1833333333333333
+17_01.amc	different walking styles	walk with anger, frustration	['walk']	2626	120	21.883333333333333
+17_02.amc	different walking styles	walk with anger, frustration	['walk']	2650	120	22.083333333333332
+17_03.amc	different walking styles	walk stealthily	['walk']	2646	120	22.05
+17_04.amc	different walking styles	walk stealthily	['walk']	2659	120	22.158333333333335
+17_05.amc	different walking styles	walk/hobble	['walk']	2640	120	22.0
+17_06.amc	different walking styles	whistle, walk jauntily	['walk']	2582	120	21.516666666666666
+17_07.amc	different walking styles	whistle, walk jauntily	['walk']	2677	120	22.308333333333334
+17_08.amc	different walking styles	muscular, heavyset person's walk	['walk']	2574	120	21.45
+17_09.amc	different walking styles	muscular, heavyset person's walk	['walk']	2532	120	21.1
+17_10.amc	different walking styles	boxing	[]	1159	120	9.658333333333333
+18_01.amc	human interaction and communication	walk, shake hands (2 subjects - subject A)	['walk']	125	120	1.0416666666666667
+18_02.amc	human interaction and communication	walk, shake hands (2 subjects - subject A)	['walk']	125	120	1.0416666666666667
+18_03.amc	human interaction and communication	A pulls B; B resists (2 subjects - subject A)	[]	246	120	2.05
+18_04.amc	human interaction and communication	A pulls B; B resists (2 subjects - subject A)	[]	168	120	1.4
+18_05.amc	human interaction and communication	A pulls B by the elbow; B resists (2 subjects - subject A)	[]	182	120	1.5166666666666666
+18_06.amc	human interaction and communication	A pulls B by the elbow; B resists (2 subjects - subject A)	[]	169	120	1.4083333333333334
+18_07.amc	human interaction and communication	navigate busy sidewalk; A leads the way, takes B by the arm (2 subjects - subject A)	['walk']	120	120	1.0
+18_08.amc	human interaction and communication	conversation - explain with hand gestures (2 subjects - subject A)	[]	868	120	7.233333333333333
+18_09.amc	human interaction and communication	conversation - explain with hand gestures, walk (2 subjects - subject A)	['walk']	96	120	0.8
+18_10.amc	human interaction and communication	quarrel - angry hand gestures (2 subjects - subject A)	[]	751	120	6.258333333333334
+18_11.amc	human interaction and communication	quarrel - angry hand gestures (2 subjects - subject A)	[]	795	120	6.625
+18_12.amc	human interaction and communication	friends meet, hang out; A sits, B joins A (2 subjects - subject A)	['sit']	521	120	4.341666666666667
+18_13.amc	human interaction and communication	run, scramble for last seat (2 subjects - subject A)	['run']	193	120	1.6083333333333334
+18_14.amc	human interaction and communication	run, scramble for last seat (2 subjects - subject A)	['run']	137	120	1.1416666666666666
+18_15.amc	human interaction and communication	chicken dance (2 subjects - subject A)	['dance']	639	120	5.325
+19_01.amc	human interaction and communication	walk, shake hands (2 subjects - subject B)	['walk']	125	120	1.0416666666666667
+19_02.amc	human interaction and communication	walk, shake hands (2 subjects - subject B)	['walk']	125	120	1.0416666666666667
+19_03.amc	human interaction and communication	A pulls B; B resists (2 subjects - subject B)	[]	246	120	2.05
+19_04.amc	human interaction and communication	A pulls B; B resists (2 subjects - subject B)	[]	168	120	1.4
+19_05.amc	human interaction and communication	A pulls B by the elbow; B resists (2 subjects - subject B)	[]	182	120	1.5166666666666666
+19_06.amc	human interaction and communication	A pulls B by the elbow; B resists (2 subjects - subject B)	[]	169	120	1.4083333333333334
+19_07.amc	human interaction and communication	navigate busy sidewalk; A leads the way, takes B by the arm (2 subjects - subject B)	['walk']	120	120	1.0
+19_08.amc	human interaction and communication	conversation - explain with hand gestures (2 subjects - subject B)	[]	868	120	7.233333333333333
+19_09.amc	human interaction and communication	conversation - explain with hand gestures, walk (2 subjects - subject B)	['walk']	96	120	0.8
+19_10.amc	human interaction and communication	quarrel - angry hand gestures (2 subjects - subject B)	[]	751	120	6.258333333333334
+19_11.amc	human interaction and communication	quarrel - angry hand gestures (2 subjects - subject B)	[]	795	120	6.625
+19_12.amc	human interaction and communication	friends meet, hang out; A sits, B joins A (2 subjects - subject B)	['sit']	521	120	4.341666666666667
+19_13.amc	human interaction and communication	run, scramble for last seat (2 subjects - subject B)	['run']	193	120	1.6083333333333334
+19_14.amc	human interaction and communication	run, scramble for last seat (2 subjects - subject B)	['run']	137	120	1.1416666666666666
+19_15.amc	human interaction and communication	chicken dance (2 subjects - subject B)	['dance']	639	120	5.325
+20_01.amc	human interaction - at play, formations	chicken dance (2 subjects - subject A)	['dance']	534	120	4.45
+20_02.amc	human interaction - at play, formations	link arms, walk (2 subjects - subject A)	['walk']	94	120	0.7833333333333333
+20_03.amc	human interaction - at play, formations	link arms, walk (2 subjects - subject A)	['walk']	113	120	0.9416666666666667
+20_04.amc	human interaction - at play, formations	synchronized walk (2 subjects - subject A)	['walk']	102	120	0.85
+20_05.amc	human interaction - at play, formations	synchronized walk (2 subjects - subject A)	['walk']	95	120	0.7916666666666666
+20_06.amc	human interaction - at play, formations	soldiers march (2 subjects - subject A)	[]	120	120	1.0
+20_07.amc	human interaction - at play, formations	soldiers march (2 subjects - subject A)	[]	100	120	0.8333333333333334
+20_08.amc	human interaction - at play, formations	zombie march (2 subjects - subject A)	[]	88	120	0.7333333333333333
+20_09.amc	human interaction - at play, formations	nursery rhyme - ring around the rosey (2 subjects - subject A)	[]	271	120	2.2583333333333333
+20_10.amc	human interaction - at play, formations	360-degree two-person whip (2 subjects - subject A)	[]	215	120	1.7916666666666667
+20_11.amc	human interaction - at play, formations	high-five, walk (2 subjects - subject A)	['walk']	96	120	0.8
+20_12.amc	human interaction - at play, formations	low-five, walk (2 subjects - subject A)	['walk']	102	120	0.85
+20_13.amc	human interaction - at play, formations	blind man's bluff (blindfold tag) (2 subjects - subject A)	[]	673	120	5.608333333333333
+21_01.amc	human interaction - at play, formations	chicken dance (2 subjects - subject B)	['dance']	534	120	4.45
+21_02.amc	human interaction - at play, formations	link arms, walk (2 subjects - subject B)	['walk']	94	120	0.7833333333333333
+21_03.amc	human interaction - at play, formations	link arms, walk (2 subjects - subject B)	['walk']	113	120	0.9416666666666667
+21_04.amc	human interaction - at play, formations	synchronized walk (2 subjects - subject B)	['walk']	102	120	0.85
+21_05.amc	human interaction - at play, formations	synchronized walk (2 subjects - subject B)	['walk']	95	120	0.7916666666666666
+21_06.amc	human interaction - at play, formations	soldiers march (2 subjects - subject B)	[]	120	120	1.0
+21_07.amc	human interaction - at play, formations	soldiers march (2 subjects - subject B)	[]	100	120	0.8333333333333334
+21_08.amc	human interaction - at play, formations	zombie march (2 subjects - subject B)	[]	88	120	0.7333333333333333
+21_09.amc	human interaction - at play, formations	nursery rhyme - ring around the rosey (2 subjects - subject B)	[]	271	120	2.2583333333333333
+21_10.amc	human interaction - at play, formations	360-degree two-person whip (2 subjects - subject B)	[]	215	120	1.7916666666666667
+21_11.amc	human interaction - at play, formations	high-five, walk (2 subjects - subject B)	['walk']	96	120	0.8
+21_12.amc	human interaction - at play, formations	low-five, walk (2 subjects - subject B)	['walk']	102	120	0.85
+21_13.amc	human interaction - at play, formations	blind man's bluff (blindfold tag) (2 subjects - subject B)	[]	673	120	5.608333333333333
+22_01.amc	human interaction	B sits; A pulls up B (2 subjects - subject A)	['sit']	325	120	2.7083333333333335
+22_02.amc	human interaction	A sits; B pulls up A (2 subjects - subject A)	['sit']	196	120	1.6333333333333333
+22_03.amc	human interaction	A sits, holds face in hands; B kneels, comforts A (2 subjects - subject A)	['sit']	337	120	2.808333333333333
+22_04.amc	human interaction	B comforts A, puts one hand on A's shoulder (2 subjects - subject A)	[]	216	120	1.8
+22_05.amc	human interaction	A comforts B, puts both hands on B's shoulders (2 subjects - subject A)	[]	217	120	1.8083333333333333
+22_06.amc	human interaction	B comforts A, puts both hands on A's shoulders (2 subjects - subject A)	[]	209	120	1.7416666666666667
+22_07.amc	human interaction	A comforts B, puts one hand on B's shoulder (2 subjects - subject A)	[]	125	120	1.0416666666666667
+22_08.amc	human interaction	hold hands, swing arms, walk (2 subjects - subject A)	['walk']	93	120	0.775
+22_09.amc	human interaction	A gives B a shoulder rub; B sits, A stands (2 subjects - subject A)	['sit', 'stand']	223	120	1.8583333333333334
+22_10.amc	human interaction	A shelters B, a younger child, from harm (2 subjects - subject A)	[]	215	120	1.7916666666666667
+22_11.amc	human interaction	B shelters A, a younger child, from harm (2 subjects - subject A)	[]	225	120	1.875
+22_12.amc	human interaction	A stumbles into B (2 subjects - subject A)	[]	126	120	1.05
+22_13.amc	human interaction	A passes soda to B; both drink (2 subjects - subject A)	[]	382	120	3.183333333333333
+22_14.amc	human interaction	alternating squats (2 subjects - subject A)	[]	294	120	2.45
+22_15.amc	human interaction	alternating jumping jacks (2 subjects - subject A)	['jump']	205	120	1.7083333333333333
+22_16.amc	human interaction	synchronized jumping jacks (2 subjects - subject A)	['jump']	179	120	1.4916666666666667
+22_17.amc	human interaction	rush up, arm wrestle (2 subjects - subject A)	[]	346	120	2.8833333333333333
+22_18.amc	human interaction	A stares down B, leans with hands on high stool (2 subjects - subject A)	[]	223	120	1.8583333333333334
+22_19.amc	human interaction	B stares down A, leans with hands on high stool (2 subjects - subject A)	[]	199	120	1.6583333333333334
+22_20.amc	human interaction	violence - A picks up high stool, threatens to strike B (2 subjects - subject A)	[]	156	120	1.3
+22_21.amc	human interaction	conversation - B pounds high stool, points at A (2 subjects - subject A)	[]	161	120	1.3416666666666666
+22_22.amc	human interaction	walk; B catches keys thrown by A (2 subjects - subject A)	['throw', 'walk']	75	120	0.625
+22_23.amc	human interaction	walk; A catches keys thrown by B (2 subjects - subject A)	['throw', 'walk']	89	120	0.7416666666666667
+22_24.amc	human interaction	walk; B catches wallet thrown by A (2 subjects - subject A)	['throw', 'walk']	88	120	0.7333333333333333
+22_25.amc	human interaction	walk; A catches wallet thrown by B (2 subjects - subject A)	['throw', 'walk']	72	120	0.6
+23_01.amc	human interaction	B sits; A pulls up B (subjects - subject B)	['sit']	325	120	2.7083333333333335
+23_02.amc	human interaction	A sits; B pulls up A (subjects - subject B)	['sit']	196	120	1.6333333333333333
+23_03.amc	human interaction	A sits, holds face in hands; B kneels, comforts A (2 subjects - subject B)	['sit']	337	120	2.808333333333333
+23_04.amc	human interaction	B comforts A, puts one hand on A's shoulder (2 subjects - subject B)	[]	216	120	1.8
+23_05.amc	human interaction	A comforts B, puts both hands on B's shoulders (2 subjects - subject B)	[]	217	120	1.8083333333333333
+23_06.amc	human interaction	B comforts A, puts both hands on A's shoulders (2 subjects - subject B)	[]	209	120	1.7416666666666667
+23_07.amc	human interaction	A comforts B, puts one hand on B's shoulder (2 subjects - subject B)	[]	125	120	1.0416666666666667
+23_08.amc	human interaction	hold hands, swing arms, walk (2 subjects - subject B)	['walk']	93	120	0.775
+23_09.amc	human interaction	A gives B a shoulder rub; B sits, A stands (subjects - subject B)	['sit', 'stand']	223	120	1.8583333333333334
+23_10.amc	human interaction	A shelters B, a younger child, from harm (2 subjects - subject B)	[]	215	120	1.7916666666666667
+23_11.amc	human interaction	B shelters A, a younger child, from harm (2 subjects - subject B)	[]	225	120	1.875
+23_12.amc	human interaction	A stumbles into B (2 subjects - subject B)	[]	126	120	1.05
+23_13.amc	human interaction	A passes soda to B; both drink (2 subjects - subject B)	[]	382	120	3.183333333333333
+23_14.amc	human interaction	alternating squats (2 subjects - subject B)	[]	294	120	2.45
+23_15.amc	human interaction	alternating jumping jacks (2 subjects - subject B)	['jump']	205	120	1.7083333333333333
+23_16.amc	human interaction	synchronized jumping jacks (2 subjects - subject B)	['jump']	179	120	1.4916666666666667
+23_17.amc	human interaction	rush up, arm wrestle (2 subjects - subject B)	[]	346	120	2.8833333333333333
+23_18.amc	human interaction	A stares down B, leans with hands on high stool (2 subjects - subject B)	[]	223	120	1.8583333333333334
+23_19.amc	human interaction	B stares down A, leans with hands on high stool (2 subjects - subject B)	[]	199	120	1.6583333333333334
+23_20.amc	human interaction	violence - A picks up high stool, threatens to strike B (2 subjects - subject B)	[]	156	120	1.3
+23_21.amc	human interaction	conversation - B pounds high stool, points at A (2 subjects - subject B)	[]	161	120	1.3416666666666666
+23_22.amc	human interaction	walk; B catches keys thrown by A (2 subjects - subject B)	['throw', 'walk']	75	120	0.625
+23_23.amc	human interaction	walk; A catches keys thrown by B (2 subjects - subject B)	['throw', 'walk']	89	120	0.7416666666666667
+23_24.amc	human interaction	walk; B catches wallet thrown by A (2 subjects - subject B)	['throw', 'walk']	88	120	0.7333333333333333
+23_25.amc	human interaction	walk; A catches wallet thrown by B (2 subjects - subject B)	['throw', 'walk']	72	120	0.6
+24_01.amc	nursery rhymes	"nursery rhyme - ""I'm a little teapot..."""	[]	862	120	7.183333333333334
+25_01.amc	nursery rhymes	"nursery rhyme - ""I'm a little teapot..."""	[]	673	120	5.608333333333333
+26_01.amc	nursery rhymes, basketball, bending	walk	['walk']	346	120	2.8833333333333333
+26_02.amc	nursery rhymes, basketball, bending	basketball signals	[]	2523	120	21.025
+26_03.amc	nursery rhymes, basketball, bending	"nursery rhyme - ""I'm a little teapot..."""	[]	935	120	7.791666666666667
+26_04.amc	nursery rhymes, basketball, bending	"nursery rhyme - ""I'm a little teapot..."""	[]	901	120	7.508333333333334
+26_05.amc	nursery rhymes, basketball, bending	Alaska vacation	[]	1514	120	12.616666666666667
+26_06.amc	nursery rhymes, basketball, bending	Alaska vacation	[]	1500	120	12.5
+26_07.amc	nursery rhymes, basketball, bending	nursery rhyme - Cock Robin	[]	3231	120	26.925
+26_08.amc	nursery rhymes, basketball, bending	nursery rhyme - Cock Robin	[]	3195	120	26.625
+26_09.amc	nursery rhymes, basketball, bending	bend, pick up	[]	307	120	2.558333333333333
+26_10.amc	nursery rhymes, basketball, bending	bend, lift	[]	290	120	2.4166666666666665
+26_11.amc	nursery rhymes, basketball, bending	bend, lift	[]	228	120	1.9
+27_01.amc	recreation, nursery rhymes	walk	['walk']	430	120	3.5833333333333335
+27_02.amc	recreation, nursery rhymes	basketball signals	[]	1485	120	12.375
+27_03.amc	recreation, nursery rhymes	"nursery rhyme - ""I'm a little teapot..."""	[]	895	120	7.458333333333333
+27_04.amc	recreation, nursery rhymes	Alaskan vacation	[]	1517	120	12.641666666666667
+27_05.amc	recreation, nursery rhymes	nursery rhyme - Cock Robin	[]	3217	120	26.808333333333334
+27_06.amc	recreation, nursery rhymes	basketball signals	[]	1195	120	9.958333333333334
+27_07.amc	recreation, nursery rhymes	"nursery rhyme - ""I'm a little teapot..."""	[]	745	120	6.208333333333333
+27_08.amc	recreation, nursery rhymes	Alaskan vacation	[]	1462	120	12.183333333333334
+27_09.amc	recreation, nursery rhymes	Alaskan vacation	[]	1572	120	13.1
+27_10.amc	recreation, nursery rhymes	nursery rhyme - Cock Robin	[]	3248	120	27.066666666666666
+27_11.amc	recreation, nursery rhymes	prairie dog (human subject)	[]	806	120	6.716666666666667
+28_01.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1335	120	11.125
+28_02.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	889	120	7.408333333333333
+28_03.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1571	120	13.091666666666667
+28_04.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3290	120	27.416666666666668
+28_05.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1350	120	11.25
+28_06.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	921	120	7.675
+28_07.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1523	120	12.691666666666666
+28_08.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3307	120	27.558333333333334
+28_09.amc	recreation, nursery rhymes, animal behaviors	prairie dog (human subject)	[]	713	120	5.941666666666666
+28_10.amc	recreation, nursery rhymes, animal behaviors	whale (human subject)	[]	864	120	7.2
+28_11.amc	recreation, nursery rhymes, animal behaviors	bear (human subject)	[]	2756	120	22.966666666666665
+28_12.amc	recreation, nursery rhymes, animal behaviors	dog (human subject)	[]	2144	120	17.866666666666667
+28_13.amc	recreation, nursery rhymes, animal behaviors	snake (human subject)	[]	2453	120	20.441666666666666
+28_14.amc	recreation, nursery rhymes, animal behaviors	chicken (human subject)	[]	1558	120	12.983333333333333
+28_15.amc	recreation, nursery rhymes, animal behaviors	monkey (human subject)	[]	1434	120	11.95
+28_16.amc	recreation, nursery rhymes, animal behaviors	mouse (human subject)	[]	2333	120	19.441666666666666
+28_17.amc	recreation, nursery rhymes, animal behaviors	cat (human subject)	[]	2223	120	18.525
+28_18.amc	recreation, nursery rhymes, animal behaviors	elephant (human subject)	[]	1768	120	14.733333333333333
+28_19.amc	recreation, nursery rhymes, animal behaviors	dinosaur (human subject)	[]	1883	120	15.691666666666666
+29_01.amc	recreation, nursery rhymes, animal behaviors	walk	['walk']	547	120	4.558333333333334
+29_02.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1299	120	10.825
+29_03.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	941	120	7.841666666666667
+29_04.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1596	120	13.3
+29_05.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1548	120	12.9
+29_06.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3350	120	27.916666666666668
+29_07.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1312	120	10.933333333333334
+29_08.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	951	120	7.925
+29_09.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1556	120	12.966666666666667
+29_10.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3312	120	27.6
+29_11.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1549	120	12.908333333333333
+29_12.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6259	120	52.15833333333333
+29_13.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6110	120	50.916666666666664
+29_14.amc	recreation, nursery rhymes, animal behaviors	prairie dog (human subject)	[]	1406	120	11.716666666666667
+29_15.amc	recreation, nursery rhymes, animal behaviors	whale (human subject)	[]	1844	120	15.366666666666667
+29_16.amc	recreation, nursery rhymes, animal behaviors	bear (human subject)	[]	1846	120	15.383333333333333
+29_17.amc	recreation, nursery rhymes, animal behaviors	dog (human subject)	[]	1793	120	14.941666666666666
+29_18.amc	recreation, nursery rhymes, animal behaviors	cat (human subject)	[]	2482	120	20.683333333333334
+29_19.amc	recreation, nursery rhymes, animal behaviors	fish (human subject)	[]	1485	120	12.375
+29_20.amc	recreation, nursery rhymes, animal behaviors	elephant (human subject)	[]	1552	120	12.933333333333334
+29_21.amc	recreation, nursery rhymes, animal behaviors	mouse (human subject)	[]	1664	120	13.866666666666667
+29_22.amc	recreation, nursery rhymes, animal behaviors	chicken (human subject)	[]	1358	120	11.316666666666666
+29_23.amc	recreation, nursery rhymes, animal behaviors	dinosaur (human subject)	[]	1910	120	15.916666666666666
+29_24.amc	recreation, nursery rhymes, animal behaviors	snake (human subject)	[]	1771	120	14.758333333333333
+29_25.amc	recreation, nursery rhymes, animal behaviors	monkey (human subject)	[]	1852	120	15.433333333333334
+30_01.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1345	120	11.208333333333334
+30_02.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	992	120	8.266666666666667
+30_03.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1738	120	14.483333333333333
+30_04.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1541	120	12.841666666666667
+30_05.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	402	120	3.35
+30_06.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3349	120	27.908333333333335
+30_07.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1315	120	10.958333333333334
+30_08.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	913	120	7.608333333333333
+30_09.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1565	120	13.041666666666666
+30_10.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3321	120	27.675
+30_11.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6211	120	51.75833333333333
+30_12.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6150	120	51.25
+30_13.amc	recreation, nursery rhymes, animal behaviors	prairie dog (human subject)	[]	818	120	6.816666666666666
+30_14.amc	recreation, nursery rhymes, animal behaviors	whale (human subject)	[]	1072	120	8.933333333333334
+30_15.amc	recreation, nursery rhymes, animal behaviors	bear (human subject)	[]	1339	120	11.158333333333333
+30_16.amc	recreation, nursery rhymes, animal behaviors	dog (human subject)	[]	1507	120	12.558333333333334
+30_17.amc	recreation, nursery rhymes, animal behaviors	cat (human subject)	[]	1208	120	10.066666666666666
+30_18.amc	recreation, nursery rhymes, animal behaviors	elephant (human subject)	[]	1485	120	12.375
+30_19.amc	recreation, nursery rhymes, animal behaviors	mouse (human subject)	[]	1705	120	14.208333333333334
+30_20.amc	recreation, nursery rhymes, animal behaviors	chicken (human subject)	[]	1424	120	11.866666666666667
+30_21.amc	recreation, nursery rhymes, animal behaviors	snake (human subject)	[]	1702	120	14.183333333333334
+30_22.amc	recreation, nursery rhymes, animal behaviors	Tyrannosaurus rex (human subject)	[]	1368	120	11.4
+30_23.amc	recreation, nursery rhymes, animal behaviors	monkey (human subject)	[]	1634	120	13.616666666666667
+31_01.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1647	120	13.725
+31_02.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	946	120	7.883333333333334
+31_03.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1541	120	12.841666666666667
+31_04.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	2993	120	24.941666666666666
+31_05.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1325	120	11.041666666666666
+31_06.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	879	120	7.325
+31_07.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1538	120	12.816666666666666
+31_08.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3275	120	27.291666666666668
+31_09.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6105	120	50.875
+31_10.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	5690	120	47.416666666666664
+31_11.amc	recreation, nursery rhymes, animal behaviors	prairie dog (human subject)	[]	1614	120	13.45
+31_12.amc	recreation, nursery rhymes, animal behaviors	whale (human subject)	[]	1768	120	14.733333333333333
+31_13.amc	recreation, nursery rhymes, animal behaviors	bear (human subject)	[]	1619	120	13.491666666666667
+31_14.amc	recreation, nursery rhymes, animal behaviors	dog (human subject)	[]	1579	120	13.158333333333333
+31_15.amc	recreation, nursery rhymes, animal behaviors	cat (human subject)	[]	1544	120	12.866666666666667
+31_16.amc	recreation, nursery rhymes, animal behaviors	elephant (human subject)	[]	1628	120	13.566666666666666
+31_17.amc	recreation, nursery rhymes, animal behaviors	Tyrannosaurus rex (human subject)	[]	1663	120	13.858333333333333
+31_18.amc	recreation, nursery rhymes, animal behaviors	mouse (human subject)	[]	1764	120	14.7
+31_19.amc	recreation, nursery rhymes, animal behaviors	chicken (human subject)	[]	1662	120	13.85
+31_20.amc	recreation, nursery rhymes, animal behaviors	snake (human subject)	[]	1643	120	13.691666666666666
+31_21.amc	recreation, nursery rhymes, animal behaviors	monkey (human subject)	[]	1702	120	14.183333333333334
+32_01.amc	recreation, nursery rhymes, animal behaviors	walk	['walk']	200	120	1.6666666666666667
+32_02.amc	recreation, nursery rhymes, animal behaviors	walk	['walk']	180	120	1.5
+32_03.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1348	120	11.233333333333333
+32_04.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	962	120	8.016666666666667
+32_05.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1519	120	12.658333333333333
+32_06.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3270	120	27.25
+32_07.amc	recreation, nursery rhymes, animal behaviors	basketball signals	[]	1299	120	10.825
+32_08.amc	recreation, nursery rhymes, animal behaviors	"nursery rhyme - ""I'm a little teapot..."""	[]	932	120	7.766666666666667
+32_09.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	1556	120	12.966666666666667
+32_10.amc	recreation, nursery rhymes, animal behaviors	nursery rhyme - Cock Robin	[]	3308	120	27.566666666666666
+32_11.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6117	120	50.975
+32_12.amc	recreation, nursery rhymes, animal behaviors	Alaskan vacation	[]	6126	120	51.05
+32_13.amc	recreation, nursery rhymes, animal behaviors	prairie dog (human subject)	[]	1347	120	11.225
+32_14.amc	recreation, nursery rhymes, animal behaviors	bear (human subject)	[]	1110	120	9.25
+32_15.amc	recreation, nursery rhymes, animal behaviors	dog (human subject)	[]	1510	120	12.583333333333334
+32_16.amc	recreation, nursery rhymes, animal behaviors	cat (human subject)	[]	1828	120	15.233333333333333
+32_17.amc	recreation, nursery rhymes, animal behaviors	elephant (human subject)	[]	1379	120	11.491666666666667
+32_18.amc	recreation, nursery rhymes, animal behaviors	mouse (human subject)	[]	1262	120	10.516666666666667
+32_19.amc	recreation, nursery rhymes, animal behaviors	chicken (human subject)	[]	962	120	8.016666666666667
+32_20.amc	recreation, nursery rhymes, animal behaviors	Tyrannosaurus rex (human subject)	[]	1480	120	12.333333333333334
+32_21.amc	recreation, nursery rhymes, animal behaviors	snake (human subject)	[]	848	120	7.066666666666666
+32_22.amc	recreation, nursery rhymes, animal behaviors	monkey (human subject)	[]	1185	120	9.875
+33_01.amc	throw and catch football	football - throw, catch (2 subjects - subject A)	['throw']	1126	60	18.766666666666666
+33_02.amc	throw and catch football	football - throw, catch, jump around (2 subjects - subject A)	['jump', 'throw']	534	60	8.9
+34_01.amc	throw and catch football	football - throw, catch (2 subjects - subject B)	['throw']	1126	60	18.766666666666666
+34_02.amc	throw and catch football	football - throw, catch, jump around (2 subjects - subject B)	['jump', 'throw']	534	60	8.9
+35_01.amc	walk, run	walk	['walk']	148	120	1.2333333333333334
+35_02.amc	walk, run	walk	['walk']	168	120	1.4
+35_03.amc	walk, run	walk	['walk']	177	120	1.475
+35_04.amc	walk, run	walk	['walk']	180	120	1.5
+35_05.amc	walk, run	walk	['walk']	177	120	1.475
+35_06.amc	walk, run	walk	['walk']	182	120	1.5166666666666666
+35_07.amc	walk, run	walk	['walk']	149	120	1.2416666666666667
+35_08.amc	walk, run	walk	['walk']	189	120	1.575
+35_09.amc	walk, run	walk	['walk']	159	120	1.325
+35_10.amc	walk, run	walk	['walk']	179	120	1.4916666666666667
+35_11.amc	walk, run	walk	['walk']	160	120	1.3333333333333333
+35_12.amc	walk, run	walk	['walk']	164	120	1.3666666666666667
+35_13.amc	walk, run	walk	['walk']	188	120	1.5666666666666667
+35_14.amc	walk, run	walk	['walk']	170	120	1.4166666666666667
+35_15.amc	walk, run	walk	['walk']	168	120	1.4
+35_16.amc	walk, run	walk	['walk']	184	120	1.5333333333333334
+35_17.amc	walk, run	run/jog	['run']	69	120	0.575
+35_18.amc	walk, run	run/jog	['run']	72	120	0.6
+35_19.amc	walk, run	run/jog	['run']	66	120	0.55
+35_20.amc	walk, run	run/jog	['run']	67	120	0.5583333333333333
+35_21.amc	walk, run	run/jog	['run']	66	120	0.55
+35_22.amc	walk, run	run/jog	['run']	69	120	0.575
+35_23.amc	walk, run	run/jog	['run']	67	120	0.5583333333333333
+35_24.amc	walk, run	run/jog	['run']	62	120	0.5166666666666667
+35_25.amc	walk, run	run/jog	['run']	68	120	0.5666666666666667
+35_26.amc	walk, run	run/jog	['run']	57	120	0.475
+35_27.amc	walk, run	navigate around obstacles	[]	4085	120	34.041666666666664
+35_28.amc	walk, run	walk	['walk']	173	120	1.4416666666666667
+35_29.amc	walk, run	walk	['walk']	206	120	1.7166666666666666
+35_30.amc	walk, run	walk	['walk']	171	120	1.425
+35_31.amc	walk, run	walk	['walk']	175	120	1.4583333333333333
+35_32.amc	walk, run	walk	['walk']	162	120	1.35
+35_33.amc	walk, run	walk	['walk']	175	120	1.4583333333333333
+35_34.amc	walk, run	walk	['walk']	172	120	1.4333333333333333
+36_01.amc	walk on uneven terrain	walk on uneven terrain	['walk']	231	120	1.925
+36_02.amc	walk on uneven terrain	walk forward, turn around, walk back	['turn', 'walk']	1780	120	14.833333333333334
+36_03.amc	walk on uneven terrain	walk forward, turn around, walk back	['turn', 'walk']	1604	120	13.366666666666667
+36_04.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1552	120	12.933333333333334
+36_05.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1747	120	14.558333333333334
+36_06.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1622	120	13.516666666666667
+36_07.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1571	120	13.091666666666667
+36_08.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1547	120	12.891666666666667
+36_09.amc	walk on uneven terrain	walk forward, turn around, walk back	['turn', 'walk']	1620	120	13.5
+36_10.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1596	120	13.3
+36_11.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1736	120	14.466666666666667
+36_12.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1910	120	15.916666666666666
+36_13.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1769	120	14.741666666666667
+36_14.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1727	120	14.391666666666667
+36_15.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1734	120	14.45
+36_16.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1830	120	15.25
+36_17.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1815	120	15.125
+36_18.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1792	120	14.933333333333334
+36_19.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1746	120	14.55
+36_20.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1703	120	14.191666666666666
+36_21.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1678	120	13.983333333333333
+36_22.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1796	120	14.966666666666667
+36_23.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1829	120	15.241666666666667
+36_24.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1730	120	14.416666666666666
+36_25.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1951	120	16.258333333333333
+36_26.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1764	120	14.7
+36_27.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1769	120	14.741666666666667
+36_28.amc	walk on uneven terrain	walk on uneven terrain	['walk']	995	120	8.291666666666666
+36_29.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1861	120	15.508333333333333
+36_30.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1838	120	15.316666666666666
+36_31.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1556	120	12.966666666666667
+36_32.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1861	120	15.508333333333333
+36_33.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1795	120	14.958333333333334
+36_34.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1802	120	15.016666666666667
+36_35.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1808	120	15.066666666666666
+36_36.amc	walk on uneven terrain	walk on uneven terrain	['walk']	1996	120	16.633333333333333
+36_37.amc	walk on uneven terrain	jump/hop on uneven terrain	['jump']	1802	120	15.016666666666667
+37_01.amc	walk	slow walk	['walk']	212	120	1.7666666666666666
+38_01.amc	walk, run	walk	['walk']	146	120	1.2166666666666666
+38_02.amc	walk, run	walk	['walk']	174	120	1.45
+38_03.amc	walk, run	run around in a circle	['run']	316	120	2.6333333333333333
+38_04.amc	walk, run	walk around, frequent turns, cyclic walk along a line	['turn', 'walk']	3595	120	29.958333333333332
+39_01.amc	climb, swing, hang on playground equipment	walk	['walk']	157	120	1.3083333333333333
+39_02.amc	climb, swing, hang on playground equipment	walk	['walk']	166	120	1.3833333333333333
+39_03.amc	climb, swing, hang on playground equipment	walk	['walk']	169	120	1.4083333333333334
+39_04.amc	climb, swing, hang on playground equipment	walk	['walk']	170	120	1.4166666666666667
+39_05.amc	climb, swing, hang on playground equipment	walk	['walk']	166	120	1.3833333333333333
+39_06.amc	climb, swing, hang on playground equipment	walk	['walk']	152	120	1.2666666666666666
+39_07.amc	climb, swing, hang on playground equipment	walk	['walk']	152	120	1.2666666666666666
+39_08.amc	climb, swing, hang on playground equipment	walk	['walk']	145	120	1.2083333333333333
+39_09.amc	climb, swing, hang on playground equipment	walk	['walk']	164	120	1.3666666666666667
+39_10.amc	climb, swing, hang on playground equipment	walk	['walk']	162	120	1.35
+39_11.amc	climb, swing, hang on playground equipment	walk forward, turn around, walk back	['turn', 'walk']	372	120	3.1
+39_12.amc	climb, swing, hang on playground equipment	walk	['walk']	177	120	1.475
+39_13.amc	climb, swing, hang on playground equipment	walk	['walk']	157	120	1.3083333333333333
+39_14.amc	climb, swing, hang on playground equipment	walk	['walk']	165	120	1.375
+40_02.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2080	120	17.333333333333332
+40_03.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2577	120	21.475
+40_04.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2456	120	20.466666666666665
+40_05.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2535	120	21.125
+40_06.amc	navigate from corner to corner, interact with stepstool	climb, step over, sit on, jump over stepstool	['climb', 'jump', 'sit']	2742	120	22.85
+40_07.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over stepstool	['climb', 'jump']	2867	120	23.891666666666666
+40_08.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over stepstool	['climb', 'jump']	2899	120	24.158333333333335
+40_09.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over stepstool	['climb', 'jump']	2152	120	17.933333333333334
+40_10.amc	navigate from corner to corner, interact with stepstool	wait for bus	[]	2588	120	21.566666666666666
+40_11.amc	navigate from corner to corner, interact with stepstool	wait for bus	[]	2507	120	20.891666666666666
+40_12.amc	navigate from corner to corner, interact with stepstool	basketball signals	[]	3515	120	29.291666666666668
+41_02.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, sideways, on a diagonal	['walk']	1827	120	15.225
+41_03.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, sideways, on a diagonal	['walk']	2479	120	20.658333333333335
+41_04.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2944	120	24.533333333333335
+41_05.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	3009	120	25.075
+41_06.amc	navigate from corner to corner, interact with stepstool	navigate - walk forward, backward, on a diagonal	['walk']	2959	120	24.658333333333335
+41_07.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over, navigate around stepstool	['climb', 'jump']	3139	120	26.158333333333335
+41_08.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over, navigate around stepstool	['climb', 'jump']	3311	120	27.591666666666665
+41_09.amc	navigate from corner to corner, interact with stepstool	climb, step over, jump over, navigate around stepstool	['climb', 'jump']	3215	120	26.791666666666668
+41_10.amc	navigate from corner to corner, interact with stepstool	basketball signals	[]	1628	120	13.566666666666666
+41_11.amc	navigate from corner to corner, interact with stepstool	basketball signals	[]	1312	120	10.933333333333334
+42_01.amc	stretch	stretch - rotate head, shoulders, arms, legs	['rotate']	472	60	7.866666666666666
+43_01.amc	swing on playground equipment	walk	['walk']	175	120	1.4583333333333333
+43_02.amc	swing on playground equipment	playground - grip bar, swing body	[]	376	120	3.1333333333333333
+43_03.amc	swing on playground equipment	playground - grip bar, swing body	[]	349	120	2.908333333333333
+45_01.amc	walk	walk	['walk']	189	120	1.575
+46_01.amc	walk	walk	['walk']	256	120	2.1333333333333333
+47_01.amc	walk	walk forward, turn around, walk back	['turn', 'walk']	549	120	4.575
+49_01.amc	modern dance, gymnastics	walk	['walk']	271	120	2.2583333333333333
+49_02.amc	modern dance, gymnastics	jump up and down, hop on one foot	['jump']	868	120	7.233333333333333
+49_03.amc	modern dance, gymnastics	jump up and down, hop on one foot	['jump']	626	120	5.216666666666667
+49_04.amc	modern dance, gymnastics	run, leap	['run']	104	120	0.8666666666666667
+49_05.amc	modern dance, gymnastics	run, leap	['run']	67	120	0.5583333333333333
+49_06.amc	modern dance, gymnastics	cartwheel	[]	200	120	1.6666666666666667
+49_07.amc	modern dance, gymnastics	cartwheel	[]	195	120	1.625
+49_08.amc	modern dance, gymnastics	cartwheels	[]	239	120	1.9916666666666667
+49_09.amc	modern dance, gymnastics	dance - arms held high, side arabesque	['dance']	798	120	6.65
+49_10.amc	modern dance, gymnastics	dance - fold in from side arabesque, curl inwards	['dance']	592	120	4.933333333333334
+49_11.amc	modern dance, gymnastics	dance - fold in from side arabesque, curl inwards	['dance']	498	120	4.15
+49_12.amc	modern dance, gymnastics	dance - lean forward, bring back leg forward, arching arms	['dance']	470	120	3.9166666666666665
+49_13.amc	modern dance, gymnastics	dance - fold in from side arabesque, curl inwards	['dance']	217	120	1.8083333333333333
+49_14.amc	modern dance, gymnastics	dance - lean forward, bring back leg forward, arching arms	['dance']	257	120	2.1416666666666666
+49_15.amc	modern dance, gymnastics	static dance pose - folded in, head lowered, leg bent	['dance']	394	120	3.283333333333333
+49_16.amc	modern dance, gymnastics	dance - fold in from side arabesque, curl inwards	['dance']	472	120	3.933333333333333
+49_17.amc	modern dance, gymnastics	dance - lean forward, bring back leg forward, arching arms	['dance']	312	120	2.6
+49_18.amc	modern dance, gymnastics	balance on one leg, outstretched arms	[]	458	120	3.816666666666667
+49_19.amc	modern dance, gymnastics	balance on one leg, outstretched arms	[]	398	120	3.316666666666667
+49_20.amc	modern dance, gymnastics	balance on one leg, outstretched arms	[]	373	120	3.1083333333333334
+49_21.amc	modern dance, gymnastics	acrobatics - spin/twirl, hang on ropes	[]	1008	120	8.4
+49_22.amc	modern dance, gymnastics	dance - lean back on bent leg, balance, bend elbow by ear	['dance']	536	120	4.466666666666667
+54_01.amc	animal behaviors	monkey (human subject)	[]	800	120	6.666666666666667
+54_02.amc	animal behaviors	bear (human subject)	[]	1253	120	10.441666666666666
+54_03.amc	animal behaviors	penguin (human subject)	[]	1154	120	9.616666666666667
+54_04.amc	animal behaviors	pterosaur (human subject)	[]	1920	120	16.0
+54_05.amc	animal behaviors	pterosaur (human subject)	[]	444	120	3.7
+54_06.amc	animal behaviors	pterosaur (human subject)	[]	3282	120	27.35
+54_07.amc	animal behaviors	prairie dog (human subject)	[]	1670	120	13.916666666666666
+54_08.amc	animal behaviors	roadrunner (human subject)	['run']	1765	120	14.708333333333334
+54_09.amc	animal behaviors	insect/praying mantis (human subject)	[]	804	120	6.7
+54_10.amc	animal behaviors	ghost (human subject)	[]	1962	120	16.35
+54_11.amc	animal behaviors	penguin (human subject)	[]	1422	120	11.85
+54_12.amc	animal behaviors	dragon (human subject)	[]	955	120	7.958333333333333
+54_13.amc	animal behaviors	dragon (human subject)	[]	679	120	5.658333333333333
+54_14.amc	animal behaviors	monkey (human subject)	[]	677	120	5.641666666666667
+54_15.amc	animal behaviors	prairie dog (human subject)	[]	1717	120	14.308333333333334
+54_16.amc	animal behaviors	superhero	[]	1717	120	14.308333333333334
+54_17.amc	animal behaviors	squirrel (human subject)	[]	1174	120	9.783333333333333
+54_18.amc	animal behaviors	squirrel (human subject)	[]	842	120	7.016666666666667
+54_19.amc	animal behaviors	squirrel - robotic like motion (human subject)	[]	2037	120	16.975
+54_20.amc	animal behaviors	follow path, walk around obstacles	['walk']	2581	120	21.508333333333333
+54_21.amc	animal behaviors	follow path, walk around obstacles	['walk']	2911	120	24.258333333333333
+54_22.amc	animal behaviors	follow path, walk around obstacles	['walk']	1055	120	8.791666666666666
+54_23.amc	animal behaviors	monkey (human subject)	[]	1790	120	14.916666666666666
+54_24.amc	animal behaviors	hummingbird (human subject)	[]	1119	120	9.325
+54_25.amc	animal behaviors	chicken (human subject)	[]	1892	120	15.766666666666667
+54_26.amc	animal behaviors	chicken (human subject)	[]	816	120	6.8
+54_27.amc	animal behaviors	chicken (human subject)	[]	1432	120	11.933333333333334
+55_01.amc	animal behaviors	dance, whirl	['dance']	752	120	6.266666666666667
+55_02.amc	animal behaviors	lambada dance	['dance']	907	120	7.558333333333334
+55_03.amc	animal behaviors	genie (human subject)	[]	1887	120	15.725
+55_04.amc	animal behaviors	walk	['walk']	220	120	1.8333333333333333
+55_05.amc	animal behaviors	hummingbird (human subject)	[]	1171	120	9.758333333333333
+55_06.amc	animal behaviors	chicken (human subject)	[]	3864	120	32.2
+55_07.amc	animal behaviors	chicken (human subject)	[]	1902	120	15.85
+55_08.amc	animal behaviors	monkey (human subject)	[]	2224	120	18.533333333333335
+55_09.amc	animal behaviors	monkey (human subject)	[]	1757	120	14.641666666666667
+55_10.amc	animal behaviors	hummingbird (human subject)	[]	567	120	4.725
+55_11.amc	animal behaviors	animal (human subject)	[]	1818	120	15.15
+55_12.amc	animal behaviors	dancing bear (human subject)	[]	864	120	7.2
+55_13.amc	animal behaviors	insect/praying mantis (human subject)	[]	4057	120	33.80833333333333
+55_14.amc	animal behaviors	prairie dog (human subject)	[]	2167	120	18.058333333333334
+55_15.amc	animal behaviors	roadrunner (human subject)	['run']	4038	120	33.65
+55_16.amc	animal behaviors	panda (human subject)	[]	2533	120	21.108333333333334
+55_17.amc	animal behaviors	ghost (human subject)	[]	2572	120	21.433333333333334
+55_18.amc	animal behaviors	penguin (human subject)	[]	2244	120	18.7
+55_19.amc	animal behaviors	dragon (human subject)	[]	1975	120	16.458333333333332
+55_20.amc	animal behaviors	hippo ballerina (human subject)	[]	1915	120	15.958333333333334
+55_21.amc	animal behaviors	pterosaur (human subject)	[]	1457	120	12.141666666666667
+55_22.amc	animal behaviors	superhero	[]	2725	120	22.708333333333332
+55_23.amc	animal behaviors	devil	[]	2487	120	20.725
+55_24.amc	animal behaviors	various animals (human subject)	[]	3967	120	33.05833333333333
+55_25.amc	animal behaviors	dancing animal (human subject)	[]	1327	120	11.058333333333334
+55_26.amc	animal behaviors	monkey (human subject)	[]	1709	120	14.241666666666667
+55_27.amc	animal behaviors	dancing ant (human subject)	[]	2084	120	17.366666666666667
+55_28.amc	animal behaviors	monkey/bear (human subject)	[]	3461	120	28.841666666666665
+56_01.amc	vignettes - locomotion, upper-body motions	walk around	['walk']	627	120	5.225
+56_02.amc	vignettes - locomotion, upper-body motions	vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall	[]	1423	120	11.858333333333333
+56_03.amc	vignettes - locomotion, upper-body motions	vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip	['punch', 'throw']	2591	120	21.591666666666665
+56_04.amc	vignettes - locomotion, upper-body motions	vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump	['jump', 'punch', 'throw', 'walk']	2819	120	23.491666666666667
+56_05.amc	vignettes - locomotion, upper-body motions	vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch	['jump', 'punch', 'run', 'throw', 'walk']	3065	120	25.541666666666668
+56_06.amc	vignettes - locomotion, upper-body motions	vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound	['jump', 'punch', 'throw', 'walk']	2826	120	23.55
+56_07.amc	vignettes - locomotion, upper-body motions	vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt	['jump', 'run', 'walk']	3924	120	32.7
+56_08.amc	vignettes - locomotion, upper-body motions	vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch	['run', 'walk']	1738	120	14.483333333333333
+60_01.amc	salsa	salsa dance	['dance']	933	60	15.55
+60_02.amc	salsa	salsa dance	['dance']	875	60	14.583333333333334
+60_03.amc	salsa	salsa dance	['dance']	762	60	12.7
+60_04.amc	salsa	salsa dance	['dance']	779	60	12.983333333333333
+60_05.amc	salsa	salsa dance	['dance']	698	60	11.633333333333333
+60_06.amc	salsa	salsa dance	['dance']	737	60	12.283333333333333
+60_07.amc	salsa	salsa dance	['dance']	862	60	14.366666666666667
+60_08.amc	salsa	salsa dance	['dance']	1425	60	23.75
+60_09.amc	salsa	salsa dance	['dance']	1072	60	17.866666666666667
+60_10.amc	salsa	salsa dance	['dance']	498	60	8.3
+60_11.amc	salsa	salsa dance	['dance']	877	60	14.616666666666667
+60_12.amc	salsa	salsa dance	['dance']	703	60	11.716666666666667
+60_13.amc	salsa	salsa dance	['dance']	945	60	15.75
+60_14.amc	salsa	salsa dance	['dance']	811	60	13.516666666666667
+60_15.amc	salsa	salsa dance	['dance']	891	60	14.85
+61_01.amc	salsa	salsa dance	['dance']	933	60	15.55
+61_02.amc	salsa	salsa dance	['dance']	875	60	14.583333333333334
+61_03.amc	salsa	salsa dance	['dance']	762	60	12.7
+61_04.amc	salsa	salsa dance	['dance']	779	60	12.983333333333333
+61_05.amc	salsa	salsa dance	['dance']	698	60	11.633333333333333
+61_06.amc	salsa	salsa dance	['dance']	737	60	12.283333333333333
+61_07.amc	salsa	salsa dance	['dance']	862	60	14.366666666666667
+61_08.amc	salsa	salsa dance	['dance']	1425	60	23.75
+61_09.amc	salsa	salsa dance	['dance']	1072	60	17.866666666666667
+61_10.amc	salsa	salsa dance	['dance']	498	60	8.3
+61_11.amc	salsa	salsa dance	['dance']	877	60	14.616666666666667
+61_12.amc	salsa	salsa dance	['dance']	703	60	11.716666666666667
+61_13.amc	salsa	salsa dance	['dance']	945	60	15.75
+61_14.amc	salsa	salsa dance	['dance']	811	60	13.516666666666667
+61_15.amc	salsa	salsa dance	['dance']	891	60	14.85
+62_01.amc	construction work, random motions	bolt loosening, wrench	[]	450	60	7.5
+62_02.amc	construction work, random motions	bolt tightening, wrench	[]	432	60	7.2
+62_03.amc	construction work, random motions	sawing, hand saw	[]	573	60	9.55
+62_04.amc	construction work, random motions	screwing	[]	563	60	9.383333333333333
+62_05.amc	construction work, random motions	screwing	[]	482	60	8.033333333333333
+62_06.amc	construction work, random motions	unscrewing	[]	1103	60	18.383333333333333
+62_07.amc	construction work, random motions	hammering a nail	[]	463	60	7.716666666666667
+62_08.amc	construction work, random motions	hammering a nail	[]	372	60	6.2
+62_09.amc	construction work, random motions	pulling a nail	[]	473	60	7.883333333333334
+62_10.amc	construction work, random motions	hammering sequence	[]	841	60	14.016666666666667
+62_11.amc	construction work, random motions	cleaning up	[]	1544	60	25.733333333333334
+62_12.amc	construction work, random motions	hard days drink	[]	410	60	6.833333333333333
+62_13.amc	construction work, random motions	moving a stool	[]	526	60	8.766666666666667
+62_14.amc	construction work, random motions	opening umbrella	[]	280	60	4.666666666666667
+62_15.amc	construction work, random motions	opening umbrella	[]	282	60	4.7
+62_16.amc	construction work, random motions	closing umbrella	[]	261	60	4.35
+62_17.amc	construction work, random motions	opening and closing umbrella	[]	300	60	5.0
+62_18.amc	construction work, random motions	closing a box	[]	235	60	3.9166666666666665
+62_19.amc	construction work, random motions	opening a box	[]	274	60	4.566666666666666
+62_20.amc	construction work, random motions	closing, moving and opening a box	[]	401	60	6.683333333333334
+62_21.amc	construction work, random motions	coiling a rope	[]	1436	60	23.933333333333334
+62_22.amc	construction work, random motions	dynamic calibration	[]	439	60	7.316666666666666
+62_23.amc	construction work, random motions	bolt tightening	[]	397	60	6.616666666666666
+62_24.amc	construction work, random motions	bolt tightening, with putting bolt in	[]	1202	60	20.033333333333335
+62_25.amc	construction work, random motions	bolt loosening, wrench	[]	551	60	9.183333333333334
+63_01.amc	golf	Swing	[]	186	120	1.55
+64_01.amc	golf	Swing	[]	186	120	1.55
+64_02.amc	golf	Swing	[]	205	120	1.7083333333333333
+64_03.amc	golf	Swing	[]	184	120	1.5333333333333334
+64_04.amc	golf	Swing	[]	171	120	1.425
+64_05.amc	golf	Swing	[]	160	120	1.3333333333333333
+64_06.amc	golf	Swing	[]	220	120	1.8333333333333333
+64_07.amc	golf	Swing	[]	156	120	1.3
+64_08.amc	golf	Swing	[]	151	120	1.2583333333333333
+64_09.amc	golf	Swing	[]	187	120	1.5583333333333333
+64_10.amc	golf	Swing	[]	233	120	1.9416666666666667
+64_11.amc	golf	Putt	[]	246	120	2.05
+64_12.amc	golf	Putt	[]	209	120	1.7416666666666667
+64_13.amc	golf	Putt	[]	181	120	1.5083333333333333
+64_14.amc	golf	Putt	[]	232	120	1.9333333333333333
+64_15.amc	golf	Putt	[]	172	120	1.4333333333333333
+64_16.amc	golf	Placing Tee	[]	258	120	2.15
+64_17.amc	golf	Placing Tee	[]	222	120	1.85
+64_18.amc	golf	Placing Tee	[]	197	120	1.6416666666666666
+64_19.amc	golf	Placing Tee	[]	152	120	1.2666666666666666
+64_20.amc	golf	Placing Tee	[]	243	120	2.025
+64_21.amc	golf	Placing Ball	[]	181	120	1.5083333333333333
+64_22.amc	golf	Placing Ball	[]	219	120	1.825
+64_23.amc	golf	Placing Ball	[]	216	120	1.8
+64_24.amc	golf	Placing Ball	[]	240	120	2.0
+64_25.amc	golf	Placing Ball	[]	255	120	2.125
+64_26.amc	golf	Picking up Ball	[]	233	120	1.9416666666666667
+64_27.amc	golf	Picking up Ball	[]	236	120	1.9666666666666666
+64_28.amc	golf	Picking up Ball	[]	215	120	1.7916666666666667
+64_29.amc	golf	Picking up Ball	[]	240	120	2.0
+64_30.amc	golf	Picking up Ball	[]	256	120	2.1333333333333333
+69_01.amc	walking	walk forward	['walk']	195	120	1.625
+69_02.amc	walking	walk forward	['walk']	142	120	1.1833333333333333
+69_03.amc	walking	walk forward	['walk']	178	120	1.4833333333333334
+69_04.amc	walking	walk forward	['walk']	177	120	1.475
+69_05.amc	walking	walk forward	['walk']	188	120	1.5666666666666667
+69_06.amc	walking	walk and turn (repeated)	['turn', 'walk']	2171	120	18.091666666666665
+69_07.amc	walking	walk and turn (repeated)	['turn', 'walk']	2182	120	18.183333333333334
+69_08.amc	walking	walk and turn (repeated)	['turn', 'walk']	2211	120	18.425
+69_09.amc	walking	walk and turn (repeated)	['turn', 'walk']	2127	120	17.725
+69_10.amc	walking	walk and turn (repeated)	['turn', 'walk']	2393	120	19.941666666666666
+69_11.amc	walking	walk and turn (repeated)	['turn', 'walk']	2066	120	17.216666666666665
+69_12.amc	walking	walk and turn both directions (repeated)	['turn', 'walk']	2008	120	16.733333333333334
+69_13.amc	walking	walk, turn in place (repeated)	['turn', 'walk']	1978	120	16.483333333333334
+69_14.amc	walking	walk, turn in place (repeated)	['turn', 'walk']	2048	120	17.066666666666666
+69_15.amc	walking	walk, turn in place (repeated)	['turn', 'walk']	1876	120	15.633333333333333
+69_16.amc	walking	turn in place	['turn']	469	120	3.908333333333333
+69_17.amc	walking	turn in place	['turn']	415	120	3.4583333333333335
+69_18.amc	walking	turn in place (opposite direction)	['sit', 'turn']	438	120	3.65
+69_19.amc	walking	turn in place (opposite direction)	['sit', 'turn']	465	120	3.875
+69_20.amc	walking	walk forward 90 degree right turn	['turn', 'walk']	227	120	1.8916666666666666
+69_21.amc	walking	walk forward 90 degree right turn	['turn', 'walk']	252	120	2.1
+69_22.amc	walking	walk forward 90 degree right turn	['turn', 'walk']	206	120	1.7166666666666666
+69_23.amc	walking	walk forward 90 degree right turn	['turn', 'walk']	232	120	1.9333333333333333
+69_24.amc	walking	walk forward 90 degree left turn	['turn', 'walk']	177	120	1.475
+69_25.amc	walking	walk forward 90 degree left turn	['turn', 'walk']	192	120	1.6
+69_26.amc	walking	walk forward 90 degree left turn	['turn', 'walk']	177	120	1.475
+69_27.amc	walking	walk forward 90 degree left turn	['turn', 'walk']	176	120	1.4666666666666666
+69_28.amc	walking	walk forward 90 degree smooth right turn	['turn', 'walk']	192	120	1.6
+69_29.amc	walking	walk forward 90 degree smooth right turn	['turn', 'walk']	162	120	1.35
+69_30.amc	walking	walk forward 90 degree smooth right turn	['turn', 'walk']	161	120	1.3416666666666666
+69_31.amc	walking	walk forward 90 degree smooth left turn	['turn', 'walk']	154	120	1.2833333333333334
+69_32.amc	walking	walk forward 90 degree smooth left turn	['turn', 'walk']	160	120	1.3333333333333333
+69_33.amc	walking	walk forward 90 degree smooth left turn	['turn', 'walk']	166	120	1.3833333333333333
+69_34.amc	walking	walk backwards and turn	['turn', 'walk']	1987	120	16.558333333333334
+69_35.amc	walking	walk backwards and turn	['turn', 'walk']	1709	120	14.241666666666667
+69_36.amc	walking	walk backwards and turn	['turn', 'walk']	1915	120	15.958333333333334
+69_37.amc	walking	walk backwards and turn	['turn', 'walk']	1805	120	15.041666666666666
+69_38.amc	walking	walk backwards and turn (repeated)	['turn', 'walk']	2050	120	17.083333333333332
+69_39.amc	walking	walk backward, turn in place	['turn', 'walk']	1866	120	15.55
+69_40.amc	walking	walk backward, turn in place	['turn', 'walk']	1936	120	16.133333333333333
+69_41.amc	walking	walk backward, turn in place	['turn', 'walk']	1957	120	16.308333333333334
+69_42.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	2130	120	17.75
+69_43.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	2068	120	17.233333333333334
+69_44.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	2354	120	19.616666666666667
+69_45.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	1981	120	16.508333333333333
+69_46.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	2373	120	19.775
+69_47.amc	walking	walk sideways and turn (repeated)	['turn', 'walk']	2205	120	18.375
+69_48.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	2091	120	17.425
+69_49.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	2370	120	19.75
+69_50.amc	walking	walk sideways and backwards	['walk']	218	120	1.8166666666666667
+69_51.amc	walking	walk backwards and turn	['turn', 'walk']	260	120	2.1666666666666665
+69_52.amc	walking	walk backwards and turn	['turn', 'walk']	226	120	1.8833333333333333
+69_53.amc	walking	walk backwards and turn	['turn', 'walk']	188	120	1.5666666666666667
+69_54.amc	walking	walk backwards and turn	['turn', 'walk']	207	120	1.725
+69_55.amc	walking	walk backwards and turn	['turn', 'walk']	197	120	1.6416666666666666
+69_56.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	320	120	2.6666666666666665
+69_57.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	255	120	2.125
+69_58.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	312	120	2.6
+69_59.amc	walking	walk sideways and turn	['turn', 'walk']	293	120	2.441666666666667
+69_60.amc	walking	walk sideways and turn	['turn', 'walk']	268	120	2.2333333333333334
+69_61.amc	walking	walk sideways and turn	['turn', 'walk']	262	120	2.183333333333333
+69_62.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	272	120	2.2666666666666666
+69_63.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	226	120	1.8833333333333333
+69_64.amc	walking	walk sideways and turn (opposite direction)	['sit', 'turn', 'walk']	228	120	1.9
+69_65.amc	walking	walk sideways and turn	['turn', 'walk']	276	120	2.3
+69_66.amc	walking	walk sideways and turn	['turn', 'walk']	242	120	2.0166666666666666
+69_67.amc	walking	walk sideways and turn	['turn', 'walk']	264	120	2.2
+69_68.amc	walking	walk forward and pick up object, set down object	['walk']	342	120	2.85
+69_69.amc	walking	walk forward and pick up object, carry back object	['walk']	333	120	2.775
+69_70.amc	walking	walk up to object, squat, pick up object, set down in another place.	['walk']	434	120	3.6166666666666667
+69_71.amc	walking	walk up to object, squat, pick up object, set down in another place	['walk']	548	120	4.566666666666666
+69_72.amc	walking	walk up to object, pick up object, set down in another place	['walk']	471	120	3.925
+69_73.amc	walking	walk up to object, lean over, pick up object, set down in another place	['walk']	454	120	3.783333333333333
+69_74.amc	walking	walk up to object, lean over, pick up object, set down in another place	['walk']	408	120	3.4
+69_75.amc	walking	walk up to object, squat, pick up object, set down in another place	['walk']	458	120	3.816666666666667
+70_01.amc	suitcase	carry 5.5lb suitcase	[]	297	120	2.475
+70_02.amc	suitcase	carry 5.5lb suitcase	[]	315	120	2.625
+70_03.amc	suitcase	carry 19.5lb suitcase	[]	771	120	6.425
+70_04.amc	suitcase	carry 19.5lb suitcase	[]	695	120	5.791666666666667
+70_05.amc	suitcase	carry 19.5lb suitcase	[]	376	120	3.1333333333333333
+70_06.amc	suitcase	carry 19.5lb suitcase	[]	347	120	2.8916666666666666
+70_07.amc	suitcase	carry 19.5lb suitcase	[]	649	120	5.408333333333333
+70_08.amc	suitcase	carry 19.5lb suitcase	[]	355	120	2.9583333333333335
+70_09.amc	suitcase	carry 19.5lb suitcase	[]	349	120	2.908333333333333
+70_10.amc	suitcase	carry 12.5lb suitcase	[]	332	120	2.7666666666666666
+70_11.amc	suitcase	carry 12.5lb suitcase	[]	260	120	2.1666666666666665
+70_12.amc	suitcase	carry 12.5lb suitcase	[]	331	120	2.7583333333333333
+70_13.amc	suitcase	carry 12.5lb suitcase	[]	279	120	2.325
+74_01.amc	kicks and walking on slopes	stiff walk	['walk']	192	60	3.2
+74_02.amc	kicks and walking on slopes	stiff walk	['walk']	110	60	1.8333333333333333
+74_03.amc	kicks and walking on slopes	kick	['kick']	164	60	2.7333333333333334
+74_04.amc	kicks and walking on slopes	kick	['kick']	130	60	2.1666666666666665
+74_05.amc	kicks and walking on slopes	kick	['kick']	134	60	2.2333333333333334
+74_06.amc	kicks and walking on slopes	kick	['kick']	135	60	2.25
+74_07.amc	kicks and walking on slopes	lifting up	[]	129	60	2.15
+74_08.amc	kicks and walking on slopes	lifting up	[]	69	60	1.15
+74_09.amc	kicks and walking on slopes		[]	82	60	1.3666666666666667
+74_10.amc	kicks and walking on slopes	peeping	[]	139	60	2.316666666666667
+74_11.amc	kicks and walking on slopes	peeping	[]	143	60	2.3833333333333333
+74_12.amc	kicks and walking on slopes	thinker	[]	125	60	2.0833333333333335
+74_13.amc	kicks and walking on slopes	Range of motion	[]	1051	60	17.516666666666666
+74_14.amc	kicks and walking on slopes	slope 1	[]	185	60	3.0833333333333335
+74_15.amc	kicks and walking on slopes	slope1	[]	182	60	3.033333333333333
+74_16.amc	kicks and walking on slopes	slope 2	[]	205	60	3.4166666666666665
+74_17.amc	kicks and walking on slopes	slope 2	[]	216	60	3.6
+74_18.amc	kicks and walking on slopes	slope 3	[]	204	60	3.4
+74_19.amc	kicks and walking on slopes	slope 3	[]	202	60	3.3666666666666667
+74_20.amc	kicks and walking on slopes	stiff walk	['walk']	239	60	3.9833333333333334
+75_01.amc	jumps; hopscotch; sits	run jump	['jump', 'run']	157	60	2.6166666666666667
+75_02.amc	jumps; hopscotch; sits	run jump	['jump', 'run']	99	60	1.65
+75_03.amc	jumps; hopscotch; sits	run jump	['jump', 'run']	85	60	1.4166666666666667
+75_04.amc	jumps; hopscotch; sits	wide leg run	['run']	120	60	2.0
+75_05.amc	jumps; hopscotch; sits	cross leg run	['run']	123	60	2.05
+75_06.amc	jumps; hopscotch; sits	180 jump	['jump']	303	60	5.05
+75_07.amc	jumps; hopscotch; sits	angle jumps	['jump']	465	60	7.75
+75_08.amc	jumps; hopscotch; sits	360 jumps	['jump']	464	60	7.733333333333333
+75_09.amc	jumps; hopscotch; sits	360 jump	['jump']	154	60	2.566666666666667
+75_10.amc	jumps; hopscotch; sits	2 jump	['jump']	114	60	1.9
+75_11.amc	jumps; hopscotch; sits	2 jump	['jump']	72	60	1.2
+75_12.amc	jumps; hopscotch; sits	box jump	['jump']	192	60	3.2
+75_13.amc	jumps; hopscotch; sits	hopscotch	[]	155	60	2.5833333333333335
+75_14.amc	jumps; hopscotch; sits	hopscotch	[]	185	60	3.0833333333333335
+75_15.amc	jumps; hopscotch; sits	long jumps	['jump']	726	60	12.1
+75_16.amc	jumps; hopscotch; sits	jump kick	['jump', 'kick']	142	60	2.3666666666666667
+75_17.amc	jumps; hopscotch; sits	medium sit	['sit']	134	60	2.2333333333333334
+75_18.amc	jumps; hopscotch; sits	high sit	['sit']	125	60	2.0833333333333335
+75_19.amc	jumps; hopscotch; sits	medium sit	['sit']	319	60	5.316666666666666
+75_20.amc	jumps; hopscotch; sits	low sit	['sit']	206	60	3.433333333333333
+76_01.amc	avoidance	walk backwards then attack with a punch	['punch', 'walk']	387	120	3.225
+76_02.amc	avoidance	walk backwards, feign a few attacks, then attack	['walk']	484	120	4.033333333333333
+76_03.amc	avoidance	avoid attacker	[]	450	120	3.75
+76_04.amc	avoidance	defensive guard pose	[]	173	120	1.4416666666666667
+76_05.amc	avoidance	swatting at pesky bug	[]	360	120	3.0
+76_06.amc	avoidance	avoid stepping on something	[]	280	120	2.3333333333333335
+76_07.amc	avoidance		[]	7	120	0.058333333333333334
+76_08.amc	avoidance	careful stepping over things	[]	625	120	5.208333333333333
+76_09.amc	avoidance	walking backwards	['walk']	660	120	5.5
+76_10.amc	avoidance	turning	['turn']	568	120	4.733333333333333
+76_11.amc	avoidance	quick large steps backwards	[]	213	120	1.775
+77_01.amc	careful actions	looking around	[]	453	60	7.55
+77_02.amc	careful actions	standing	['stand']	390	60	6.5
+77_03.amc	careful actions	ready stance	[]	409	60	6.816666666666666
+77_04.amc	careful actions	Looking around	[]	367	60	6.116666666666666
+77_05.amc	careful actions	look around with flashlight	[]	212	60	3.533333333333333
+77_06.amc	careful actions	searching ground	[]	562	60	9.366666666666667
+77_07.amc	careful actions	poking ground	[]	210	60	3.5
+77_08.amc	careful actions	investigating thing on ground with two hands	[]	419	60	6.983333333333333
+77_09.amc	careful actions	duck to avoid flying object	[]	411	60	6.85
+77_10.amc	careful actions	careful run	['run']	287	60	4.783333333333333
+77_11.amc	careful actions	careful run	['run']	132	60	2.2
+77_12.amc	careful actions	careful run in circle	['run']	407	60	6.783333333333333
+77_13.amc	careful actions	careful run in figure eight	['run']	577	60	9.616666666666667
+77_14.amc	careful actions	careful creeping	[]	412	60	6.866666666666666
+77_15.amc	careful actions	careful creeping	[]	448	60	7.466666666666667
+77_16.amc	careful actions	laying down, getting up, careful ready pose	[]	271	60	4.516666666666667
+77_17.amc	careful actions	laying down, getting up, careful ready pose	[]	299	60	4.983333333333333
+77_18.amc	careful actions	laying down on back, getting up, careful ready pose	[]	355	60	5.916666666666667
+77_19.amc	careful actions	limping, hurt right leg	[]	416	60	6.933333333333334
+77_20.amc	careful actions	limping, hurt right leg	[]	653	60	10.883333333333333
+77_21.amc	careful actions	stretching	[]	545	60	9.083333333333334
+77_22.amc	careful actions	limping, hurt right leg	[]	593	60	9.883333333333333
+77_23.amc	careful actions	limping, hurt right leg	[]	662	60	11.033333333333333
+77_24.amc	careful actions	limping, hurt right leg	[]	297	60	4.95
+77_25.amc	careful actions	careful walk and search	['walk']	275	60	4.583333333333333
+77_26.amc	careful actions	careful walk and search	['walk']	270	60	4.5
+77_27.amc	careful actions	careful walk and search	['walk']	302	60	5.033333333333333
+77_28.amc	careful actions	careful walk	['walk']	1237	60	20.616666666666667
+77_29.amc	careful actions	creeping walk	['walk']	876	60	14.6
+77_30.amc	careful actions	creeping walk	['walk']	525	60	8.75
+77_31.amc	careful actions	silent walk	['walk']	877	60	14.616666666666667
+77_32.amc	careful actions	creeping walk	['walk']	788	60	13.133333333333333
+77_33.amc	careful actions	creeping with limp	[]	1248	60	20.8
+77_34.amc	careful actions	creep and pause, repeat	[]	467	60	7.783333333333333
+78_01.amc	walking	LeftTightTurn         CleanedGRS	[]	69	120	0.575
+78_02.amc	walking	RightWideTurn            CleanedGRS	[]	114	120	0.95
+78_03.amc	walking	LeftWideTurn     CleanedGRS	[]	72	120	0.6
+78_04.amc	walking	SuperTightLeft        CleanedGRS	[]	62	120	0.5166666666666667
+78_05.amc	walking	SuperTightRight         CleanedGRS	[]	69	120	0.575
+78_06.amc	walking	RunningStraight       CleanedGRS	[]	45	120	0.375
+78_07.amc	walking	RunningWideRight       CleanedGRS	[]	58	120	0.48333333333333334
+78_08.amc	walking	RunningWideLeft      CleanedGRS	[]	46	120	0.38333333333333336
+78_09.amc	walking	RunningTigherLeft      CleanedGRS	[]	62	120	0.5166666666666667
+78_10.amc	walking	RunningTighterRight      CleanedGRS	[]	57	120	0.475
+78_11.amc	walking	calibration	[]	18	120	0.15
+78_12.amc	walking	RunningNoBall     CleanedGRS	[]	40	120	0.3333333333333333
+78_13.amc	walking	OffensiveMoveSpinLeft            CleanedGRS	[]	72	120	0.6
+78_14.amc	walking	OffensiveMoveSpinLeft      CleanedGRS	[]	70	120	0.5833333333333334
+78_15.amc	walking	OffensiveMoveGoRight     CleanedGRS	[]	62	120	0.5166666666666667
+78_16.amc	walking	OffensiveMoveGoLeft         CleanedGRs	[]	81	120	0.675
+78_17.amc	walking	OffensiveMoveSpinRight             CleanedGRS	[]	74	120	0.6166666666666667
+78_18.amc	walking	WalkEvasiveLeft      CleanedGRS	[]	88	120	0.7333333333333333
+78_19.amc	walking	WalkEvasiveRight              CleanedGRS	[]	72	120	0.6
+78_20.amc	walking	FeintLeftMoveRight            CleanedGRS	[]	95	120	0.7916666666666666
+78_21.amc	walking	FeintRightMoveLeft      CleanedGRS	[]	93	120	0.775
+78_22.amc	walking	FakeShotBreakRight     CleanedGRs	[]	252	120	2.1
+78_23.amc	walking	FakeShotBreakLeft            CleanedGRS	[]	215	120	1.7916666666666667
+78_24.amc	walking	DefensiveStraightNoStop          CleanedGRS	[]	102	120	0.85
+78_25.amc	walking	DefensiveStraightWithStop          CleanedGRS	[]	147	120	1.225
+78_26.amc	walking	DefensiveRightStopToStop           CleanedGRS	[]	135	120	1.125
+78_27.amc	walking	DefensiveLeftStopToStop              CleanedGRS	[]	122	120	1.0166666666666666
+78_28.amc	walking	DefensiveMoveZigZag           CleanedGRS	[]	186	120	1.55
+78_29.amc	walking	DefensiveMoveSideToSide           CleanedGRS	[]	70	120	0.5833333333333334
+78_30.amc	walking	DefensiveMoveSideToSide           CleanedGRS	[]	292	120	2.433333333333333
+78_31.amc	walking	Pivoting     CleanedGRS	[]	332	120	2.7666666666666666
+78_32.amc	walking	SraightDriveFromStop          Cleaned GRS	[]	88	120	0.7333333333333333
+78_33.amc	walking	RightDrive (left then right)    Cleaned GRS	[]	94	120	0.7833333333333333
+78_34.amc	walking	LeftDrive (right then left)    Cleaned GRS	[]	126	120	1.05
+78_35.amc	walking	RightTightTurn    CleanedGRS	[]	91	120	0.7583333333333333
+79_01.amc	actor everyday activities	chopping wood	[]	243	60	4.05
+79_02.amc	actor everyday activities	swimming	[]	322	60	5.366666666666666
+79_03.amc	actor everyday activities	swimming	[]	350	60	5.833333333333333
+79_04.amc	actor everyday activities	digging	[]	378	60	6.3
+79_05.amc	actor everyday activities	sewing	[]	407	60	6.783333333333333
+79_06.amc	actor everyday activities	hand shake	[]	245	60	4.083333333333333
+79_07.amc	actor everyday activities	lost marker	[]	136	60	2.2666666666666666
+79_08.amc	actor everyday activities	boxing	[]	183	60	3.05
+79_09.amc	actor everyday activities	slicing bread	[]	348	60	5.8
+79_10.amc	actor everyday activities	chopping onions	[]	292	60	4.866666666666666
+79_11.amc	actor everyday activities	Subject calibration	[]	53	60	0.8833333333333333
+79_12.amc	actor everyday activities	eating dinner	[]	426	60	7.1
+79_13.amc	actor everyday activities	mixing batter	[]	276	60	4.6
+79_14.amc	actor everyday activities	making dough	[]	304	60	5.066666666666666
+79_15.amc	actor everyday activities	eating a sandwich	[]	364	60	6.066666666666666
+79_16.amc	actor everyday activities	buying something	[]	299	60	4.983333333333333
+79_17.amc	actor everyday activities	playing violin	[]	334	60	5.566666666666666
+79_18.amc	actor everyday activities	playing drums	[]	334	60	5.566666666666666
+79_19.amc	actor everyday activities	playing piano	[]	287	60	4.783333333333333
+79_20.amc	actor everyday activities	hanging a picture	[]	310	60	5.166666666666667
+79_21.amc	actor everyday activities	putting on a pull over	[]	340	60	5.666666666666667
+79_22.amc	actor everyday activities	range of motion	[]	365	60	6.083333333333333
+79_23.amc	actor everyday activities	putting on a jacket	[]	303	60	5.05
+79_24.amc	actor everyday activities	putting on button up sweater	[]	309	60	5.15
+79_25.amc	actor everyday activities	moving heavy box	[]	250	60	4.166666666666667
+79_26.amc	actor everyday activities	planting a tree	[]	429	60	7.15
+79_27.amc	actor everyday activities	planting a plant	[]	367	60	6.116666666666666
+79_28.amc	actor everyday activities	putting on a ball cap	[]	169	60	2.816666666666667
+79_29.amc	actor everyday activities	putting on a dress	[]	282	60	4.7
+79_30.amc	actor everyday activities	pushing a swing	[]	332	60	5.533333333333333
+79_31.amc	actor everyday activities	writing on a chalkboard	[]	240	60	4.0
+79_32.amc	actor everyday activities	writing on a chalkboard	[]	401	60	6.683333333333334
+79_33.amc	actor everyday activities	chug a beer	[]	241	60	4.016666666666667
+79_34.amc	actor everyday activities	fishing	[]	311	60	5.183333333333334
+79_35.amc	actor everyday activities	fishing	[]	497	60	8.283333333333333
+79_36.amc	actor everyday activities	answering the phone	[]	215	60	3.5833333333333335
+79_37.amc	actor everyday activities	dialing phone	[]	250	60	4.166666666666667
+79_38.amc	actor everyday activities	drinking water	[]	225	60	3.75
+79_39.amc	actor everyday activities	sipping martinee	[]	336	60	5.6
+79_40.amc	actor everyday activities	drinking a soda	[]	360	60	6.0
+79_41.amc	actor everyday activities	sipping coffee	[]	461	60	7.683333333333334
+79_42.amc	actor everyday activities	eating soup	[]	329	60	5.483333333333333
+79_43.amc	actor everyday activities	painting	[]	410	60	6.833333333333333
+79_44.amc	actor everyday activities	washing a window	[]	355	60	5.916666666666667
+79_45.amc	actor everyday activities	bear	[]	359	60	5.983333333333333
+79_46.amc	actor everyday activities	bear	[]	539	60	8.983333333333333
+79_47.amc	actor everyday activities	chicken	[]	513	60	8.55
+79_48.amc	actor everyday activities	elephant	[]	525	60	8.75
+79_49.amc	actor everyday activities	monkey	[]	432	60	7.2
+79_50.amc	actor everyday activities	mouse	[]	305	60	5.083333333333333
+79_51.amc	actor everyday activities	chipmunk	[]	355	60	5.916666666666667
+79_52.amc	actor everyday activities	prairie dog	[]	373	60	6.216666666666667
+79_53.amc	actor everyday activities	dog	[]	310	60	5.166666666666667
+79_54.amc	actor everyday activities	snake	[]	485	60	8.083333333333334
+79_55.amc	actor everyday activities	sweeping	[]	266	60	4.433333333333334
+79_56.amc	actor everyday activities	T-rex	[]	357	60	5.95
+79_57.amc	actor everyday activities	fish	[]	402	60	6.7
+79_58.amc	actor everyday activities	bird	[]	353	60	5.883333333333334
+79_59.amc	actor everyday activities	cat	[]	353	60	5.883333333333334
+79_60.amc	actor everyday activities	chicken	[]	333	60	5.55
+79_61.amc	actor everyday activities	cow	[]	454	60	7.566666666666666
+79_62.amc	actor everyday activities	chicken	[]	351	60	5.85
+79_63.amc	actor everyday activities	tiger	[]	454	60	7.566666666666666
+79_64.amc	actor everyday activities	penguin	[]	448	60	7.466666666666667
+79_65.amc	actor everyday activities	horse	[]	271	60	4.516666666666667
+79_66.amc	actor everyday activities	movie and trial dont match	[]	299	60	4.983333333333333
+79_67.amc	actor everyday activities	no movie	[]	525	60	8.75
+79_68.amc	actor everyday activities	cold	[]	491	60	8.183333333333334
+79_69.amc	actor everyday activities	very happy	[]	340	60	5.666666666666667
+79_70.amc	actor everyday activities	laughing	[]	317	60	5.283333333333333
+79_71.amc	actor everyday activities	sad	[]	449	60	7.483333333333333
+79_72.amc	actor everyday activities	crying	[]	396	60	6.6
+79_73.amc	actor everyday activities	scared	[]	369	60	6.15
+79_74.amc	actor everyday activities	upset	[]	385	60	6.416666666666667
+79_75.amc	actor everyday activities	channel surfing	[]	537	60	8.95
+79_76.amc	actor everyday activities	driving	[]	522	60	8.7
+79_77.amc	actor everyday activities	vacuuming	[]	476	60	7.933333333333334
+79_78.amc	actor everyday activities	taking a movie	[]	528	60	8.8
+79_79.amc	actor everyday activities	putting on headphones	[]	350	60	5.833333333333333
+79_80.amc	actor everyday activities	using a palm pilot	[]	410	60	6.833333333333333
+79_81.amc	actor everyday activities	brushing teeth	[]	391	60	6.516666666666667
+79_82.amc	actor everyday activities	putting on deoderant	[]	319	60	5.316666666666666
+79_83.amc	actor everyday activities	shaving	[]	498	60	8.3
+79_84.amc	actor everyday activities	combing hair	[]	364	60	6.066666666666666
+79_85.amc	actor everyday activities	typing on a laptop	[]	436	60	7.266666666666667
+79_86.amc	actor everyday activities	shooting bow and arrow	[]	283	60	4.716666666666667
+79_87.amc	actor everyday activities	raking	[]	329	60	5.483333333333333
+79_88.amc	actor everyday activities	swatting at a fly	[]	377	60	6.283333333333333
+79_89.amc	actor everyday activities	holding a baby	[]	368	60	6.133333333333334
+79_90.amc	actor everyday activities	washing	[]	565	60	9.416666666666666
+79_91.amc	actor everyday activities	football	[]	207	60	3.45
+79_92.amc	actor everyday activities	frisbee	[]	265	60	4.416666666666667
+79_93.amc	actor everyday activities	weight lifting	[]	473	60	7.883333333333334
+79_94.amc	actor everyday activities	flexing	[]	389	60	6.483333333333333
+79_95.amc	actor everyday activities	rowing	[]	393	60	6.55
+79_96.amc	actor everyday activities	shooting a gun	[]	232	60	3.8666666666666667
+80_01.amc	assorted motions	shaking hands	[]	353	60	5.883333333333334
+80_02.amc	assorted motions	chopping onions	[]	292	60	4.866666666666666
+80_03.amc	assorted motions	shooting a gun	[]	274	60	4.566666666666666
+80_04.amc	assorted motions	sewing	[]	458	60	7.633333333333334
+80_05.amc	assorted motions	digging a hole	[]	482	60	8.033333333333333
+80_06.amc	assorted motions	paying for something	[]	400	60	6.666666666666667
+80_07.amc	assorted motions	hanging picture	[]	648	60	10.8
+80_08.amc	assorted motions	picking up something	[]	365	60	6.083333333333333
+80_09.amc	assorted motions	planting a flower	[]	631	60	10.516666666666667
+80_10.amc	assorted motions	boxing	[]	321	60	5.35
+80_11.amc	assorted motions	putting on a sweater	[]	292	60	4.866666666666666
+80_12.amc	assorted motions	fishing	[]	670	60	11.166666666666666
+80_13.amc	assorted motions	drumming	[]	422	60	7.033333333333333
+80_14.amc	assorted motions	teaching	[]	722	60	12.033333333333333
+80_15.amc	assorted motions	putting on a coat	[]	514	60	8.566666666666666
+80_16.amc	assorted motions	mixing batter	[]	524	60	8.733333333333333
+80_17.amc	assorted motions	hand mixing dough	[]	598	60	9.966666666666667
+80_18.amc	assorted motions	vacuuming	[]	629	60	10.483333333333333
+80_19.amc	assorted motions	pushing broom	[]	759	60	12.65
+80_20.amc	assorted motions	planting	[]	841	60	14.016666666666667
+80_21.amc	assorted motions	pushing swing	[]	582	60	9.7
+80_22.amc	assorted motions	putting on a hat	[]	438	60	7.3
+80_23.amc	assorted motions	putting on a skirt	[]	425	60	7.083333333333333
+80_24.amc	assorted motions	eating	[]	742	60	12.366666666666667
+80_25.amc	assorted motions	answering a phone	[]	460	60	7.666666666666667
+80_26.amc	assorted motions	dialing phone	[]	513	60	8.55
+80_27.amc	assorted motions	setting glass of water	[]	452	60	7.533333333333333
+80_28.amc	assorted motions	drinking and smoking	[]	508	60	8.466666666666667
+80_29.amc	assorted motions	chugging	[]	468	60	7.8
+80_30.amc	assorted motions	range of motion	[]	1078	60	17.966666666666665
+80_31.amc	assorted motions	making coffee	[]	649	60	10.816666666666666
+80_32.amc	assorted motions	slicing	[]	672	60	11.2
+80_33.amc	assorted motions	eating soup	[]	806	60	13.433333333333334
+80_34.amc	assorted motions	rake leaves	[]	869	60	14.483333333333333
+80_35.amc	assorted motions	putting on headphones	[]	809	60	13.483333333333333
+80_36.amc	assorted motions	violin	[]	703	60	11.716666666666667
+80_37.amc	assorted motions	TV	[]	1120	60	18.666666666666668
+80_38.amc	assorted motions	driving	[]	1027	60	17.116666666666667
+80_39.amc	assorted motions		[]	759	60	12.65
+80_40.amc	assorted motions	drinking from bottle	[]	380	60	6.333333333333333
+80_41.amc	assorted motions	freezing	[]	443	60	7.383333333333334
+80_42.amc	assorted motions	freezing	[]	514	60	8.566666666666666
+80_43.amc	assorted motions	happy	[]	407	60	6.783333333333333
+80_44.amc	assorted motions	laughing	[]	387	60	6.45
+80_45.amc	assorted motions	crying	[]	668	60	11.133333333333333
+80_46.amc	assorted motions	crying	[]	662	60	11.033333333333333
+80_47.amc	assorted motions		[]	417	60	6.95
+80_48.amc	assorted motions	arguing	[]	478	60	7.966666666666667
+80_49.amc	assorted motions	gorilla	[]	777	60	12.95
+80_50.amc	assorted motions	cleaning window	[]	521	60	8.683333333333334
+80_51.amc	assorted motions	chicken	[]	625	60	10.416666666666666
+80_52.amc	assorted motions	dog	[]	654	60	10.9
+80_53.amc	assorted motions	elephant	[]	752	60	12.533333333333333
+80_54.amc	assorted motions	monkey	[]	677	60	11.283333333333333
+80_55.amc	assorted motions	mouse	[]	572	60	9.533333333333333
+80_56.amc	assorted motions	chip monk	[]	287	60	4.783333333333333
+80_57.amc	assorted motions	prairie dog	[]	674	60	11.233333333333333
+80_58.amc	assorted motions	snake	[]	979	60	16.316666666666666
+80_59.amc	assorted motions	panther	[]	640	60	10.666666666666666
+80_60.amc	assorted motions		[]	857	60	14.283333333333333
+80_61.amc	assorted motions	sweeping	[]	440	60	7.333333333333333
+80_62.amc	assorted motions	bird	[]	953	60	15.883333333333333
+80_63.amc	assorted motions	chicken	[]	946	60	15.766666666666667
+80_64.amc	assorted motions	cat	[]	1014	60	16.9
+80_65.amc	assorted motions	fish	[]	756	60	12.6
+80_66.amc	assorted motions		[]	862	60	14.366666666666667
+80_67.amc	assorted motions		[]	897	60	14.95
+80_68.amc	assorted motions		[]	1155	60	19.25
+80_69.amc	assorted motions	painting	[]	1783	60	29.716666666666665
+80_70.amc	assorted motions	piano	[]	749	60	12.483333333333333
+80_71.amc	assorted motions	chopping wood	[]	452	60	7.533333333333333
+80_72.amc	assorted motions	swimming	[]	452	60	7.533333333333333
+80_73.amc	assorted motions	shaking hands	[]	328	60	5.466666666666667
+81_01.amc	pushing a box; jumping off a ledge; walks	fix hair and walk forward	['walk']	521	120	4.341666666666667
+81_02.amc	pushing a box; jumping off a ledge; walks	walk forward	['walk']	226	120	1.8833333333333333
+81_03.amc	pushing a box; jumping off a ledge; walks	walk	['walk']	447	120	3.725
+81_04.amc	pushing a box; jumping off a ledge; walks	walk at a brisk pace	['walk']	400	120	3.3333333333333335
+81_05.amc	pushing a box; jumping off a ledge; walks	push heavy object	[]	567	120	4.725
+81_06.amc	pushing a box; jumping off a ledge; walks	push heavy box	[]	530	120	4.416666666666667
+81_07.amc	pushing a box; jumping off a ledge; walks	pull heavy object	[]	503	120	4.191666666666666
+81_08.amc	pushing a box; jumping off a ledge; walks	drag heavy object	[]	574	120	4.783333333333333
+81_09.amc	pushing a box; jumping off a ledge; walks	drag heavy object	[]	581	120	4.841666666666667
+81_10.amc	pushing a box; jumping off a ledge; walks	push object that is high in air	[]	742	120	6.183333333333334
+81_11.amc	pushing a box; jumping off a ledge; walks	push object that is high in air	[]	703	120	5.858333333333333
+81_12.amc	pushing a box; jumping off a ledge; walks	jump backwards off ledge	['jump']	208	120	1.7333333333333334
+81_13.amc	pushing a box; jumping off a ledge; walks	jump backwards off ledge	['jump']	267	120	2.225
+81_14.amc	pushing a box; jumping off a ledge; walks	climb backwards off ledge	['climb']	870	120	7.25
+81_15.amc	pushing a box; jumping off a ledge; walks	climb backwards off ledge	['climb']	844	120	7.033333333333333
+81_16.amc	pushing a box; jumping off a ledge; walks		[]	3	120	0.025
+81_17.amc	pushing a box; jumping off a ledge; walks	walk forward	['walk']	381	120	3.175
+81_18.amc	pushing a box; jumping off a ledge; walks	adjust hair walk forward	['walk']	478	120	3.9833333333333334
+82_01.amc	jumping; pushing; emotional walks	Static pose	[]	3	120	0.025
+82_02.amc	jumping; pushing; emotional walks	Jump off ledge	[]	752	120	6.266666666666667
+82_03.amc	jumping; pushing; emotional walks	Jump off ledge	[]	790	120	6.583333333333333
+82_04.amc	jumping; pushing; emotional walks	Jump off ledge	[]	377	120	3.1416666666666666
+82_05.amc	jumping; pushing; emotional walks	sitting on ground relaxing	['sit']	935	120	7.791666666666667
+82_06.amc	jumping; pushing; emotional walks	Pushing on heavy object	[]	454	120	3.783333333333333
+82_07.amc	jumping; pushing; emotional walks	Pushing on heavy object	[]	498	120	4.15
+82_08.amc	jumping; pushing; emotional walks	stand still; casual walk forward	['stand', 'walk']	707	120	5.891666666666667
+82_09.amc	jumping; pushing; emotional walks	confident walk forward	['walk']	537	120	4.475
+82_10.amc	jumping; pushing; emotional walks	sad walk forward	['walk']	234	120	1.95
+82_11.amc	jumping; pushing; emotional walks	normal walk forward	['walk']	289	120	2.408333333333333
+82_12.amc	jumping; pushing; emotional walks	happy or fast walk forward	['walk']	167	120	1.3916666666666666
+82_13.amc	jumping; pushing; emotional walks	normal walk forward	['walk']	171	120	1.425
+82_14.amc	jumping; pushing; emotional walks	walk forward and slow down	['walk']	377	120	3.1416666666666666
+82_15.amc	jumping; pushing; emotional walks	walk forward and turn sideways	['turn', 'walk']	297	120	2.475
+82_16.amc	jumping; pushing; emotional walks	bang on high object	[]	555	120	4.625
+82_17.amc	jumping; pushing; emotional walks	bang on high object	[]	657	120	5.475
+82_18.amc	jumping; pushing; emotional walks	static pose	[]	3	120	0.025
+83_01.amc	steps	large sidestep to right	[]	263	120	2.191666666666667
+83_02.amc	steps	sidestep to the right and up a ledge	[]	151	120	1.2583333333333333
+83_03.amc	steps	large step to a short ledge	[]	278	120	2.316666666666667
+83_04.amc	steps	large sidestep to right	[]	194	120	1.6166666666666667
+83_05.amc	steps	very large sidestep to right	[]	202	120	1.6833333333333333
+83_06.amc	steps	very large sidestep to right and down	[]	166	120	1.3833333333333333
+83_07.amc	steps	short sidestep to right and down	[]	175	120	1.4583333333333333
+83_08.amc	steps	medium step forward and down	[]	192	120	1.6
+83_09.amc	steps	short step forward and down	[]	187	120	1.5583333333333333
+83_10.amc	steps	medium step forward and down	[]	199	120	1.6583333333333334
+83_11.amc	steps	static pose	[]	40	120	0.3333333333333333
+83_12.amc	steps	medium sidestep to right and down	[]	211	120	1.7583333333333333
+83_13.amc	steps	large sidestep to right	[]	210	120	1.75
+83_14.amc	steps	short sidestep to left and down	[]	178	120	1.4833333333333334
+83_15.amc	steps	short step forward	[]	217	120	1.8083333333333333
+83_16.amc	steps	medium sidestep to left and down	[]	212	120	1.7666666666666666
+83_17.amc	steps	medium step to left and down	[]	217	120	1.8083333333333333
+83_18.amc	steps	short step to left and forward	[]	193	120	1.6083333333333334
+83_19.amc	steps	medium sidestep to left	[]	211	120	1.7583333333333333
+83_20.amc	steps	medium step forward	[]	217	120	1.8083333333333333
+83_21.amc	steps	large step to left and forward	[]	215	120	1.7916666666666667
+83_22.amc	steps	stretching	[]	2237	120	18.641666666666666
+83_23.amc	steps	short sidestep to left and up	[]	225	120	1.875
+83_24.amc	steps	medium step to left and up	[]	221	120	1.8416666666666666
+83_25.amc	steps	short step forward and up	[]	225	120	1.875
+83_26.amc	steps	medium step to left, forward, and up	[]	217	120	1.8083333333333333
+83_27.amc	steps	walk forward stepping up stairs	['walk']	409	120	3.408333333333333
+83_28.amc	steps	walk forward stepping up stairs	['walk']	387	120	3.225
+83_29.amc	steps	walk forward stepping up stairs	['walk']	394	120	3.283333333333333
+83_30.amc	steps	walk forward stepping up stairs	['walk']	420	120	3.5
+83_31.amc	steps	walk forward stepping up stairs	['walk']	389	120	3.2416666666666667
+83_32.amc	steps	walk forward stepping up stairs	['walk']	433	120	3.6083333333333334
+83_33.amc	steps	sidestep to right then back to left	[]	537	120	4.475
+83_34.amc	steps	walk forward and up stairs	['walk']	402	120	3.35
+83_35.amc	steps	walk forward and stepping up stairs	['walk']	436	120	3.6333333333333333
+83_36.amc	steps	walk forward turn 90 degrees left walk forward	['turn', 'walk']	442	120	3.683333333333333
+83_37.amc	steps	walk forward turn 90 degrees right walk forward	['turn', 'walk']	398	120	3.316666666666667
+83_38.amc	steps	walk forward turn 90 degrees left walk forward	['turn', 'walk']	418	120	3.4833333333333334
+83_39.amc	steps	walk forward turn 90 degrees right walk forward	['turn', 'walk']	404	120	3.3666666666666667
+83_40.amc	steps	hop forward	[]	220	120	1.8333333333333333
+83_41.amc	steps	hop forward	[]	195	120	1.625
+83_42.amc	steps	long jump forward	['jump']	224	120	1.8666666666666667
+83_43.amc	steps	long jump forward	['jump']	248	120	2.066666666666667
+83_44.amc	steps	medium step forward	[]	275	120	2.2916666666666665
+83_45.amc	steps	hop forward	[]	205	120	1.7083333333333333
+83_46.amc	steps	medium hop forward	[]	208	120	1.7333333333333334
+83_47.amc	steps	long jump forward	['jump']	258	120	2.15
+83_48.amc	steps	short hop forward	[]	184	120	1.5333333333333334
+83_49.amc	steps	medium hop forward	[]	189	120	1.575
+83_50.amc	steps	long jump forward	['jump']	219	120	1.825
+83_51.amc	steps	hop turn 90 degrees left in air	['turn']	245	120	2.0416666666666665
+83_52.amc	steps	hop turn 90 degrees left in air	['turn']	211	120	1.7583333333333333
+83_53.amc	steps	hop turn 90 degrees left in air	['turn']	224	120	1.8666666666666667
+83_54.amc	steps	hop turn 180 degrees left in air	['turn']	174	120	1.45
+83_55.amc	steps	medium sidestep to right	[]	306	120	2.55
+83_56.amc	steps	hop turn left 180 degrees in air	['turn']	208	120	1.7333333333333334
+83_57.amc	steps	hop turn left 180 degrees in air	['turn']	170	120	1.4166666666666667
+83_58.amc	steps	hop turn left 270 degrees in air	['turn']	151	120	1.2583333333333333
+83_59.amc	steps	hop turn left 270 degrees in air	['turn']	250	120	2.0833333333333335
+83_60.amc	steps	hop turn left 270 degrees in air	['turn']	168	120	1.4
+83_61.amc	steps	hop turn 360 degrees left in air	['turn']	209	120	1.7416666666666667
+83_62.amc	steps	hop turn left 360 degrees in air	['turn']	197	120	1.6416666666666666
+83_63.amc	steps	large sidestep to right and forward	[]	285	120	2.375
+83_64.amc	steps	hop and turn right 360 degrees in air	['turn']	240	120	2.0
+83_65.amc	steps	hop and turn right 360 degrees in air	['turn']	166	120	1.3833333333333333
+83_66.amc	steps	short sidestep to right	[]	279	120	2.325
+83_67.amc	steps	short sidestep to the right	[]	280	120	2.3333333333333335
+83_68.amc	steps	medium sidestep to right	[]	274	120	2.283333333333333
+85_01.amc	jumps; flips; breakdance	JumpTwist	[]	415	120	3.4583333333333335
+85_02.amc	jumps; flips; breakdance	JumpTwist	[]	337	120	2.808333333333333
+85_03.amc	jumps; flips; breakdance	UpRightSequence	[]	1351	120	11.258333333333333
+85_04.amc	jumps; flips; breakdance	FancyFootWork	[]	1064	120	8.866666666666667
+85_05.amc	jumps; flips; breakdance	HandStandKicks	[]	680	120	5.666666666666667
+85_06.amc	jumps; flips; breakdance	KickFlip	[]	395	120	3.2916666666666665
+85_07.amc	jumps; flips; breakdance	KickFlipStumble	[]	399	120	3.325
+85_08.amc	jumps; flips; breakdance	Helicopter	[]	422	120	3.5166666666666666
+85_09.amc	jumps; flips; breakdance	motorcycle pose	[]	105	120	0.875
+85_10.amc	jumps; flips; breakdance	EndofBreakDance	[]	322	120	2.683333333333333
+85_11.amc	jumps; flips; breakdance	UpRightSequence	[]	750	120	6.25
+85_12.amc	jumps; flips; breakdance	LongSequenceGood	[]	1874	120	15.616666666666667
+85_13.amc	jumps; flips; breakdance	BadStartSequnce	[]	602	120	5.016666666666667
+85_14.amc	jumps; flips; breakdance	BreakSequencewithFlips	[]	1236	120	10.3
+85_15.amc	jumps; flips; breakdance	90TwistsFall	[]	551	120	4.591666666666667
+86_01.amc	sports and various activities	jumps kicks and punches	['jump', 'kick', 'punch']	1907	120	15.891666666666667
+86_02.amc	sports and various activities	walk, squats, run, stretch, jumps, punches, and drinking	['jump', 'punch', 'run', 'walk']	4423	120	36.858333333333334
+86_03.amc	sports and various activities	walking, running, jumping, kicking, and stretching	['jump', 'kick', 'run', 'walk']	3500	120	29.166666666666668
+86_04.amc	sports and various activities	walking, stretching, punching, chopping, and drinking	['punch', 'walk']	4198	120	34.983333333333334
+86_05.amc	sports and various activities	walking, jumping, jumping jacks,  jumping on one foot, punching, chopping,	['jump', 'punch', 'walk']	3474	120	28.95
+86_06.amc	sports and various activities	walking, running, kicking, punching, knee kicking, and stretching	['kick', 'punch', 'run', 'walk']	4140	120	34.5
+86_07.amc	sports and various activities	walking, swinging arms, stretching, jumping on one leg, and jumping	['jump', 'walk']	3625	120	30.208333333333332
+86_08.amc	sports and various activities	walking, squats, stretching, kicking, and punching	['kick', 'punch', 'walk']	3835	120	31.958333333333332
+86_09.amc	sports and various activities	walking, sitting, looking, stand up	['sit', 'stand', 'walk']	1997	120	16.641666666666666
+86_10.amc	sports and various activities	walk around, sit, stand up, and running	['run', 'sit', 'stand', 'walk']	3159	120	26.325
+86_11.amc	sports and various activities	walking, stretching, walking and turning	['turn', 'walk']	2363	120	19.691666666666666
+86_12.amc	sports and various activities	walking, dragging, sweeping, dustpan, wipe window, and wipe mirror	['walk']	3689	120	30.741666666666667
+86_13.amc	sports and various activities	walking around, walk up ladder, step down ladder	['walk']	2591	120	21.591666666666665
+86_14.amc	sports and various activities	bouncing basketball, shooting basketball, dribble basketball, two handed dribble	[]	2522	120	21.016666666666666
+86_15.amc	sports and various activities	walking, sitting, hand motions	['sit', 'walk']	2954	120	24.616666666666667
+87_01.amc	acrobatics	Jump with kick and spin	['kick']	256	60	4.266666666666667
+87_02.amc	acrobatics	T-Pose	[]	142	60	2.3666666666666667
+87_03.amc	acrobatics	Backflip	[]	102	60	1.7
+87_04.amc	acrobatics	backflip	[]	89	60	1.4833333333333334
+87_05.amc	acrobatics	cartwheels	[]	212	60	3.533333333333333
+88_01.amc	acrobatics	backflip	[]	83	60	1.3833333333333333
+88_02.amc	acrobatics	backflips, jump onto platform, handstands, vertical pushups	['jump', 'stand']	1386	60	23.1
+88_03.amc	acrobatics	motorcycle pose	[]	147	60	2.45
+88_04.amc	acrobatics	stretches, cartwheels, flips, spin kicks, spins, and fall	['kick']	516	60	8.6
+88_05.amc	acrobatics	cartwheel into backflip	[]	61	60	1.0166666666666666
+88_06.amc	acrobatics	jump and spin kick	['jump', 'kick']	95	60	1.5833333333333333
+88_07.amc	acrobatics	cartwheel	[]	64	60	1.0666666666666667
+88_08.amc	acrobatics	crouch and flip backward on hands	[]	120	60	2.0
+88_09.amc	acrobatics	stretch and cartwheel	[]	156	60	2.6
+88_10.amc	acrobatics	stretch and spin	[]	194	60	3.2333333333333334
+88_11.amc	acrobatics	stretches and jumps	['jump']	844	60	14.066666666666666
+89_01.amc	acrobatics	balance object on forehead	[]	955	60	15.916666666666666
+89_02.amc	acrobatics	motorcycle pose	[]	97	60	1.6166666666666667
+89_03.amc	acrobatics	flip and stand on one hand	['stand']	112	60	1.8666666666666667
+89_04.amc	acrobatics	spins, flips, stand on one hand	['stand']	798	60	13.3
+89_05.amc	acrobatics	spin upside down, handstand, flips	['stand']	1853	60	30.883333333333333
+89_06.amc	acrobatics	balance beam	[]	1707	60	28.45
+90_01.amc	cartwheels; acrobatics; dances	bkwd summersult	[]	328	120	2.7333333333333334
+90_02.amc	cartwheels; acrobatics; dances	cartwheel	[]	325	120	2.7083333333333335
+90_03.amc	cartwheels; acrobatics; dances	cartwheel	[]	367	120	3.058333333333333
+90_04.amc	cartwheels; acrobatics; dances	cartwheel	[]	290	120	2.4166666666666665
+90_05.amc	cartwheels; acrobatics; dances	jump kick	['jump', 'kick']	213	120	1.775
+90_06.amc	cartwheels; acrobatics; dances	jump kick	['jump', 'kick']	259	120	2.158333333333333
+90_07.amc	cartwheels; acrobatics; dances	jump kick	['jump', 'kick']	372	120	3.1
+90_08.amc	cartwheels; acrobatics; dances	side flip	[]	139	120	1.1583333333333334
+90_09.amc	cartwheels; acrobatics; dances	Flip forward onto hands and back again	[]	126	120	1.05
+90_11.amc	cartwheels; acrobatics; dances	hand spring	[]	74	120	0.6166666666666667
+90_12.amc	cartwheels; acrobatics; dances	bck flp twst fall	[]	343	120	2.8583333333333334
+90_13.amc	cartwheels; acrobatics; dances	bck flp twst fall	[]	386	120	3.216666666666667
+90_14.amc	cartwheels; acrobatics; dances	front hand flip	[]	348	120	2.9
+90_15.amc	cartwheels; acrobatics; dances	front hand flip	[]	495	120	4.125
+90_16.amc	cartwheels; acrobatics; dances	fall on face	[]	301	120	2.5083333333333333
+90_17.amc	cartwheels; acrobatics; dances	BannanaPeelSlip	[]	251	120	2.091666666666667
+90_18.amc	cartwheels; acrobatics; dances	RugPullFall	[]	163	120	1.3583333333333334
+90_19.amc	cartwheels; acrobatics; dances	monkey backflip	[]	432	120	3.6
+90_20.amc	cartwheels; acrobatics; dances	monkey sequence	[]	740	120	6.166666666666667
+90_21.amc	cartwheels; acrobatics; dances	monkey sequence	[]	564	120	4.7
+90_22.amc	cartwheels; acrobatics; dances	straight walk	['walk']	287	120	2.3916666666666666
+90_23.amc	cartwheels; acrobatics; dances	straight walk	['walk']	494	120	4.116666666666666
+90_24.amc	cartwheels; acrobatics; dances	ball mount	[]	327	120	2.725
+90_25.amc	cartwheels; acrobatics; dances	fwd ball walk	['walk']	527	120	4.391666666666667
+90_26.amc	cartwheels; acrobatics; dances	fwd ball walk	['walk']	595	120	4.958333333333333
+90_27.amc	cartwheels; acrobatics; dances	bwk ball walk	['walk']	509	120	4.241666666666666
+90_28.amc	cartwheels; acrobatics; dances	breakdance	['dance']	320	120	2.6666666666666665
+90_29.amc	cartwheels; acrobatics; dances	sequesnce	[]	617	120	5.141666666666667
+90_30.amc	cartwheels; acrobatics; dances	russian dance	['dance']	596	120	4.966666666666667
+90_31.amc	cartwheels; acrobatics; dances	russian dance	['dance']	407	120	3.3916666666666666
+90_32.amc	cartwheels; acrobatics; dances	moonwalk	['walk']	300	120	2.5
+90_33.amc	cartwheels; acrobatics; dances	arm up wide leg roll	[]	372	120	3.1
+90_34.amc	cartwheels; acrobatics; dances	wide leg roll	[]	349	120	2.908333333333333
+90_35.amc	cartwheels; acrobatics; dances	wide leg roll	[]	289	120	2.408333333333333
+90_36.amc	cartwheels; acrobatics; dances	wide leg roll	[]	273	120	2.275
+91_01.amc	walks and turns	Walk digital figure eight	[]	1140	120	9.5
+91_02.amc	walks and turns	WalkStraight	[]	727	120	6.058333333333334
+91_03.amc	walks and turns	Walk figure eight	[]	776	120	6.466666666666667
+91_04.amc	walks and turns	Walking	[]	900	120	7.5
+91_05.amc	walks and turns	Mummy Walk	[]	1124	120	9.366666666666667
+91_06.amc	walks and turns	Motorcycle Pose	[]	56	120	0.4666666666666667
+91_07.amc	walks and turns	mummy8	[]	1075	120	8.958333333333334
+91_08.amc	walks and turns	mummyDigital8	[]	1654	120	13.783333333333333
+91_09.amc	walks and turns	DrunkWalk	['run']	2250	120	18.75
+91_10.amc	walks and turns	SlowWalk	[]	1322	120	11.016666666666667
+91_11.amc	walks and turns	LavishWalk	[]	775	120	6.458333333333333
+91_12.amc	walks and turns	TooCoolWalk	[]	925	120	7.708333333333333
+91_13.amc	walks and turns	SadWalk	[]	1232	120	10.266666666666667
+91_14.amc	walks and turns	DepressedWalk	[]	1153	120	9.608333333333333
+91_15.amc	walks and turns	ClumsyWalk	[]	1287	120	10.725
+91_16.amc	walks and turns	Limp	[]	787	120	6.558333333333334
+91_17.amc	walks and turns	QuickWalk	[]	632	120	5.266666666666667
+91_18.amc	walks and turns	CarefulWalk LookingAround	[]	1400	120	11.666666666666666
+91_19.amc	walks and turns	March	[]	784	120	6.533333333333333
+91_20.amc	walks and turns	ShyWalk	[]	1155	120	9.625
+91_21.amc	walks and turns	acheyWalk	[]	1612	120	13.433333333333334
+91_22.amc	walks and turns	CasualQuickWalk	[]	877	120	7.308333333333334
+91_23.amc	walks and turns	CoolWalk	[]	1111	120	9.258333333333333
+91_24.amc	walks and turns	HurtLegWalk	[]	1584	120	13.2
+91_25.amc	walks and turns	DragBadLegWalk	[]	1306	120	10.883333333333333
+91_26.amc	walks and turns	HurtStomachWalk	[]	867	120	7.225
+91_27.amc	walks and turns	SlowWalk	[]	1205	120	10.041666666666666
+91_28.amc	walks and turns	GhettoWalk	[]	1377	120	11.475
+91_29.amc	walks and turns	NormalWalk	[]	908	120	7.566666666666666
+91_30.amc	walks and turns	SexyWalk	[]	1307	120	10.891666666666667
+91_31.amc	walks and turns	NormalWalk	[]	829	120	6.908333333333333
+91_32.amc	walks and turns	ScaredWalk	[]	1551	120	12.925
+91_33.amc	walks and turns	MachoWalk	[]	1123	120	9.358333333333333
+91_34.amc	walks and turns	NormalWalk	[]	919	120	7.658333333333333
+91_35.amc	walks and turns	TrafficWalk	[]	1271	120	10.591666666666667
+91_36.amc	walks and turns	WalkStraight	[]	369	120	3.075
+91_37.amc	walks and turns	Forward	[]	130	120	1.0833333333333333
+91_38.amc	walks and turns	SmallForward	[]	190	120	1.5833333333333333
+91_39.amc	walks and turns	JumpForward	[]	185	120	1.5416666666666667
+91_40.amc	walks and turns	JumpForward	[]	195	120	1.625
+91_41.amc	walks and turns	JumpForward	[]	209	120	1.7416666666666667
+91_42.amc	walks and turns	JumpForward	[]	232	120	1.9333333333333333
+91_43.amc	walks and turns	JumpSmallForward	[]	94	120	0.7833333333333333
+91_44.amc	walks and turns	JumpSmallForward	[]	140	120	1.1666666666666667
+91_45.amc	walks and turns	JumpForward	[]	154	120	1.2833333333333334
+91_46.amc	walks and turns	Jump Turn	[]	133	120	1.1083333333333334
+91_47.amc	walks and turns	Jump Turn	[]	195	120	1.625
+91_48.amc	walks and turns	JumpTurn	[]	182	120	1.5166666666666666
+91_49.amc	walks and turns	Jump Turn	[]	200	120	1.6666666666666667
+91_50.amc	walks and turns	JumpTurn	[]	275	120	2.2916666666666665
+91_51.amc	walks and turns	FurtherJumpTurn	[]	201	120	1.675
+91_52.amc	walks and turns	SmallJumpTurn	[]	211	120	1.7583333333333333
+91_53.amc	walks and turns	180 degree jump	['jump']	230	120	1.9166666666666667
+91_54.amc	walks and turns	180	[]	282	120	2.35
+91_55.amc	walks and turns	180	[]	194	120	1.6166666666666667
+91_56.amc	walks and turns	90	[]	207	120	1.725
+91_57.amc	walks and turns	WalkForward	[]	490	120	4.083333333333333
+91_58.amc	walks and turns	270	[]	205	120	1.7083333333333333
+91_59.amc	walks and turns	360 smallStumble	[]	129	120	1.075
+91_60.amc	walks and turns	360	[]	152	120	1.2666666666666666
+91_61.amc	walks and turns	360	[]	150	120	1.25
+91_62.amc	walks and turns	walkFigure8	['walk']	770	120	6.416666666666667
+93_01.amc	Charleston Dance	Motorcycle Pose	[]	8	120	0.06666666666666667
+93_02.amc	Charleston Dance	rangeOfMotion	[]	621	120	5.175
+93_03.amc	Charleston Dance	charleston_01	[]	183	120	1.525
+93_04.amc	Charleston Dance	charleston_side_by_side_female	[]	210	120	1.75
+93_05.amc	Charleston Dance	charleston_side_by_side_male	[]	227	120	1.8916666666666666
+93_06.amc	Charleston Dance	lindyHop2	[]	167	120	1.3916666666666666
+93_07.amc	Charleston Dance	Casual Walk	[]	97	120	0.8083333333333333
+93_08.amc	Charleston Dance	xtra fancY charleston	[]	231	120	1.925
+94_01.amc	indian dance		[]	1500	120	12.5
+94_02.amc	indian dance		[]	1391	120	11.591666666666667
+94_03.amc	indian dance		[]	1554	120	12.95
+94_04.amc	indian dance		[]	1309	120	10.908333333333333
+94_05.amc	indian dance		[]	2196	120	18.3
+94_06.amc	indian dance		[]	1047	120	8.725
+94_07.amc	indian dance		[]	963	120	8.025
+94_08.amc	indian dance		[]	1144	120	9.533333333333333
+94_09.amc	indian dance		[]	1655	120	13.791666666666666
+94_10.amc	indian dance		[]	1440	120	12.0
+94_11.amc	indian dance		[]	2003	120	16.691666666666666
+94_12.amc	indian dance		[]	1874	120	15.616666666666667
+94_13.amc	indian dance		[]	830	120	6.916666666666667
+94_14.amc	indian dance		[]	1247	120	10.391666666666667
+94_15.amc	indian dance		[]	920	120	7.666666666666667
+94_16.amc	indian dance		[]	845	120	7.041666666666667
+102_01.amc	Basketball	RightWideTurn	[]	114	120	0.95
+102_02.amc	Basketball	LeftWideTurn	[]	72	120	0.6
+102_03.amc	Basketball	SuperTightLeft	[]	62	120	0.5166666666666667
+102_04.amc	Basketball	SuperTightRight	[]	69	120	0.575
+102_05.amc	Basketball	RunningStraight	[]	45	120	0.375
+102_06.amc	Basketball	RunningWideRight	[]	58	120	0.48333333333333334
+102_07.amc	Basketball	RunningWideLeft	[]	46	120	0.38333333333333336
+102_08.amc	Basketball	RunningTighterRight	[]	57	120	0.475
+102_09.amc	Basketball	calibration	[]	18	120	0.15
+102_10.amc	Basketball	RunningNoBall	[]	40	120	0.3333333333333333
+102_11.amc	Basketball	OffensiveMoveSpinLeft	[]	72	120	0.6
+102_12.amc	Basketball	OffensiveMoveSpinLeft	[]	70	120	0.5833333333333334
+102_13.amc	Basketball	OffensiveMoveGoRight	[]	62	120	0.5166666666666667
+102_14.amc	Basketball	OffensiveMoveGoLeft	[]	81	120	0.675
+102_15.amc	Basketball	OffensiveMoveSpinRight	[]	74	120	0.6166666666666667
+102_16.amc	Basketball	WalkEvasiveLeft	[]	88	120	0.7333333333333333
+102_17.amc	Basketball	WalkEvasiveRight	[]	72	120	0.6
+102_18.amc	Basketball	FeintLeftMoveRight	[]	95	120	0.7916666666666666
+102_19.amc	Basketball	FeintRightMoveLeft	[]	93	120	0.775
+102_20.amc	Basketball	FakeShotBreakRight	[]	252	120	2.1
+102_21.amc	Basketball	FakeShotBreakLeft	[]	215	120	1.7916666666666667
+102_22.amc	Basketball	DefensiveStraightNoStop	[]	102	120	0.85
+102_23.amc	Basketball	DefensiveStraightWithStop	[]	147	120	1.225
+102_24.amc	Basketball	DefensiveRightStopToStop	[]	135	120	1.125
+102_25.amc	Basketball	DefensiveLeftStopToStop	[]	122	120	1.0166666666666666
+102_26.amc	Basketball	DefensiveMoveZigZag	[]	186	120	1.55
+102_27.amc	Basketball	DefensiveMoveSideToSide	[]	70	120	0.5833333333333334
+102_28.amc	Basketball	DefensiveMoveSideToSide	[]	292	120	2.433333333333333
+102_29.amc	Basketball	Pivoting	[]	332	120	2.7666666666666666
+102_30.amc	Basketball	SraightDriveFromStop	[]	88	120	0.7333333333333333
+102_31.amc	Basketball	RightDrive (left then right)	[]	94	120	0.7833333333333333
+102_32.amc	Basketball	LeftDrive (right then left)	[]	126	120	1.05
+102_33.amc	Basketball	RightTightTurn	[]	91	120	0.7583333333333333
+103_01.amc	Charelston Dancing		[]	8	120	0.06666666666666667
+103_02.amc	Charelston Dancing	rangeOfMotion_01	[]	621	120	5.175
+103_03.amc	Charelston Dancing	charleston_01	[]	183	120	1.525
+103_04.amc	Charelston Dancing	charleston_side_by_side_female	[]	210	120	1.75
+103_05.amc	Charelston Dancing	charleston_side_by_side_male	[]	227	120	1.8916666666666666
+103_06.amc	Charelston Dancing	lindyHop2	[]	167	120	1.3916666666666666
+103_07.amc	Charelston Dancing	Casual Walk	[]	97	120	0.8083333333333333
+103_08.amc	Charelston Dancing	xtra fancY charleston	[]	231	120	1.925
+104_01.amc	motion	JogThrough	[]	160	120	1.3333333333333333
+104_02.amc	motion	neutral Male walk, exact footfalls	['walk']	368	120	3.066666666666667
+104_03.amc	motion	Frankenstein male walk, exact footfalls	['walk']	674	120	5.616666666666666
+104_04.amc	motion	JogThrough	[]	82	120	0.6833333333333333
+104_05.amc	motion		[]	203	120	1.6916666666666667
+104_06.amc	motion	StartJog	[]	139	120	1.1583333333333334
+104_07.amc	motion		[]	959	120	7.991666666666666
+104_08.amc	motion	StartJog	[]	130	120	1.0833333333333333
+104_09.amc	motion	JogStop	[]	145	120	1.2083333333333333
+104_10.amc	motion	JogStop	[]	138	120	1.15
+104_11.amc	motion	HappyGoLuckWalk	[]	224	120	1.8666666666666667
+104_12.amc	motion	ExcitedWalk	[]	175	120	1.4583333333333333
+104_13.amc	motion	StumbleWalk	[]	228	120	1.9
+104_14.amc	motion	HappyStartWalk	[]	295	120	2.4583333333333335
+104_15.amc	motion		[]	86	120	0.7166666666666667
+104_16.amc	motion	SpasticWalk	[]	135	120	1.125
+104_17.amc	motion	SpasticStop	[]	193	120	1.6083333333333334
+104_18.amc	motion	SpasticStop	[]	278	120	2.316666666666667
+104_19.amc	motion	CasualWalk	[]	383	120	3.191666666666667
+104_20.amc	motion		[]	291	120	2.425
+104_21.amc	motion		[]	328	120	2.7333333333333334
+104_22.amc	motion	RegularWalk8	[]	765	120	6.375
+104_23.amc	motion		[]	763	120	6.358333333333333
+104_24.amc	motion		[]	789	120	6.575
+104_25.amc	motion		[]	1020	120	8.5
+104_26.amc	motion		[]	457	120	3.808333333333333
+104_27.amc	motion	RegularWalkRightAngleTurns	[]	1013	120	8.441666666666666
+104_28.amc	motion	SternWalk	[]	235	120	1.9583333333333333
+104_29.amc	motion	SternWalk	[]	199	120	1.6583333333333334
+104_30.amc	motion	SternWalk8	[]	568	120	4.733333333333333
+104_31.amc	motion		[]	535	120	4.458333333333333
+104_32.amc	motion	SternWalkRightAngleTurns	[]	651	120	5.425
+104_33.amc	motion		[]	618	120	5.15
+104_34.amc	motion		[]	464	120	3.8666666666666667
+104_35.amc	motion	SlowWalk	[]	447	120	3.725
+104_36.amc	motion	SlowWalk8	[]	964	120	8.033333333333333
+104_37.amc	motion	RunThrough	[]	62	120	0.5166666666666667
+104_38.amc	motion		[]	1111	120	9.258333333333333
+104_39.amc	motion	SlowWalkRightAngleTurns	[]	1338	120	11.15
+104_40.amc	motion		[]	1264	120	10.533333333333333
+104_41.amc	motion	ZombieWalk	[]	648	120	5.4
+104_42.amc	motion	ZombieWalk8	[]	1088	120	9.066666666666666
+104_43.amc	motion	ZombieWalkRightAngleTurns	[]	1406	120	11.716666666666667
+104_44.amc	motion	AttitudeWalk	[]	452	120	3.7666666666666666
+104_45.amc	motion	AttitudeWalk8	[]	919	120	7.658333333333333
+104_46.amc	motion	AttitudeWalkRightAngleTurns	[]	1159	120	9.658333333333333
+104_47.amc	motion		[]	705	120	5.875
+104_48.amc	motion	RunThrough	[]	49	120	0.4083333333333333
+104_49.amc	motion		[]	1135	120	9.458333333333334
+104_50.amc	motion		[]	1335	120	11.125
+104_51.amc	motion		[]	575	120	4.791666666666667
+104_52.amc	motion		[]	1127	120	9.391666666666667
+104_53.amc	motion	StartRun	[]	124	120	1.0333333333333334
+104_54.amc	motion	StartRun	[]	103	120	0.8583333333333333
+104_55.amc	motion	StartRun	[]	209	120	1.7416666666666667
+104_56.amc	motion	RunStop	[]	152	120	1.2666666666666666
+104_57.amc	motion	RunStop	[]	159	120	1.325
+105_01.amc	motion	WalkDigital8	[]	1140	120	9.5
+105_02.amc	motion	WalkStraight	[]	727	120	6.058333333333334
+105_03.amc	motion	Walk8	[]	776	120	6.466666666666667
+105_04.amc	motion	Digital8	[]	900	120	7.5
+105_05.amc	motion	mummyWalk	[]	1124	120	9.366666666666667
+105_06.amc	motion	MotorCyclePose	[]	56	120	0.4666666666666667
+105_07.amc	motion	mummy8	[]	1075	120	8.958333333333334
+105_08.amc	motion	mummyDigital8	[]	1654	120	13.783333333333333
+105_09.amc	motion	DrunkWalk	['run']	2250	120	18.75
+105_10.amc	motion	SlowWalk	[]	1322	120	11.016666666666667
+105_11.amc	motion	LavishWalk	[]	775	120	6.458333333333333
+105_12.amc	motion	TooCoolWalk	[]	925	120	7.708333333333333
+105_13.amc	motion	SadWalk	[]	1232	120	10.266666666666667
+105_14.amc	motion	DepressedWalk	[]	1153	120	9.608333333333333
+105_15.amc	motion	ClumsyWalk	[]	1287	120	10.725
+105_16.amc	motion	Limp	[]	787	120	6.558333333333334
+105_17.amc	motion	QuickWalk	[]	632	120	5.266666666666667
+105_18.amc	motion	CarefulWalk LookingAround	[]	1400	120	11.666666666666666
+105_19.amc	motion	March	[]	784	120	6.533333333333333
+105_20.amc	motion	ShyWalk	[]	1155	120	9.625
+105_21.amc	motion	acheyWalk	[]	1612	120	13.433333333333334
+105_22.amc	motion	CasualQuickWalk	[]	877	120	7.308333333333334
+105_23.amc	motion	CoolWalk	[]	1111	120	9.258333333333333
+105_24.amc	motion	HurtLegWalk	[]	1584	120	13.2
+105_25.amc	motion	DragBadLegWalk	[]	1306	120	10.883333333333333
+105_26.amc	motion	HurtStomachWalk	[]	867	120	7.225
+105_27.amc	motion	SlowWalk	[]	1205	120	10.041666666666666
+105_28.amc	motion	GhettoWalk	[]	1377	120	11.475
+105_29.amc	motion	NormalWalk	[]	908	120	7.566666666666666
+105_30.amc	motion	SexyWalk	[]	1307	120	10.891666666666667
+105_31.amc	motion	NormalWalk	[]	829	120	6.908333333333333
+105_32.amc	motion	ScaredWalk	[]	1551	120	12.925
+105_33.amc	motion	MachoWalk	[]	1123	120	9.358333333333333
+105_34.amc	motion	NormalWalk	[]	919	120	7.658333333333333
+105_35.amc	motion	TrafficWalk	[]	1271	120	10.591666666666667
+105_36.amc	motion	WalkStraight	[]	369	120	3.075
+105_37.amc	motion	Forward	[]	130	120	1.0833333333333333
+105_38.amc	motion	SmallForward	[]	190	120	1.5833333333333333
+105_39.amc	motion	JumpForward	[]	185	120	1.5416666666666667
+105_40.amc	motion	JumpForward	[]	195	120	1.625
+105_41.amc	motion	JumpForward	[]	209	120	1.7416666666666667
+105_42.amc	motion	JumpForward	[]	232	120	1.9333333333333333
+105_43.amc	motion	JumpSmallForward	[]	94	120	0.7833333333333333
+105_44.amc	motion	JumpSmallForward	[]	140	120	1.1666666666666667
+105_45.amc	motion	JumpForward	[]	154	120	1.2833333333333334
+105_46.amc	motion	Jump Turn	[]	133	120	1.1083333333333334
+105_47.amc	motion	Jump Turn	[]	195	120	1.625
+105_48.amc	motion	JumpTurn	[]	182	120	1.5166666666666666
+105_49.amc	motion	Jump Turn	[]	200	120	1.6666666666666667
+105_50.amc	motion	JumpTurn	[]	275	120	2.2916666666666665
+105_51.amc	motion	FurtherJumpTurn	[]	201	120	1.675
+105_52.amc	motion	SmallJumpTurn	[]	211	120	1.7583333333333333
+105_53.amc	motion	180	[]	230	120	1.9166666666666667
+105_54.amc	motion	180	[]	282	120	2.35
+105_55.amc	motion	180	[]	194	120	1.6166666666666667
+105_56.amc	motion	90	[]	207	120	1.725
+105_57.amc	motion	WalkForward	[]	490	120	4.083333333333333
+105_58.amc	motion	270	[]	205	120	1.7083333333333333
+105_59.amc	motion	360 smallStumble	[]	129	120	1.075
+105_60.amc	motion	360	[]	152	120	1.2666666666666666
+105_61.amc	motion	360	[]	150	120	1.25
+105_62.amc	motion	walkFigure8	['walk']	770	120	6.416666666666667
+106_01.amc	Female General Subject	clean	[]	30	120	0.25
+106_02.amc	Female General Subject	clean	[]	46	120	0.38333333333333336
+106_03.amc	Female General Subject	clean	[]	95	120	0.7916666666666666
+106_04.amc	Female General Subject	clean	[]	227	120	1.8916666666666666
+106_05.amc	Female General Subject	clean	[]	95	120	0.7916666666666666
+106_06.amc	Female General Subject	clean	[]	270	120	2.25
+106_07.amc	Female General Subject	clean	[]	123	120	1.025
+106_08.amc	Female General Subject	clean	[]	137	120	1.1416666666666666
+106_09.amc	Female General Subject	clean	[]	97	120	0.8083333333333333
+106_10.amc	Female General Subject	clean	[]	210	120	1.75
+106_11.amc	Female General Subject	clean	[]	285	120	2.375
+106_12.amc	Female General Subject	clean	[]	236	120	1.9666666666666666
+106_13.amc	Female General Subject	clean	[]	152	120	1.2666666666666666
+106_14.amc	Female General Subject	clean	[]	240	120	2.0
+106_15.amc	Female General Subject		[]	484	120	4.033333333333333
+106_16.amc	Female General Subject	clean	[]	124	120	1.0333333333333334
+106_17.amc	Female General Subject	clean	[]	233	120	1.9416666666666667
+106_18.amc	Female General Subject	clean	[]	161	120	1.3416666666666666
+106_19.amc	Female General Subject	clean	[]	496	120	4.133333333333334
+106_20.amc	Female General Subject	clean	[]	317	120	2.6416666666666666
+106_21.amc	Female General Subject	bad AMC	[]	112	120	0.9333333333333333
+106_22.amc	Female General Subject	clean	[]	82	120	0.6833333333333333
+106_23.amc	Female General Subject	clean	[]	106	120	0.8833333333333333
+106_24.amc	Female General Subject	clean	[]	107	120	0.8916666666666667
+106_25.amc	Female General Subject	clean	[]	255	120	2.125
+106_26.amc	Female General Subject	clean	[]	165	120	1.375
+106_27.amc	Female General Subject	clean	[]	230	120	1.9166666666666667
+106_28.amc	Female General Subject	clean	[]	147	120	1.225
+106_29.amc	Female General Subject	clean	[]	485	120	4.041666666666667
+106_30.amc	Female General Subject	clean	[]	300	120	2.5
+106_31.amc	Female General Subject	clean	[]	279	120	2.325
+106_32.amc	Female General Subject	clean	[]	369	120	3.075
+106_33.amc	Female General Subject	clean	[]	440	120	3.6666666666666665
+106_34.amc	Female General Subject	clean	[]	130	120	1.0833333333333333
+107_01.amc	Walking with obstacles 1		[]	220	120	1.8333333333333333
+107_02.amc	Walking with obstacles 1		[]	286	120	2.3833333333333333
+107_03.amc	Walking with obstacles 1		[]	213	120	1.775
+107_04.amc	Walking with obstacles 1		[]	181	120	1.5083333333333333
+107_05.amc	Walking with obstacles 1		[]	179	120	1.4916666666666667
+107_06.amc	Walking with obstacles 1		[]	153	120	1.275
+107_07.amc	Walking with obstacles 1		[]	214	120	1.7833333333333334
+107_08.amc	Walking with obstacles 1		[]	344	120	2.8666666666666667
+107_09.amc	Walking with obstacles 1		[]	260	120	2.1666666666666665
+107_10.amc	Walking with obstacles 1		[]	236	120	1.9666666666666666
+107_11.amc	Walking with obstacles 1		[]	249	120	2.075
+107_12.amc	Walking with obstacles 1		[]	105	120	0.875
+107_13.amc	Walking with obstacles 1		[]	89	120	0.7416666666666667
+107_14.amc	Walking with obstacles 1		[]	183	120	1.525
+108_01.amc	Walking with obstacles 2		[]	300	120	2.5
+108_02.amc	Walking with obstacles 2		[]	476	120	3.966666666666667
+108_03.amc	Walking with obstacles 2		[]	510	120	4.25
+108_04.amc	Walking with obstacles 2		[]	76	120	0.6333333333333333
+108_05.amc	Walking with obstacles 2		[]	75	120	0.625
+108_06.amc	Walking with obstacles 2		[]	78	120	0.65
+108_07.amc	Walking with obstacles 2		[]	92	120	0.7666666666666667
+108_08.amc	Walking with obstacles 2		[]	93	120	0.775
+108_09.amc	Walking with obstacles 2		[]	104	120	0.8666666666666667
+108_10.amc	Walking with obstacles 2		[]	98	120	0.8166666666666667
+108_11.amc	Walking with obstacles 2		[]	101	120	0.8416666666666667
+108_12.amc	Walking with obstacles 2		[]	56	120	0.4666666666666667
+108_13.amc	Walking with obstacles 2		[]	64	120	0.5333333333333333
+108_14.amc	Walking with obstacles 2		[]	72	120	0.6
+108_15.amc	Walking with obstacles 2		[]	147	120	1.225
+108_16.amc	Walking with obstacles 2		[]	146	120	1.2166666666666666
+108_17.amc	Walking with obstacles 2		[]	95	120	0.7916666666666666
+108_18.amc	Walking with obstacles 2		[]	102	120	0.85
+108_19.amc	Walking with obstacles 2		[]	105	120	0.875
+108_20.amc	Walking with obstacles 2		[]	115	120	0.9583333333333334
+108_21.amc	Walking with obstacles 2		[]	206	120	1.7166666666666666
+108_22.amc	Walking with obstacles 2		[]	192	120	1.6
+108_23.amc	Walking with obstacles 2		[]	276	120	2.3
+108_24.amc	Walking with obstacles 2		[]	220	120	1.8333333333333333
+108_25.amc	Walking with obstacles 2		[]	254	120	2.1166666666666667
+108_26.amc	Walking with obstacles 2		[]	229	120	1.9083333333333334
+108_27.amc	Walking with obstacles 2		[]	174	120	1.45
+108_28.amc	Walking with obstacles 2		[]	150	120	1.25
+111_01.amc	Pregnant Woman	Walk backwards	[]	415	120	3.4583333333333335
+111_02.amc	Pregnant Woman	Bow	[]	175	120	1.4583333333333333
+111_03.amc	Pregnant Woman	Crawling	[]	634	120	5.283333333333333
+111_04.amc	Pregnant Woman	Curtsey	[]	302	120	2.5166666666666666
+111_05.amc	Pregnant Woman	Dance	[]	385	120	3.2083333333333335
+111_06.amc	Pregnant Woman	Get up from floor	[]	634	120	5.283333333333333
+111_07.amc	Pregnant Woman	Get up from floor	[]	821	120	6.841666666666667
+111_08.amc	Pregnant Woman	Get up from floor	[]	638	120	5.316666666666666
+111_09.amc	Pregnant Woman	Get up from chair	[]	326	120	2.716666666666667
+111_10.amc	Pregnant Woman	get up from chair	[]	186	120	1.55
+111_11.amc	Pregnant Woman	get up from chair	[]	237	120	1.975
+111_12.amc	Pregnant Woman	Lay down	[]	673	120	5.608333333333333
+111_13.amc	Pregnant Woman	March	[]	533	120	4.441666666666666
+111_14.amc	Pregnant Woman	Mope	[]	536	120	4.466666666666667
+111_15.amc	Pregnant Woman	Motorcycle	[]	111	120	0.925
+111_16.amc	Pregnant Woman	Peekaboo	[]	178	120	1.4833333333333334
+111_17.amc	Pregnant Woman	Pick up	[]	234	120	1.95
+111_18.amc	Pregnant Woman	Pick up	[]	225	120	1.875
+111_19.amc	Pregnant Woman	Punch Kick	[]	426	120	3.55
+111_20.amc	Pregnant Woman	Ring around the rosie	[]	440	120	3.6666666666666665
+111_21.amc	Pregnant Woman	Roll over	[]	947	120	7.891666666666667
+111_22.amc	Pregnant Woman	Range of motion	[]	2467	120	20.558333333333334
+111_23.amc	Pregnant Woman	Run	[]	470	120	3.9166666666666665
+111_24.amc	Pregnant Woman	Run	[]	358	120	2.9833333333333334
+111_25.amc	Pregnant Woman	Shrug	[]	120	120	1.0
+111_26.amc	Pregnant Woman	Walk sideways	[]	1133	120	9.441666666666666
+111_27.amc	Pregnant Woman	Walking up stairs	[]	604	120	5.033333333333333
+111_28.amc	Pregnant Woman	Standing still	[]	794	120	6.616666666666666
+111_29.amc	Pregnant Woman	Stepping over	[]	226	120	1.8833333333333333
+111_30.amc	Pregnant Woman	Stepping over	[]	192	120	1.6
+111_31.amc	Pregnant Woman	Stepping up / stepping down	[]	935	120	7.791666666666667
+111_32.amc	Pregnant Woman	Stretch and yawn	[]	311	120	2.591666666666667
+111_33.amc	Pregnant Woman	Throwing	[]	861	120	7.175
+111_34.amc	Pregnant Woman	Walk	[]	764	120	6.366666666666666
+111_35.amc	Pregnant Woman	Walk	[]	625	120	5.208333333333333
+111_36.amc	Pregnant Woman	Walk and carry	[]	609	120	5.075
+111_37.amc	Pregnant Woman	Wave	[]	134	120	1.1166666666666667
+111_38.amc	Pregnant Woman	Yoga	[]	1099	120	9.158333333333333
+111_39.amc	Pregnant Woman	Yoga	[]	1705	120	14.208333333333334
+111_40.amc	Pregnant Woman	Yoga	[]	127	120	1.0583333333333333
+111_41.amc	Pregnant Woman	Yoga	[]	1540	120	12.833333333333334
+113_01.amc	Post pregnant woman	Walk backwards	[]	347	120	2.8916666666666666
+113_02.amc	Post pregnant woman	Bow	[]	220	120	1.8333333333333333
+113_03.amc	Post pregnant woman	Curtsey	[]	201	120	1.675
+113_04.amc	Post pregnant woman	Dance	[]	403	120	3.3583333333333334
+113_05.amc	Post pregnant woman	Walk digital 8	[]	1107	120	9.225
+113_06.amc	Post pregnant woman	Walk figure 8	[]	843	120	7.025
+113_07.amc	Post pregnant woman	Run	[]	242	120	2.0166666666666666
+113_08.amc	Post pregnant woman	Lay down and get up	[]	768	120	6.4
+113_09.amc	Post pregnant woman	March	[]	498	120	4.15
+113_10.amc	Post pregnant woman	Walk, mope around	[]	555	120	4.625
+113_11.amc	Post pregnant woman	Motorcycle	[]	115	120	0.9583333333333334
+113_12.amc	Post pregnant woman	Peekaboo	[]	164	120	1.3666666666666667
+113_13.amc	Post pregnant woman	Punch and kick	['kick']	559	120	4.658333333333333
+113_14.amc	Post pregnant woman	Ring around the rosie	[]	421	120	3.5083333333333333
+113_15.amc	Post pregnant woman	Sit in chair and get up	[]	396	120	3.3
+113_16.amc	Post pregnant woman	Shrug	[]	290	120	2.4166666666666665
+113_17.amc	Post pregnant woman	Walk sideway	[]	772	120	6.433333333333334
+113_18.amc	Post pregnant woman	Walk sideways	[]	914	120	7.616666666666666
+113_19.amc	Post pregnant woman	Walking up and down stairs	[]	334	120	2.783333333333333
+113_20.amc	Post pregnant woman	Walk up and down stairs	[]	602	120	5.016666666666667
+113_21.amc	Post pregnant woman	Standing Still	[]	569	120	4.741666666666666
+113_22.amc	Post pregnant woman	Step over	[]	496	120	4.133333333333334
+113_23.amc	Post pregnant woman	Stretch and yawn	[]	420	120	3.5
+113_24.amc	Post pregnant woman	Throw	[]	459	120	3.825
+113_25.amc	Post pregnant woman	Walk	[]	286	120	2.3833333333333333
+113_26.amc	Post pregnant woman	Walk and carry	[]	547	120	4.558333333333334
+113_27.amc	Post pregnant woman	Wave	[]	148	120	1.2333333333333334
+113_28.amc	Post pregnant woman	Yoga	[]	2146	120	17.883333333333333
+113_29.amc	Post pregnant woman	Yoga	[]	1798	120	14.983333333333333
+114_01.amc	Pregnant Woman	Motorcycle	[]	133	120	1.1083333333333334
+114_02.amc	Pregnant Woman	Getting up from laying down	[]	725	120	6.041666666666667
+114_03.amc	Pregnant Woman	Range of motion	[]	1587	120	13.225
+114_04.amc	Pregnant Woman	Getting up from chair	[]	372	120	3.1
+114_05.amc	Pregnant Woman	Sitting in chair	[]	1134	120	9.45
+114_06.amc	Pregnant Woman	Getting up from chair	[]	425	120	3.5416666666666665
+114_07.amc	Pregnant Woman	Walking up and down stairs	[]	674	120	5.616666666666666
+114_08.amc	Pregnant Woman	Walking up and down stairs	[]	669	120	5.575
+114_09.amc	Pregnant Woman	Walking up and down stairs	[]	948	120	7.9
+114_10.amc	Pregnant Woman	Stretching	[]	3357	120	27.975
+114_11.amc	Pregnant Woman	Laying down and getting up	[]	1450	120	12.083333333333334
+114_12.amc	Pregnant Woman	Stretching	[]	467	120	3.8916666666666666
+114_13.amc	Pregnant Woman	Walk	[]	1304	120	10.866666666666667
+114_14.amc	Pregnant Woman	Walk	[]	2438	120	20.316666666666666
+114_15.amc	Pregnant Woman	Walk	[]	576	120	4.8
+114_16.amc	Pregnant Woman	Sit down and stretch	[]	720	120	6.0
+115_01.amc	Bending over	Pick up box, bend from waist	[]	195	120	1.625
+115_02.amc	Bending over	Pick box up, bend from waist	[]	166	120	1.3833333333333333
+115_03.amc	Bending over	Pick box up, bend from waist	[]	187	120	1.5583333333333333
+115_04.amc	Bending over	Pick box up, bend from waist	[]	158	120	1.3166666666666667
+115_05.amc	Bending over	Pick box up, bend from waist	[]	243	120	2.025
+115_06.amc	Bending over	Picking box up, bending knees	[]	148	120	1.2333333333333334
+115_07.amc	Bending over	Picking box up, bending knees	[]	172	120	1.4333333333333333
+115_08.amc	Bending over	Picking box up, bending knees	[]	202	120	1.6833333333333333
+115_09.amc	Bending over	Picking box up, bending knees	[]	165	120	1.375
+115_10.amc	Bending over	Pick box up, bend from waist	[]	152	120	1.2666666666666666
+118_01.amc	Jumping	Jump	[]	297	120	2.475
+118_02.amc	Jumping	Jump	[]	285	120	2.375
+118_03.amc	Jumping	Jump	[]	206	120	1.7166666666666666
+118_04.amc	Jumping	Jump	[]	268	120	2.2333333333333334
+118_05.amc	Jumping	Jump	[]	294	120	2.45
+118_06.amc	Jumping	Jump	[]	225	120	1.875
+118_07.amc	Jumping	Jump	[]	289	120	2.408333333333333
+118_08.amc	Jumping	Jump	[]	267	120	2.225
+118_09.amc	Jumping	Jump	[]	199	120	1.6583333333333334
+118_10.amc	Jumping	Jump	[]	217	120	1.8083333333333333
+118_11.amc	Jumping	Jump	[]	287	120	2.3916666666666666
+118_12.amc	Jumping	Jump	[]	294	120	2.45
+118_13.amc	Jumping	Jump	[]	283	120	2.3583333333333334
+118_14.amc	Jumping	Jump	[]	318	120	2.65
+118_15.amc	Jumping	Jump	[]	266	120	2.216666666666667
+118_16.amc	Jumping	Jump	[]	275	120	2.2916666666666665
+118_17.amc	Jumping	Jump	[]	268	120	2.2333333333333334
+118_18.amc	Jumping	Jump	[]	246	120	2.05
+118_19.amc	Jumping	Jump	[]	254	120	2.1166666666666667
+118_20.amc	Jumping	Jump	[]	232	120	1.9333333333333333
+118_21.amc	Jumping	Jump	[]	313	120	2.6083333333333334
+118_22.amc	Jumping	Jump	[]	269	120	2.2416666666666667
+118_23.amc	Jumping	Jump	[]	272	120	2.2666666666666666
+118_24.amc	Jumping	Jump	[]	295	120	2.4583333333333335
+118_25.amc	Jumping	Jump	[]	243	120	2.025
+118_26.amc	Jumping	Jump	[]	270	120	2.25
+118_27.amc	Jumping	Jump	[]	271	120	2.2583333333333333
+118_28.amc	Jumping	Jump	[]	290	120	2.4166666666666665
+118_29.amc	Jumping	Jump	[]	242	120	2.0166666666666666
+118_30.amc	Jumping	Jump	[]	343	120	2.8583333333333334
+118_31.amc	Jumping	Motorcycle	[]	86	120	0.7166666666666667
+118_32.amc	Jumping	Range of motion	[]	781	120	6.508333333333334
+120_01.amc	Various Style Walks	Alien Turn	[]	508	120	4.233333333333333
+120_02.amc	Various Style Walks	Gorilla	[]	593	120	4.941666666666666
+120_03.amc	Various Style Walks	Mickey cast spell	[]	630	120	5.25
+120_04.amc	Various Style Walks	Mickey Conducting	[]	2709	120	22.575
+120_05.amc	Various Style Walks	Mickey Dance	[]	563	120	4.691666666666666
+120_06.amc	Various Style Walks	Mickey Dance	[]	596	120	4.966666666666667
+120_07.amc	Various Style Walks	Mickey Dance	[]	463	120	3.8583333333333334
+120_08.amc	Various Style Walks	Mickey sneaky walk	['walk']	500	120	4.166666666666667
+120_09.amc	Various Style Walks	Mickey sneaking walk	['walk']	531	120	4.425
+120_10.amc	Various Style Walks	Mickey sneaking walk	['walk']	509	120	4.241666666666666
+120_11.amc	Various Style Walks	Mickey sneaking walk	['walk']	516	120	4.3
+120_12.amc	Various Style Walks	Mickey sneaking walk	['walk']	434	120	3.6166666666666667
+120_13.amc	Various Style Walks	Mickey sneaking walk	['walk']	416	120	3.466666666666667
+120_14.amc	Various Style Walks	Mickey sneaking walk	['walk']	534	120	4.45
+120_15.amc	Various Style Walks	Mickey Surprised	[]	612	120	5.1
+120_16.amc	Various Style Walks	Mickey Surprised	[]	631	120	5.258333333333334
+120_17.amc	Various Style Walks	Mickey Walk	[]	480	120	4.0
+120_18.amc	Various Style Walks	Mickey Walk	[]	569	120	4.741666666666666
+120_19.amc	Various Style Walks	Walk slow	[]	5329	120	44.40833333333333
+120_20.amc	Various Style Walks	Walk	[]	4472	120	37.266666666666666
+120_21.amc	Various Style Walks	Robot	[]	1296	120	10.8
+120_22.amc	Various Style Walks	Zombie	[]	551	120	4.591666666666667
+122_01.amc	Varying Height and Length Steps	clean	[]	263	120	2.191666666666667
+122_02.amc	Varying Height and Length Steps	clean	[]	151	120	1.2583333333333333
+122_03.amc	Varying Height and Length Steps	clean	[]	278	120	2.316666666666667
+122_04.amc	Varying Height and Length Steps	clean	[]	194	120	1.6166666666666667
+122_05.amc	Varying Height and Length Steps	clean	[]	202	120	1.6833333333333333
+122_06.amc	Varying Height and Length Steps	clean	[]	166	120	1.3833333333333333
+122_07.amc	Varying Height and Length Steps	clean	[]	175	120	1.4583333333333333
+122_08.amc	Varying Height and Length Steps	clean	[]	192	120	1.6
+122_09.amc	Varying Height and Length Steps	clean	[]	187	120	1.5583333333333333
+122_10.amc	Varying Height and Length Steps	clean	[]	199	120	1.6583333333333334
+122_11.amc	Varying Height and Length Steps		[]	40	120	0.3333333333333333
+122_12.amc	Varying Height and Length Steps	clean	[]	211	120	1.7583333333333333
+122_13.amc	Varying Height and Length Steps	clean	[]	210	120	1.75
+122_14.amc	Varying Height and Length Steps	clean	[]	178	120	1.4833333333333334
+122_15.amc	Varying Height and Length Steps	clean	[]	217	120	1.8083333333333333
+122_16.amc	Varying Height and Length Steps	clean	[]	212	120	1.7666666666666666
+122_17.amc	Varying Height and Length Steps	clean	[]	217	120	1.8083333333333333
+122_18.amc	Varying Height and Length Steps	clean	[]	193	120	1.6083333333333334
+122_19.amc	Varying Height and Length Steps	clean	[]	211	120	1.7583333333333333
+122_20.amc	Varying Height and Length Steps	clean	[]	217	120	1.8083333333333333
+122_21.amc	Varying Height and Length Steps	clean	[]	215	120	1.7916666666666667
+122_22.amc	Varying Height and Length Steps	clean	[]	2237	120	18.641666666666666
+122_23.amc	Varying Height and Length Steps	clean	[]	225	120	1.875
+122_24.amc	Varying Height and Length Steps	clean	[]	221	120	1.8416666666666666
+122_25.amc	Varying Height and Length Steps	clean	[]	225	120	1.875
+122_26.amc	Varying Height and Length Steps	clean	[]	217	120	1.8083333333333333
+122_27.amc	Varying Height and Length Steps	clean	[]	409	120	3.408333333333333
+122_28.amc	Varying Height and Length Steps	clean	[]	387	120	3.225
+122_29.amc	Varying Height and Length Steps	clean	[]	394	120	3.283333333333333
+122_30.amc	Varying Height and Length Steps	clean	[]	420	120	3.5
+122_31.amc	Varying Height and Length Steps	clean	[]	389	120	3.2416666666666667
+122_32.amc	Varying Height and Length Steps	clean	[]	433	120	3.6083333333333334
+122_33.amc	Varying Height and Length Steps	clean	[]	537	120	4.475
+122_34.amc	Varying Height and Length Steps	clean	[]	402	120	3.35
+122_35.amc	Varying Height and Length Steps	clean	[]	436	120	3.6333333333333333
+122_36.amc	Varying Height and Length Steps	clean	[]	442	120	3.683333333333333
+122_37.amc	Varying Height and Length Steps	clean	[]	398	120	3.316666666666667
+122_38.amc	Varying Height and Length Steps	clean	[]	418	120	3.4833333333333334
+122_39.amc	Varying Height and Length Steps	clean	[]	404	120	3.3666666666666667
+122_40.amc	Varying Height and Length Steps	clean	[]	220	120	1.8333333333333333
+122_41.amc	Varying Height and Length Steps	clean	[]	195	120	1.625
+122_42.amc	Varying Height and Length Steps	clean	[]	224	120	1.8666666666666667
+122_43.amc	Varying Height and Length Steps	clean	[]	248	120	2.066666666666667
+122_44.amc	Varying Height and Length Steps	clean	[]	275	120	2.2916666666666665
+122_45.amc	Varying Height and Length Steps	clean	[]	205	120	1.7083333333333333
+122_46.amc	Varying Height and Length Steps	clean	[]	208	120	1.7333333333333334
+122_47.amc	Varying Height and Length Steps	clean	[]	258	120	2.15
+122_48.amc	Varying Height and Length Steps	clean	[]	184	120	1.5333333333333334
+122_49.amc	Varying Height and Length Steps	clean	[]	189	120	1.575
+122_50.amc	Varying Height and Length Steps	clean	[]	219	120	1.825
+122_51.amc	Varying Height and Length Steps	clean	[]	245	120	2.0416666666666665
+122_52.amc	Varying Height and Length Steps	clean	[]	211	120	1.7583333333333333
+122_53.amc	Varying Height and Length Steps	clean	[]	224	120	1.8666666666666667
+122_54.amc	Varying Height and Length Steps	clean	[]	174	120	1.45
+122_55.amc	Varying Height and Length Steps	clean	[]	306	120	2.55
+122_56.amc	Varying Height and Length Steps	clean	[]	208	120	1.7333333333333334
+122_57.amc	Varying Height and Length Steps	clean	[]	170	120	1.4166666666666667
+122_58.amc	Varying Height and Length Steps	cleaned	[]	151	120	1.2583333333333333
+122_59.amc	Varying Height and Length Steps	clean	[]	250	120	2.0833333333333335
+122_60.amc	Varying Height and Length Steps	clean	[]	168	120	1.4
+122_61.amc	Varying Height and Length Steps	clean	[]	209	120	1.7416666666666667
+122_62.amc	Varying Height and Length Steps	clean	[]	197	120	1.6416666666666666
+122_63.amc	Varying Height and Length Steps	clean	[]	285	120	2.375
+122_64.amc	Varying Height and Length Steps	clean	[]	240	120	2.0
+122_65.amc	Varying Height and Length Steps	clean	[]	166	120	1.3833333333333333
+122_66.amc	Varying Height and Length Steps	clean	[]	279	120	2.325
+122_67.amc	Varying Height and Length Steps	clean	[]	280	120	2.3333333333333335
+122_68.amc	Varying Height and Length Steps	clean	[]	274	120	2.283333333333333
+123_01.amc	Carry Suitcase with Varying Weights	15.5 lbs	[]	297	120	2.475
+123_02.amc	Carry Suitcase with Varying Weights	15.5 lbs	[]	315	120	2.625
+123_03.amc	Carry Suitcase with Varying Weights	19.5lb	[]	771	120	6.425
+123_04.amc	Carry Suitcase with Varying Weights	19.5 lbs	[]	695	120	5.791666666666667
+123_05.amc	Carry Suitcase with Varying Weights	19.5 lbs	[]	376	120	3.1333333333333333
+123_06.amc	Carry Suitcase with Varying Weights	19.5 lbs	[]	347	120	2.8916666666666666
+123_07.amc	Carry Suitcase with Varying Weights	12.5lb	[]	649	120	5.408333333333333
+123_08.amc	Carry Suitcase with Varying Weights	12.5 lbs	[]	355	120	2.9583333333333335
+123_09.amc	Carry Suitcase with Varying Weights	12.5 lbs	[]	349	120	2.908333333333333
+123_10.amc	Carry Suitcase with Varying Weights	12.5lb	[]	332	120	2.7666666666666666
+123_11.amc	Carry Suitcase with Varying Weights	15.5 lbs	[]	260	120	2.1666666666666665
+123_12.amc	Carry Suitcase with Varying Weights	15.5 lbs	[]	331	120	2.7583333333333333
+123_13.amc	Carry Suitcase with Varying Weights	15.5 lbs	[]	279	120	2.325
+124_01.amc	Sports Related Motions	Baseball Pitch	[]	267	120	2.225
+124_02.amc	Sports Related Motions	Baseball Pitch	[]	549	120	4.575
+124_03.amc	Sports Related Motions	Basketball Shoot	[]	400	120	3.3333333333333335
+124_04.amc	Sports Related Motions	Basketball Free Throw	[]	302	120	2.5166666666666666
+124_05.amc	Sports Related Motions	Basketball Jump Shot	[]	328	120	2.7333333333333334
+124_06.amc	Sports Related Motions	Basketball Lay Up	[]	288	120	2.4
+124_07.amc	Sports Related Motions	Baseball Swing	[]	540	120	4.5
+124_08.amc	Sports Related Motions	Baseball Bunt	[]	327	120	2.725
+124_09.amc	Sports Related Motions	Frisbee	[]	1026	120	8.55
+124_10.amc	Sports Related Motions	Motorcycle	[]	103	120	0.8583333333333333
+124_11.amc	Sports Related Motions	2 Foot Jump	[]	415	120	3.4583333333333335
+124_12.amc	Sports Related Motions	Underhand Toss	[]	618	120	5.15
+124_13.amc	Sports Related Motions	Underhand Fast Pitch	[]	361	120	3.0083333333333333
+125_01.amc	Swimming	Breast Stroke	[]	1773	120	14.775
+125_02.amc	Swimming	Breast Stroke	[]	1781	120	14.841666666666667
+125_03.amc	Swimming	Break Stroke	[]	1836	120	15.3
+125_04.amc	Swimming	Breast Stroke	[]	2004	120	16.7
+125_05.amc	Swimming	Butterfly	[]	1115	120	9.291666666666666
+125_06.amc	Swimming	Free Style	[]	2034	120	16.95
+125_07.amc	Swimming	Motorcycle	[]	150	120	1.25
+126_01.amc	Swimming 2	Back Stroke	[]	1080	120	9.0
+126_02.amc	Swimming 2	Back Stroke	[]	732	120	6.1
+126_03.amc	Swimming 2	Breast Stroke	[]	1075	120	8.958333333333334
+126_04.amc	Swimming 2	Breast Stroke	[]	689	120	5.741666666666666
+126_05.amc	Swimming 2	Breast Stroke	[]	649	120	5.408333333333333
+126_06.amc	Swimming 2	Fly Stroke	[]	1044	120	8.7
+126_07.amc	Swimming 2	Fly Stroke	[]	1047	120	8.725
+126_08.amc	Swimming 2	Fly Stroke	[]	639	120	5.325
+126_09.amc	Swimming 2	Fly Stroke	[]	741	120	6.175
+126_10.amc	Swimming 2	Free Style	[]	521	120	4.341666666666667
+126_11.amc	Swimming 2	Free Style	[]	761	120	6.341666666666667
+126_12.amc	Swimming 2	Free Style	[]	1006	120	8.383333333333333
+126_13.amc	Swimming 2	Motorcycle	[]	47	120	0.39166666666666666
+126_14.amc	Swimming 2	Range of Motion	[]	2814	120	23.45
+127_01.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Motorcycle	[]	105	120	0.875
+127_02.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Range of Motion	[]	732	120	6.1
+127_03.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run	[]	137	120	1.1416666666666666
+127_04.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Walk to Run	[]	185	120	1.5416666666666667
+127_05.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run to Quick Stop	[]	160	120	1.3333333333333333
+127_06.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run	[]	71	120	0.5916666666666667
+127_07.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run	[]	60	120	0.5
+127_08.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run	[]	57	120	0.475
+127_09.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Right	[]	82	120	0.6833333333333333
+127_10.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Right	[]	69	120	0.575
+127_11.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Left	[]	82	120	0.6833333333333333
+127_12.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Left	[]	73	120	0.6083333333333333
+127_13.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Side Step Left	[]	76	120	0.6333333333333333
+127_14.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Side Step Right	[]	62	120	0.5166666666666667
+127_15.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Turn Left	[]	67	120	0.5583333333333333
+127_16.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Turn Right	[]	107	120	0.8916666666666667
+127_17.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Stop Run	[]	158	120	1.3166666666666667
+127_18.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Stop Run	[]	163	120	1.3583333333333334
+127_19.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Quick Stop Run	[]	182	120	1.5166666666666666
+127_20.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Quick Stop Run	[]	149	120	1.2416666666666667
+127_21.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Stop Run	[]	147	120	1.225
+127_22.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Stop Run	[]	149	120	1.2416666666666667
+127_23.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Dive Over Roll Run	[]	145	120	1.2083333333333333
+127_24.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Dive Over Roll Run	[]	140	120	1.1666666666666667
+127_25.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Over	[]	95	120	0.7916666666666666
+127_26.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Over	[]	102	120	0.85
+127_27.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Over	[]	103	120	0.8583333333333333
+127_28.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Jump Over	[]	90	120	0.75
+127_29.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	86	120	0.7166666666666667
+127_30.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	99	120	0.825
+127_31.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	213	120	1.775
+127_32.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	136	120	1.1333333333333333
+127_33.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Over	[]	85	120	0.7083333333333334
+127_34.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Over	[]	84	120	0.7
+127_35.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Over	[]	99	120	0.825
+127_36.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Over	[]	89	120	0.7416666666666667
+127_37.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	142	120	1.1833333333333333
+127_38.amc	Action Adventure Obstacles, running, jumping, ducking, rolling	Run Duck Underneath	[]	79	120	0.6583333333333333
+128_01.amc	Action Adventure Motions running, ducking, rolling, stopping	Motorcycle	[]	135	120	1.125
+128_02.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Left	[]	69	120	0.575
+128_03.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Right	[]	67	120	0.5583333333333333
+128_04.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Duck Underneath	[]	56	120	0.4666666666666667
+128_05.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Stop Run	[]	86	120	0.7166666666666667
+128_06.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Stop Run	[]	81	120	0.675
+128_07.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Stop Run	[]	143	120	1.1916666666666667
+128_08.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Stop Run	[]	137	120	1.1416666666666666
+128_09.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Roll Underneath	[]	71	120	0.5916666666666667
+128_10.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Dive Over Roll Run	[]	177	120	1.475
+128_11.amc	Action Adventure Motions running, ducking, rolling, stopping	Run Dive Over Roll Run	[]	157	120	1.3083333333333333
+131_01.amc	Michael Jackson Styled Motions	Start Walk Stop	[]	413	120	3.441666666666667
+131_02.amc	Michael Jackson Styled Motions	Start Walk Stop	[]	519	120	4.325
+131_03.amc	Michael Jackson Styled Motions	Start Hop Stop	[]	458	120	3.816666666666667
+131_04.amc	Michael Jackson Styled Motions	Start Hop Stop	[]	452	120	3.7666666666666666
+131_05.amc	Michael Jackson Styled Motions	Start Duck Underneath Stop	[]	526	120	4.383333333333334
+131_06.amc	Michael Jackson Styled Motions	Start Duck Underneath Stop	[]	492	120	4.1
+131_07.amc	Michael Jackson Styled Motions	Jump Stop	[]	287	120	2.3916666666666666
+131_08.amc	Michael Jackson Styled Motions	Jump Stop	[]	326	120	2.716666666666667
+131_09.amc	Michael Jackson Styled Motions	Start Walk Left	[]	955	120	7.958333333333333
+131_10.amc	Michael Jackson Styled Motions	Start Walk Left	[]	739	120	6.158333333333333
+131_11.amc	Michael Jackson Styled Motions	Start Walk Left	[]	486	120	4.05
+131_12.amc	Michael Jackson Styled Motions	Start Walk Right	[]	319	120	2.658333333333333
+131_13.amc	Michael Jackson Styled Motions	Start Walk Right	[]	547	120	4.558333333333334
+131_14.amc	Michael Jackson Styled Motions	Start Walk Right	[]	804	120	6.7
+132_01.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	588	120	4.9
+132_02.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	475	120	3.9583333333333335
+132_03.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	615	120	5.125
+132_04.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	562	120	4.683333333333334
+132_05.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	547	120	4.558333333333334
+132_06.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	552	120	4.6
+132_07.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	375	120	3.125
+132_08.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	605	120	5.041666666666667
+132_09.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	492	120	4.1
+132_10.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	676	120	5.633333333333334
+132_11.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	670	120	5.583333333333333
+132_12.amc	Varying Weird Walks	Walk With Arms Out,  balancing	[]	658	120	5.483333333333333
+132_13.amc	Varying Weird Walks	Walk Backwards	[]	3963	120	33.025
+132_14.amc	Varying Weird Walks	Walk Duck Footed	[]	2762	120	23.016666666666666
+132_15.amc	Varying Weird Walks	Walk With Knees Bent	[]	2726	120	22.716666666666665
+132_16.amc	Varying Weird Walks	Walk Crossover	[]	3877	120	32.30833333333333
+132_17.amc	Varying Weird Walks	Walk Fast	[]	111	120	0.925
+132_18.amc	Varying Weird Walks	Walk Fast	[]	176	120	1.4666666666666666
+132_19.amc	Varying Weird Walks	Walk Fast	[]	112	120	0.9333333333333333
+132_20.amc	Varying Weird Walks	Walk Fast	[]	142	120	1.1833333333333333
+132_21.amc	Varying Weird Walks	Walk Fast	[]	147	120	1.225
+132_22.amc	Varying Weird Walks	Walk Fast	[]	154	120	1.2833333333333334
+132_23.amc	Varying Weird Walks	Hop on left foot	[]	310	120	2.5833333333333335
+132_24.amc	Varying Weird Walks	Hop on left foot	[]	307	120	2.558333333333333
+132_25.amc	Varying Weird Walks	Hop on left foot	[]	231	120	1.925
+132_26.amc	Varying Weird Walks	Hop on left foot	[]	265	120	2.2083333333333335
+132_27.amc	Varying Weird Walks	Hop on left foot	[]	302	120	2.5166666666666666
+132_28.amc	Varying Weird Walks	Hop on left foot	[]	298	120	2.4833333333333334
+132_29.amc	Varying Weird Walks	Bouncy Walk	[]	323	120	2.691666666666667
+132_30.amc	Varying Weird Walks	Bouncy Walk	[]	325	120	2.7083333333333335
+132_31.amc	Varying Weird Walks	Bouncy Walk	[]	298	120	2.4833333333333334
+132_32.amc	Varying Weird Walks	Bouncy Walk	[]	267	120	2.225
+132_33.amc	Varying Weird Walks	Bouncy Walk	[]	170	120	1.4166666666666667
+132_34.amc	Varying Weird Walks	Bouncy Walk	[]	215	120	1.7916666666666667
+132_35.amc	Varying Weird Walks	Walk Leaning To The Right	[]	526	120	4.383333333333334
+132_36.amc	Varying Weird Walks	Walk Leaning To The Right	[]	1622	120	13.516666666666667
+132_37.amc	Varying Weird Walks	Marching	[]	2804	120	23.366666666666667
+132_38.amc	Varying Weird Walks	Motorcycle	[]	74	120	0.6166666666666667
+132_39.amc	Varying Weird Walks	Pigeon Toed Walking	[]	2603	120	21.691666666666666
+132_40.amc	Varying Weird Walks	Walk With Stiff Arms	[]	352	120	2.933333333333333
+132_41.amc	Varying Weird Walks	Walk With Stiff Arms	[]	2649	120	22.075
+132_42.amc	Varying Weird Walks	Walk Swinging Shoulders	[]	287	120	2.3916666666666666
+132_43.amc	Varying Weird Walks	Walk Swinging Shoulders	[]	334	120	2.783333333333333
+132_44.amc	Varying Weird Walks	Walk Swinging Shoulders	[]	2167	120	18.058333333333334
+132_45.amc	Varying Weird Walks	Walk Slow	[]	637	120	5.308333333333334
+132_46.amc	Varying Weird Walks	Walk Slow	[]	509	120	4.241666666666666
+132_47.amc	Varying Weird Walks	Walk Slow	[]	628	120	5.233333333333333
+132_48.amc	Varying Weird Walks	Walk Slow	[]	676	120	5.633333333333334
+132_49.amc	Varying Weird Walks	Walk Slow	[]	727	120	6.058333333333334
+132_50.amc	Varying Weird Walks	Walk Slow	[]	890	120	7.416666666666667
+132_51.amc	Varying Weird Walks	Tpose	[]	72	120	0.6
+132_52.amc	Varying Weird Walks	Range of Motion	[]	555	120	4.625
+132_53.amc	Varying Weird Walks	Walk With Legs Apart	[]	2708	120	22.566666666666666
+132_54.amc	Varying Weird Walks	Walk With Wild Arms	[]	2511	120	20.925
+132_55.amc	Varying Weird Walks	Walk With Wild Legs	[]	1289	120	10.741666666666667
+132_56.amc	Varying Weird Walks	Walk With Wild Legs	[]	2951	120	24.591666666666665
+133_01.amc	Baby Styled Walk	Walk Crawl	[]	572	120	4.766666666666667
+133_02.amc	Baby Styled Walk	Walk Crawl	[]	597	120	4.975
+133_03.amc	Baby Styled Walk	Walk Jump	[]	524	120	4.366666666666666
+133_04.amc	Baby Styled Walk	Walk Jump	[]	325	120	2.7083333333333335
+133_05.amc	Baby Styled Walk	Walk Jump	[]	406	120	3.3833333333333333
+133_06.amc	Baby Styled Walk	Walk Jump	[]	366	120	3.05
+133_07.amc	Baby Styled Walk	Walk Jump	[]	408	120	3.4
+133_08.amc	Baby Styled Walk	Stretch Walk	[]	512	120	4.266666666666667
+133_09.amc	Baby Styled Walk	Stretch Walk	[]	720	120	6.0
+133_10.amc	Baby Styled Walk	Stretch Walk	[]	550	120	4.583333333333333
+133_11.amc	Baby Styled Walk	Walk Stop Walk	[]	442	120	3.683333333333333
+133_12.amc	Baby Styled Walk	Walk Stop Walk	[]	403	120	3.3583333333333334
+133_13.amc	Baby Styled Walk	Walk Stop Walk	[]	475	120	3.9583333333333335
+133_14.amc	Baby Styled Walk	Walk Left	[]	369	120	3.075
+133_15.amc	Baby Styled Walk	Walk Left	[]	369	120	3.075
+133_16.amc	Baby Styled Walk	Walk Left	[]	210	120	1.75
+133_17.amc	Baby Styled Walk	Walk Right	[]	240	120	2.0
+133_18.amc	Baby Styled Walk	Walk Right	[]	195	120	1.625
+133_19.amc	Baby Styled Walk	Walk Right	[]	347	120	2.8916666666666666
+133_20.amc	Baby Styled Walk	Walk Right	[]	454	120	3.783333333333333
+133_21.amc	Baby Styled Walk	Walk	[]	327	120	2.725
+133_22.amc	Baby Styled Walk	Walk	[]	315	120	2.625
+133_23.amc	Baby Styled Walk	Walk	[]	352	120	2.933333333333333
+133_24.amc	Baby Styled Walk	Walk ZigZag	[]	393	120	3.275
+133_25.amc	Baby Styled Walk	Motorcycle	[]	170	120	1.4166666666666667
+133_26.amc	Baby Styled Walk	Range of Motion	[]	513	120	4.275
+134_01.amc	Skateboard Motions	Duck Under	[]	148	120	1.2333333333333334
+134_02.amc	Skateboard Motions	Go Forward	[]	109	120	0.9083333333333333
+134_03.amc	Skateboard Motions	Lean Turn Right	[]	165	120	1.375
+134_04.amc	Skateboard Motions	Motorcycle	[]	79	120	0.6583333333333333
+134_05.amc	Skateboard Motions	Pump Jump	[]	134	120	1.1166666666666667
+134_06.amc	Skateboard Motions	Push Turn Left	[]	124	120	1.0333333333333334
+134_07.amc	Skateboard Motions	Push Turn Left	[]	125	120	1.0416666666666667
+134_08.amc	Skateboard Motions	Push Turn Right	[]	107	120	0.8916666666666667
+134_09.amc	Skateboard Motions	Push Turn Right	[]	83	120	0.6916666666666667
+134_10.amc	Skateboard Motions	Start	[]	142	120	1.1833333333333333
+134_11.amc	Skateboard Motions	Start	[]	141	120	1.175
+134_12.amc	Skateboard Motions	Stop and Go	[]	152	120	1.2666666666666666
+134_13.amc	Skateboard Motions	Stop and Go	[]	183	120	1.525
+134_14.amc	Skateboard Motions	Stop ang Go	[]	197	120	1.6416666666666666
+134_15.amc	Skateboard Motions	Lean Turn Left	[]	107	120	0.8916666666666667
+135_01.amc	Martial Arts Walks	Bassai	[]	2547	120	21.225
+135_02.amc	Martial Arts Walks	Empi	[]	2167	120	18.058333333333334
+135_03.amc	Martial Arts Walks	Empi	[]	1144	120	9.533333333333333
+135_04.amc	Martial Arts Walks	Front Kick	[]	547	120	4.558333333333334
+135_05.amc	Martial Arts Walks	Gedanbarai	[]	1024	120	8.533333333333333
+135_06.amc	Martial Arts Walks	Heiansyodan	[]	1358	120	11.316666666666666
+135_07.amc	Martial Arts Walks	Mawashigeri	[]	612	120	5.1
+135_08.amc	Martial Arts Walks	Motorcycle	[]	120	120	1.0
+135_09.amc	Martial Arts Walks	Oiduki	[]	895	120	7.458333333333333
+135_10.amc	Martial Arts Walks	Syutouuke	[]	833	120	6.941666666666666
+135_11.amc	Martial Arts Walks	Yokogeri	[]	1018	120	8.483333333333333
+136_01.amc	Weird Walks	Walk Bent Forward	[]	362	120	3.0166666666666666
+136_02.amc	Weird Walks	Walk Bent Forward	[]	357	120	2.975
+136_03.amc	Weird Walks	Walk Backwards Bent Forward	[]	497	120	4.141666666666667
+136_04.amc	Weird Walks	Walk Backwards Bent Forward	[]	527	120	4.391666666666667
+136_05.amc	Weird Walks	Walk on Toes Bent Forward	[]	425	120	3.5416666666666665
+136_06.amc	Weird Walks	Walk on Toes Bent Forward	[]	392	120	3.2666666666666666
+136_07.amc	Weird Walks	Walk Backward on Toes Bent Forward	[]	460	120	3.8333333333333335
+136_08.amc	Weird Walks	Walk Backward on Toes Bent Forward	[]	554	120	4.616666666666666
+136_09.amc	Weird Walks	Walk Crouched	[]	470	120	3.9166666666666665
+136_10.amc	Weird Walks	Walk Crouched	[]	556	120	4.633333333333334
+136_11.amc	Weird Walks	Walk Backwards Crouched	[]	598	120	4.983333333333333
+136_12.amc	Weird Walks	Walk Backwards Crouched	[]	544	120	4.533333333333333
+136_13.amc	Weird Walks	Walk on Toes Crouched	[]	521	120	4.341666666666667
+136_14.amc	Weird Walks	Walk on Toes Crouched	[]	443	120	3.691666666666667
+136_15.amc	Weird Walks	Walk Backwards on Toes Crouched	[]	562	120	4.683333333333334
+136_16.amc	Weird Walks	Walk Backwards on Toes Crouched	[]	524	120	4.366666666666666
+136_17.amc	Weird Walks	Flamingo, lift legs high	[]	882	120	7.35
+136_18.amc	Weird Walks	Flamingo, lift legs high	[]	621	120	5.175
+136_19.amc	Weird Walks	Motorcycle	[]	72	60	1.2
+136_20.amc	Weird Walks	Normal Walk	[]	413	120	3.441666666666667
+136_21.amc	Weird Walks	Normal Walk	[]	250	120	2.0833333333333335
+136_22.amc	Weird Walks	Normal Walk	[]	347	120	2.8916666666666666
+136_23.amc	Weird Walks	Normal Walk	[]	308	120	2.566666666666667
+136_24.amc	Weird Walks	Normal Walk	[]	447	120	3.725
+136_25.amc	Weird Walks	Normal Walk Backwards	[]	745	120	6.208333333333333
+136_26.amc	Weird Walks	Normal Walk Backwards	[]	592	120	4.933333333333334
+136_27.amc	Weird Walks	Walk on Toes	[]	452	120	3.7666666666666666
+136_28.amc	Weird Walks	Walk on Toes	[]	463	120	3.8583333333333334
+136_29.amc	Weird Walks	Walk Backwards on Toes	[]	492	120	4.1
+136_30.amc	Weird Walks	Walk Backwards on Toes	[]	529	120	4.408333333333333
+136_31.amc	Weird Walks	Quail, quick little steps	[]	597	120	4.975
+136_32.amc	Weird Walks	Quail, quick little steps	[]	600	120	5.0
+136_33.amc	Weird Walks	Range of Motion	[]	410	120	3.4166666666666665
+137_01.amc	Stylized Motions	Cat Coffee Mug	[]	900	120	7.5
+137_02.amc	Stylized Motions	Cat Pick Up	[]	902	120	7.516666666666667
+137_03.amc	Stylized Motions	Cat Wait	[]	2725	120	22.708333333333332
+137_04.amc	Stylized Motions	Cat Walk	[]	806	120	6.716666666666667
+137_05.amc	Stylized Motions	Chicken Coffee Mug	[]	732	120	6.1
+137_06.amc	Stylized Motions	Chicken Pick Up	[]	678	120	5.65
+137_07.amc	Stylized Motions	Chicken Wait	[]	1989	120	16.575
+137_08.amc	Stylized Motions	Chicken Walk	[]	807	120	6.725
+137_09.amc	Stylized Motions	Dinosaur Coffee Mug	[]	1028	120	8.566666666666666
+137_10.amc	Stylized Motions	Dinosaur Pick Up	[]	935	120	7.791666666666667
+137_11.amc	Stylized Motions	Dinosaur Wait	[]	2053	120	17.108333333333334
+137_12.amc	Stylized Motions	Dinosaur Walk	[]	820	120	6.833333333333333
+137_13.amc	Stylized Motions	Drunk Coffee Mug	['run']	1234	120	10.283333333333333
+137_14.amc	Stylized Motions	Drunk Pick Up	['run']	942	120	7.85
+137_15.amc	Stylized Motions	Drunk Wait	['run']	2242	120	18.683333333333334
+137_16.amc	Stylized Motions	Drunk Walk	['run']	637	120	5.308333333333334
+137_17.amc	Stylized Motions	Gangly Teen Coffee Mug	[]	811	120	6.758333333333334
+137_18.amc	Stylized Motions	Gangly Teen Pick Up	[]	580	120	4.833333333333333
+137_19.amc	Stylized Motions	Gangly Teen Wait	[]	2216	120	18.466666666666665
+137_20.amc	Stylized Motions	Gangly Teen Walk	[]	667	120	5.558333333333334
+137_21.amc	Stylized Motions	Graceful Lady Coffee Mug	[]	797	120	6.641666666666667
+137_22.amc	Stylized Motions	Graceful Lady Pick Up	[]	683	120	5.691666666666666
+137_23.amc	Stylized Motions	Graceful Lady Wait	[]	1894	120	15.783333333333333
+137_24.amc	Stylized Motions	Graceful Lady Walk	[]	496	120	4.133333333333334
+137_25.amc	Stylized Motions	Motorcycle	[]	64	120	0.5333333333333333
+137_26.amc	Stylized Motions	Normal Coffee Mug	[]	655	120	5.458333333333333
+137_27.amc	Stylized Motions	Normal Pick Up	[]	483	120	4.025
+137_28.amc	Stylized Motions	Normal Wait	[]	1550	120	12.916666666666666
+137_29.amc	Stylized Motions	Normal Walk	[]	469	120	3.908333333333333
+137_30.amc	Stylized Motions	Old Man Coffee Mug	[]	1464	120	12.2
+137_31.amc	Stylized Motions	Old Man Pick Up	[]	1402	120	11.683333333333334
+137_32.amc	Stylized Motions	Old Man Wait	[]	2090	120	17.416666666666668
+137_33.amc	Stylized Motions	Old Man Walk	[]	1276	120	10.633333333333333
+137_34.amc	Stylized Motions	Range of Motion	[]	372	120	3.1
+137_35.amc	Stylized Motions	Sexy Lady Coffee Mug	[]	1037	120	8.641666666666667
+137_36.amc	Stylized Motions	Sexy Lady Pick Up	[]	1064	120	8.866666666666667
+137_37.amc	Stylized Motions	Sexy Lady Wait	[]	2131	120	17.758333333333333
+137_38.amc	Stylized Motions	Sexy Lady Walk	[]	840	120	7.0
+137_39.amc	Stylized Motions	Strong Man Coffee Mug	[]	1222	120	10.183333333333334
+137_40.amc	Stylized Motions	Strong Man Pick Up	[]	848	120	7.066666666666666
+137_41.amc	Stylized Motions	Strong Man Wait	[]	2163	120	18.025
+137_42.amc	Stylized Motions	Strong Man Walk	[]	908	120	7.566666666666666
+138_01.amc	Marching, Walking and Talking	Marching	[]	335	120	2.7916666666666665
+138_02.amc	Marching, Walking and Talking	Marching	[]	324	120	2.7
+138_03.amc	Marching, Walking and Talking	Marching	[]	282	120	2.35
+138_04.amc	Marching, Walking and Talking	Marching	[]	291	120	2.425
+138_05.amc	Marching, Walking and Talking	Marching	[]	154	120	1.2833333333333334
+138_06.amc	Marching, Walking and Talking	Marching	[]	165	120	1.375
+138_07.amc	Marching, Walking and Talking	Marching	[]	160	120	1.3333333333333333
+138_08.amc	Marching, Walking and Talking	Marching	[]	166	120	1.3833333333333333
+138_09.amc	Marching, Walking and Talking	Marching	[]	177	120	1.475
+138_10.amc	Marching, Walking and Talking	Marching	[]	181	120	1.5083333333333333
+138_11.amc	Marching, Walking and Talking	Story	[]	183	120	1.525
+138_12.amc	Marching, Walking and Talking	Story	[]	135	120	1.125
+138_13.amc	Marching, Walking and Talking	Story	[]	179	120	1.4916666666666667
+138_14.amc	Marching, Walking and Talking	Story	[]	174	120	1.45
+138_15.amc	Marching, Walking and Talking	Story	[]	171	120	1.425
+138_16.amc	Marching, Walking and Talking	Story	[]	177	120	1.475
+138_17.amc	Marching, Walking and Talking	Story	[]	182	120	1.5166666666666666
+138_18.amc	Marching, Walking and Talking	Story	[]	160	120	1.3333333333333333
+138_19.amc	Marching, Walking and Talking	Story	[]	191	120	1.5916666666666666
+138_20.amc	Marching, Walking and Talking	Story	[]	187	120	1.5583333333333333
+138_21.amc	Marching, Walking and Talking	Story	[]	164	120	1.3666666666666667
+138_22.amc	Marching, Walking and Talking	Story	[]	160	120	1.3333333333333333
+138_23.amc	Marching, Walking and Talking	Story	[]	190	120	1.5833333333333333
+138_24.amc	Marching, Walking and Talking	Story	[]	209	120	1.7416666666666667
+138_25.amc	Marching, Walking and Talking	Story	[]	148	120	1.2333333333333334
+138_26.amc	Marching, Walking and Talking	Story	[]	394	120	3.283333333333333
+138_27.amc	Marching, Walking and Talking	Story	[]	390	120	3.25
+138_28.amc	Marching, Walking and Talking	Story	[]	398	120	3.316666666666667
+138_29.amc	Marching, Walking and Talking	Story	[]	339	120	2.825
+138_30.amc	Marching, Walking and Talking	Story	[]	452	120	3.7666666666666666
+138_31.amc	Marching, Walking and Talking	Story	[]	329	120	2.7416666666666667
+138_32.amc	Marching, Walking and Talking	Story	[]	378	120	3.15
+138_33.amc	Marching, Walking and Talking	Story	[]	434	120	3.6166666666666667
+138_34.amc	Marching, Walking and Talking	Story	[]	384	120	3.2
+138_35.amc	Marching, Walking and Talking	Story	[]	378	120	3.15
+138_36.amc	Marching, Walking and Talking	Story	[]	449	120	3.7416666666666667
+138_37.amc	Marching, Walking and Talking	Story	[]	336	120	2.8
+138_38.amc	Marching, Walking and Talking	Story	[]	401	120	3.341666666666667
+138_39.amc	Marching, Walking and Talking	Story	[]	365	120	3.0416666666666665
+138_40.amc	Marching, Walking and Talking	Story	[]	340	120	2.8333333333333335
+138_41.amc	Marching, Walking and Talking	Story	[]	326	120	2.716666666666667
+138_42.amc	Marching, Walking and Talking	Story	[]	383	120	3.191666666666667
+138_43.amc	Marching, Walking and Talking	Story	[]	310	120	2.5833333333333335
+138_44.amc	Marching, Walking and Talking	Story	[]	420	120	3.5
+138_45.amc	Marching, Walking and Talking	Story	[]	274	120	2.283333333333333
+138_46.amc	Marching, Walking and Talking	Story	[]	131	120	1.0916666666666666
+138_47.amc	Marching, Walking and Talking	Story	[]	284	120	2.3666666666666667
+138_48.amc	Marching, Walking and Talking	Story	[]	262	120	2.183333333333333
+138_49.amc	Marching, Walking and Talking	Story	[]	261	120	2.175
+138_50.amc	Marching, Walking and Talking	Story	[]	324	120	2.7
+138_51.amc	Marching, Walking and Talking	Story	[]	292	120	2.433333333333333
+138_52.amc	Marching, Walking and Talking	Story	[]	362	120	3.0166666666666666
+138_53.amc	Marching, Walking and Talking	Story	[]	314	120	2.6166666666666667
+138_54.amc	Marching, Walking and Talking	Story	[]	326	120	2.716666666666667
+138_55.amc	Marching, Walking and Talking	Story	[]	164	120	1.3666666666666667
+139_01.amc	Action Walks, sneaking, wounded, looking around	Looking Around	[]	453	120	3.775
+139_02.amc	Action Walks, sneaking, wounded, looking around	Shifting Weight	[]	390	120	3.25
+139_03.amc	Action Walks, sneaking, wounded, looking around	Looking Around	[]	409	120	3.408333333333333
+139_04.amc	Action Walks, sneaking, wounded, looking around	Looking Around	[]	367	120	3.058333333333333
+139_05.amc	Action Walks, sneaking, wounded, looking around	Pulling a Gun	[]	212	120	1.7666666666666666
+139_06.amc	Action Walks, sneaking, wounded, looking around	Poking Around On The Ground	[]	562	120	4.683333333333334
+139_07.amc	Action Walks, sneaking, wounded, looking around	Poking Around On The Ground	[]	210	120	1.75
+139_08.amc	Action Walks, sneaking, wounded, looking around	Poking Around On The Ground	[]	419	120	3.4916666666666667
+139_09.amc	Action Walks, sneaking, wounded, looking around	Ducking	[]	411	120	3.425
+139_10.amc	Action Walks, sneaking, wounded, looking around	Run	[]	287	120	2.3916666666666666
+139_11.amc	Action Walks, sneaking, wounded, looking around	Run To Sneak	[]	132	120	1.1
+139_12.amc	Action Walks, sneaking, wounded, looking around	Run in Circles	[]	407	120	3.3916666666666666
+139_13.amc	Action Walks, sneaking, wounded, looking around	Run in Circles	[]	577	120	4.808333333333334
+139_14.amc	Action Walks, sneaking, wounded, looking around	Sneak Sideways	[]	412	120	3.433333333333333
+139_15.amc	Action Walks, sneaking, wounded, looking around	Sneak Sideways	[]	448	120	3.7333333333333334
+139_16.amc	Action Walks, sneaking, wounded, looking around	Get Up From Ground	[]	271	120	2.2583333333333333
+139_17.amc	Action Walks, sneaking, wounded, looking around	Get Up From Ground	[]	299	120	2.4916666666666667
+139_18.amc	Action Walks, sneaking, wounded, looking around	Get Up From Ground Laying on Back	[]	355	120	2.9583333333333335
+139_19.amc	Action Walks, sneaking, wounded, looking around	Walk Wounded Leg	[]	416	120	3.466666666666667
+139_20.amc	Action Walks, sneaking, wounded, looking around	Walk Wounded Leg	[]	653	120	5.441666666666666
+139_21.amc	Action Walks, sneaking, wounded, looking around	Range Of Motion	[]	545	120	4.541666666666667
+139_22.amc	Action Walks, sneaking, wounded, looking around	Walk Wounded Leg	[]	593	120	4.941666666666666
+139_23.amc	Action Walks, sneaking, wounded, looking around	Walk Wounded Leg	[]	662	120	5.516666666666667
+139_24.amc	Action Walks, sneaking, wounded, looking around	Walk Wounded Leg	[]	297	120	2.475
+139_25.amc	Action Walks, sneaking, wounded, looking around	Giving Directions	[]	275	120	2.2916666666666665
+139_26.amc	Action Walks, sneaking, wounded, looking around	Looking Around	[]	270	120	2.25
+139_27.amc	Action Walks, sneaking, wounded, looking around	Looking Around	[]	302	120	2.5166666666666666
+139_28.amc	Action Walks, sneaking, wounded, looking around	Walking	[]	1237	120	10.308333333333334
+139_29.amc	Action Walks, sneaking, wounded, looking around	Sneaking	[]	876	120	7.3
+139_30.amc	Action Walks, sneaking, wounded, looking around	Walking	[]	525	120	4.375
+139_31.amc	Action Walks, sneaking, wounded, looking around	Sneaking	[]	877	120	7.308333333333334
+139_32.amc	Action Walks, sneaking, wounded, looking around	Sneaking	[]	788	120	6.566666666666666
+139_33.amc	Action Walks, sneaking, wounded, looking around	Sneaking	[]	1248	120	10.4
+139_34.amc	Action Walks, sneaking, wounded, looking around	Sneaking	[]	467	120	3.8916666666666666
+140_01.amc	Getting Up From Ground	Get Up Face Down	[]	345	120	2.875
+140_02.amc	Getting Up From Ground	Get Up Face Down	[]	390	120	3.25
+140_03.amc	Getting Up From Ground	Get Up Laying on Side	[]	425	120	3.5416666666666665
+140_04.amc	Getting Up From Ground	Get Up Laying on Side	[]	459	120	3.825
+140_05.amc	Getting Up From Ground	Motorcycle	[]	10	120	0.08333333333333333
+140_06.amc	Getting Up From Ground	Idle	[]	1483	120	12.358333333333333
+140_07.amc	Getting Up From Ground	Idle	[]	514	120	4.283333333333333
+140_08.amc	Getting Up From Ground	Get Up From Ground Laying on Back	[]	373	120	3.1083333333333334
+140_09.amc	Getting Up From Ground	Get Up From Ground Laying on Back	[]	339	120	2.825
+141_01.amc	General Subject Capture	Run	[]	30	120	0.25
+141_02.amc	General Subject Capture	Run	[]	46	120	0.38333333333333336
+141_03.amc	General Subject Capture	Run	[]	95	120	0.7916666666666666
+141_04.amc	General Subject Capture	Jump Distances	[]	227	120	1.8916666666666666
+141_05.amc	General Subject Capture	Jump Sideways	[]	95	120	0.7916666666666666
+141_06.amc	General Subject Capture	Jump Twist	[]	270	120	2.25
+141_07.amc	General Subject Capture	Walk Up and Over	[]	123	120	1.025
+141_08.amc	General Subject Capture	Steop On Walk Down	[]	137	120	1.1416666666666666
+141_09.amc	General Subject Capture	Step Over	[]	97	120	0.8083333333333333
+141_10.amc	General Subject Capture	Toss and Catch	[]	210	120	1.75
+141_11.amc	General Subject Capture	Throw and Catch	[]	285	120	2.375
+141_12.amc	General Subject Capture	Dance, Twist	[]	236	120	1.9666666666666666
+141_13.amc	General Subject Capture	Stretch and Yawn	[]	152	120	1.2666666666666666
+141_14.amc	General Subject Capture	Punch and Kick	[]	240	120	2.0
+141_15.amc	General Subject Capture	Range of Motion	[]	484	120	4.033333333333333
+141_16.amc	General Subject Capture	Wave Hello	[]	124	120	1.0333333333333334
+141_17.amc	General Subject Capture	Sit on Stool	[]	233	120	1.9416666666666667
+141_18.amc	General Subject Capture	Peek a Boo	[]	161	120	1.3416666666666666
+141_19.amc	General Subject Capture	Walk	[]	496	120	4.133333333333334
+141_20.amc	General Subject Capture	Waiting	[]	317	120	2.6416666666666666
+141_21.amc	General Subject Capture	Shrug	[]	112	120	0.9333333333333333
+141_22.amc	General Subject Capture	High Five	[]	82	120	0.6833333333333333
+141_23.amc	General Subject Capture	Shake Hands	[]	106	120	0.8833333333333333
+141_24.amc	General Subject Capture	Around the world High Five Low	[]	107	120	0.8916666666666667
+141_25.amc	General Subject Capture	Walk	[]	255	120	2.125
+141_26.amc	General Subject Capture	Curtsey	[]	165	120	1.375
+141_27.amc	General Subject Capture	Mope	[]	230	120	1.9166666666666667
+141_28.amc	General Subject Capture	Slap Hands, Throw it Back	[]	147	120	1.225
+141_29.amc	General Subject Capture	Random Walk	[]	485	120	4.041666666666667
+141_30.amc	General Subject Capture	Random Walk	[]	300	120	2.5
+141_31.amc	General Subject Capture	Walk Backwards	[]	279	120	2.325
+141_32.amc	General Subject Capture	Walk Sideways, Cross Legs	[]	369	120	3.075
+141_33.amc	General Subject Capture	Walk Sideways, Foot to Foot	[]	440	120	3.6666666666666665
+141_34.amc	General Subject Capture	Run	[]	130	120	1.0833333333333333
+142_01.amc	Stylized Walks	Childish	[]	2183	120	18.191666666666666
+142_02.amc	Stylized Walks	Clumsy	[]	783	120	6.525
+142_03.amc	Stylized Walks	Clumsy	[]	1010	120	8.416666666666666
+142_04.amc	Stylized Walks	Cool	[]	1554	120	12.95
+142_05.amc	Stylized Walks	Depressed	[]	2804	120	23.366666666666667
+142_06.amc	Stylized Walks	Elated	[]	1101	120	9.175
+142_07.amc	Stylized Walks	Elderlyman	[]	3493	120	29.108333333333334
+142_08.amc	Stylized Walks	Happy	[]	1263	120	10.525
+142_09.amc	Stylized Walks	Joy	[]	1110	120	9.25
+142_10.amc	Stylized Walks	Lavish	[]	1877	120	15.641666666666667
+142_11.amc	Stylized Walks	Marching	[]	1365	120	11.375
+142_12.amc	Stylized Walks	Painfulleftknee	[]	1958	120	16.316666666666666
+142_13.amc	Stylized Walks	Relaxed	[]	2149	120	17.908333333333335
+142_14.amc	Stylized Walks	Rushed	[]	692	120	5.766666666666667
+142_15.amc	Stylized Walks	Sad	[]	2238	120	18.65
+142_16.amc	Stylized Walks	Scared	[]	2423	120	20.191666666666666
+142_17.amc	Stylized Walks	Scared	[]	1845	120	15.375
+142_18.amc	Stylized Walks	Sexy	[]	2039	120	16.991666666666667
+142_19.amc	Stylized Walks	Shy	[]	1871	120	15.591666666666667
+142_20.amc	Stylized Walks	Singing in the rain jump	['jump']	638	120	5.316666666666666
+142_21.amc	Stylized Walks	Singing in the rain jump	['jump']	587	120	4.891666666666667
+142_22.amc	Stylized Walks	Sneaky	[]	2175	120	18.125
+143_01.amc	General Subject Capture	Run	[]	41	120	0.3416666666666667
+143_02.amc	General Subject Capture	Run to Stop	[]	86	120	0.7166666666666667
+143_03.amc	General Subject Capture	Start to Run	[]	99	120	0.825
+143_04.amc	General Subject Capture	Run Figure 8	[]	451	120	3.7583333333333333
+143_05.amc	General Subject Capture	Jumping Distances	[]	140	120	1.1666666666666667
+143_06.amc	General Subject Capture	Jumping Heights	[]	163	120	1.3583333333333334
+143_07.amc	General Subject Capture	Jumping Sideways	[]	231	120	1.925
+143_08.amc	General Subject Capture	Jumping Twists	[]	160	120	1.3333333333333333
+143_09.amc	General Subject Capture	Jumping Twists	[]	226	120	1.8833333333333333
+143_10.amc	General Subject Capture	Walk And Pick up Tool Box	[]	239	120	1.9916666666666667
+143_11.amc	General Subject Capture	Walk And Pick up Box	[]	273	120	2.275
+143_12.amc	General Subject Capture	Walk And Pick up Toolbox	[]	245	120	2.0416666666666665
+143_13.amc	General Subject Capture	Walk and Pick up Laundry Basket	[]	241	120	2.0083333333333333
+143_14.amc	General Subject Capture	Walk And Step Over	[]	301	120	2.5083333333333333
+143_15.amc	General Subject Capture	Walk And Step Over	[]	294	120	2.45
+143_16.amc	General Subject Capture	Walk And Step Over	[]	254	120	2.1166666666666667
+143_17.amc	General Subject Capture	Walk Up Stairs And Over	[]	262	120	2.183333333333333
+143_18.amc	General Subject Capture	Sit Down And Get Up	[]	312	120	2.6
+143_19.amc	General Subject Capture	Sit On Stool And Get Up	[]	349	120	2.908333333333333
+143_20.amc	General Subject Capture	Catch And Throw	[]	270	120	2.25
+143_21.amc	General Subject Capture	Range Of Motion	[]	896	120	7.466666666666667
+143_22.amc	General Subject Capture	Catch And Throw Football	[]	454	120	3.783333333333333
+143_23.amc	General Subject Capture	Punching	[]	338	120	2.816666666666667
+143_24.amc	General Subject Capture	Kicking	[]	418	120	3.4833333333333334
+143_25.amc	General Subject Capture	Waving	[]	273	120	2.275
+143_26.amc	General Subject Capture	Washing Window	[]	264	120	2.2
+143_27.amc	General Subject Capture	Washing Window	[]	292	120	2.433333333333333
+143_28.amc	General Subject Capture	Sweeping, Push Broom	[]	267	120	2.225
+143_29.amc	General Subject Capture	Pacing	[]	449	120	3.7416666666666667
+143_30.amc	General Subject Capture	Stretch And Yawn	[]	153	120	1.275
+143_31.amc	General Subject Capture	Hopscotch	[]	175	120	1.4583333333333333
+143_32.amc	General Subject Capture	Walk	[]	324	120	2.7
+143_33.amc	General Subject Capture	Peek A Boo	[]	150	120	1.25
+143_34.amc	General Subject Capture	Chicken Dance	[]	325	120	2.7083333333333335
+143_35.amc	General Subject Capture	Macarena Dance	[]	532	120	4.433333333333334
+143_36.amc	General Subject Capture	Airplane	[]	316	120	2.6333333333333333
+143_37.amc	General Subject Capture	Climb Up And Down Ladder	[]	229	120	1.9083333333333334
+143_38.amc	General Subject Capture	Walk Digital 8	[]	548	120	4.566666666666666
+143_39.amc	General Subject Capture	Walk Backwards	[]	450	120	3.75
+143_40.amc	General Subject Capture	Walk Sideways	[]	402	120	3.35
+143_41.amc	General Subject Capture	Sneak	[]	485	120	4.041666666666667
+143_42.amc	General Subject Capture	Run	[]	223	120	1.8583333333333334
