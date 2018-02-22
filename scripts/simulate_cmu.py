@@ -157,6 +157,9 @@ def buildFeatures(frame, physics, bodies, joints):
   freejoint_data_world = [bodies['root'][0].tolist(), bodies['root'][1].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
   frame_data_world.append(freejoint_data_world)
 
+  print(joint_vel[0:3].tolist())
+  print(joint_accel[0:3].tolist())
+
   freejoint_data_com = [bodies['root'][2].tolist(), bodies['root'][3].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
   frame_data_com.append(freejoint_data_com)
 
@@ -426,7 +429,7 @@ def parsedata(filename, sim, noise):
           ## TODO: add noise
           env.physics.data.qpos[j] = p_i[j]
         else:
-          #env.physics.data.qpos[j] = p_i[j]
+          env.physics.data.qpos[j] = p_i[j]
           if j == 56:
             env.physics.data.qpos[j] = converted.qpos[:, i][j]
 

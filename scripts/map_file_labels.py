@@ -3,11 +3,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import re
+import shutil
+from tempfile import NamedTemporaryFile
 
 from dm_control.suite import humanoid_CMU
 from dm_control.suite.utils import parse_amc
 
-KEYWORDS = ['climb', 'dance', 'jump', 'kick', 'punch', 'rotate', 'run', 'sit', 'stand', 'throw', 'turn', 'walk']
+KEYWORDS = ['basketball', 'bend', 'cartwheel', 'climb', 'dance', 'jump', 'kick', 'punch', 'rotate', 'run', 'sit', 
+	'spin', 'stand', 'stretch', 'swing', 'throw', 'turn', 'twist', 'walk']
 
 def getNumFrames(filename):
 	env = humanoid_CMU.stand()
@@ -58,6 +61,24 @@ def parseMapping():
 			except Exception as e:
 				print("ERROR! ") + file_name
 
+def updateMapping():
+	tempfile = NamedTemporaryFile(mode = 'w', delete=False)
+	with open('cmu_mocap_labels.tsv','r') as file, tempfile as temp:
+		reader = csv.reader(file, delimiter='\t')
+		writer = csv.writer(temp, delimiter='\t')
+		writer.writerow(next(reader, None)) 	# copy header
+
+		for row in reader:
+			motion_desc = row[2].lower()
+			keys = []
+			for k in KEYWORDS:
+				if k in motion_desc:
+					keys.append(k)
+			row[3] = keys
+			writer.writerow(row)
+
+	shutil.move(tempfile.name, 'cmu_mocap_labels.tsv')
+
 def readMapping():
 	frames = []
 	length = []
@@ -87,9 +108,28 @@ def plotLength():
 
 	plt.show()
 
+def filterAndCopy():
+	with open('cmu_mocap_labels.tsv', 'r') as file, open('filtered_cmu_labels.tsv', 'w') as filtered:
+		reader = csv.reader(file, delimiter='\t')
+		writer = csv.writer(filtered, delimiter='\t')
+		#copy header
+		writer.writerow(next(reader, None))
+
+		for row in reader:
+			length = float(row[6])
+			keywords = row[3]
+			if keywords == '[]' or length > 10:
+				continue
+			keywords = keywords[1:-1].split(",")
+			if len(keywords) > 1 and not ((" 'stand'" in keywords or "'stand'" in keywords) and len(keywords) == 2):
+				continue
+			writer.writerow(row)
+
 def main():
 	#parseMapping()
-	plotLength()
+	#plotLength()
+	#updateMapping()
+	filterAndCopy()
 
 if __name__ == '__main__':
   main()
