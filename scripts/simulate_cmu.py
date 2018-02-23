@@ -44,7 +44,7 @@ from scipy.signal import savgol_filter
 from sklearn.gaussian_process.kernels import Matern, WhiteKernel, ConstantKernel
 from sklearn import gaussian_process
 import glob
-import os
+import os, sys
 import copy
 
 FLAGS = flags.FLAGS
@@ -54,6 +54,7 @@ flags.DEFINE_integer('max_num_frames', 90,
 #flags.DEFINE_string('output_state_csv', None, 'csv file to contain output of state.')
 #flags.DEFINE_string('output_joints_csv', None, 'csv file to contain output of joints.')
 flags.DEFINE_string('dir', None, 'directory containing all amc files.')
+flags.DEFINE_string('filter', None, 'tsv file containing filtered amc file names.')
 flags.DEFINE_boolean('simulate', False, 'Simulate results.')
 flags.DEFINE_boolean('noise', False, 'Add noise to motion.')
 
@@ -157,9 +158,6 @@ def buildFeatures(frame, physics, bodies, joints):
   freejoint_data_world = [bodies['root'][0].tolist(), bodies['root'][1].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
   frame_data_world.append(freejoint_data_world)
 
-  print(joint_vel[0:3].tolist())
-  print(joint_accel[0:3].tolist())
-
   freejoint_data_com = [bodies['root'][2].tolist(), bodies['root'][3].tolist(), joint_vel[0:3].tolist(), joint_vel[3:6].tolist(), joint_accel[0:3].tolist(), joint_accel[3:6].tolist()]
   frame_data_com.append(freejoint_data_com)
 
@@ -170,17 +168,20 @@ def buildFeatures(frame, physics, bodies, joints):
   joint_angle = physics.position()[7:]
   joint_vel = physics.velocity()[6:]
   joint_accel = physics.data.qacc[6:]
-  joint_axis = physics.data.xaxis[1:]
+  #joint_axis = physics.data.xaxis[1:]
+  joint_axis = physics.model.jnt_axis[1:]
 
   for i in range(len(JOINTS_ORDER)):
-    # pos (3), orientation (3 x 3), angle (1), axis (3), velocity (1), acceleration (1)
-    data_world = [bodies[JOINT_BODIES[i]][0].tolist(), bodies[JOINT_BODIES[i]][1].tolist(), joint_angle[i], joint_axis[i].tolist(), joint_vel[i], joint_accel[i]]
+    # pos (3), orientation (3 x 3), axis (3), angle (1), velocity (1), acceleration (1)
+    data_world = [bodies[JOINT_BODIES[i]][0].tolist(), bodies[JOINT_BODIES[i]][1].tolist(), joint_axis[i].tolist(), joint_angle[i], joint_vel[i], joint_accel[i]]
     frame_data_world.append(data_world)
 
-    data_com = [bodies[JOINT_BODIES[i]][2].tolist(), bodies[JOINT_BODIES[i]][3].tolist(), joint_angle[i], convertCOMAxis(physics, joint_axis[i]).tolist(), joint_vel[i], joint_accel[i]]
+    #convertCOMAxis(physics, joint_axis[i]).tolist()
+    data_com = [bodies[JOINT_BODIES[i]][2].tolist(), bodies[JOINT_BODIES[i]][3].tolist(), joint_axis[i].tolist(), joint_angle[i], joint_vel[i], joint_accel[i]]
     frame_data_com.append(data_com)
 
-    data_parent = [bodies[JOINT_BODIES[i]][4].tolist(), bodies[JOINT_BODIES[i]][5].tolist(), joint_angle[i], convertParentAxis(physics, joint_axis[i], i).tolist(), joint_vel[i], joint_accel[i]]
+    #convertParentAxis(physics, joint_axis[i], i).tolist()
+    data_parent = [bodies[JOINT_BODIES[i]][4].tolist(), bodies[JOINT_BODIES[i]][5].tolist(), joint_axis[i].tolist(), joint_angle[i], joint_vel[i], joint_accel[i]]
     frame_data_parent.append(data_parent)
 
     # create joints dictionary
@@ -397,8 +398,8 @@ def writeOutput(filename, output):
     file.write("%s\n" % row)
 
 def parsedata(filename, sim, noise):
-  file_prefix = os.path.basename(filename).split('.')[0]
-  cleanFiles(os.path.basename(filename).split('.')[0])
+  file_prefix = 'features/' + os.path.basename(filename).split('.')[0]
+  cleanFiles('features/' + os.path.basename(filename).split('.')[0])
 
   env = humanoid_CMU.stand()
 
@@ -470,6 +471,18 @@ def parsedata(filename, sim, noise):
       plt.draw()
     plt.waitforbuttonpress()
 
+def filterdata(filename, sim, noise):
+  folder = os.path.join(os.path.realpath('..'), 'motion-sim/cmu-data/all_asfamc/subjects/')
+  with open(filename,'r') as file:
+    reader = csv.reader(file, delimiter='\t')
+    next(reader, None)  # skip header
+    for row in reader:
+      amc_file_name = row[0]
+      subj_num = amc_file_name.split('_')[0]
+      amc_file_path = folder + subj_num + '/' + amc_file_name
+      print(amc_file_path)
+      parsedata(amc_file_path, sim, noise)
+
 def main(unused_argv):
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir + '/**/*.amc', recursive=True):
@@ -482,6 +495,8 @@ def main(unused_argv):
     parsedata(FLAGS.filename, FLAGS.simulate, FLAGS.noise)
     #except Exception as e:
     #  print(e)
+  elif FLAGS.filter:
+    filterdata(FLAGS.filter, FLAGS.simulate, FLAGS.noise)
   else:
     print("Please provide input source.")
 

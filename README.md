@@ -17,21 +17,13 @@ Input arguments:
 ----------------
 * `--filename`: single .amc input file
 * `--dir`: directory containing all .amc files (searches directory recursively)
+* `--filter`: tsv file containing names of filtered amc files
 * `--max_num_frames`: maximum number of frames to simulate
 * `--simulate`: displays simulation
 * `--noise`: adds noise to motion
 
-Output File:
-------------
-From root: <amc_file_name>_joints.csv
-
-Output Columns:
-* Frame Index: 0-based index of frame number
-* Joint Index: 0-based index of all joints in model (not including the 0th root freejoint)
-* Joint Angle: angle in rads relative to fixed body axis of each joint (qpos)
-* Joint Velociy: velocity of each joint (qvel)
-* Local Joint Axis: fixed body axis for each joint
-* Global Joint Axis: Computed joint axis in the global frame from joint angle 
-
 Slides:
 https://docs.google.com/presentation/d/1DdoyGRLiAPB51EXB8_uJ7wif-bwUNkAy8J-ltemoeUE/edit?usp=sharing
+
+Google Drive:
+https://drive.google.com/drive/folders/1r7CAxZYcsMVtZUxZtLA_FjZtFHNvNRQy?usp=sharing
