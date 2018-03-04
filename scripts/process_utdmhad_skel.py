@@ -241,7 +241,7 @@ def parsedata(filename, sim):
               #env.physics.data.qpos[joint_index + 6] = rad
               #angle_init[2] = rad
           default_angle.append(angle_init)
-        elif i > 1:
+        elif i > 1 and j > 1:
           #init_joint_vec = normalize(np.subtract(np.array(init_pos[j-1]), np.array(init_pos[J[0][j - 2]-1])))
           init_joint_vec = init_pos[j-1]
 
