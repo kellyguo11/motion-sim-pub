@@ -78,7 +78,7 @@ JOINT_BODIES = ["lfemur", "lfemur", "lfemur", "ltibia", "lfoot", "lfoot", "ltoes
                 "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
 
 def outputstate2csv(output_state_csv, converted):
-  with open(output_state_csv, 'w') as output:
+  with open(output_state_csv, 'w+') as output:
     writer = csv.writer(output, delimiter=',')
     #len(qpos) = nq (# of position coordinates)
     writer.writerow(['qpos (position)', 'qvel (velocity)', 'time'])
@@ -206,7 +206,7 @@ def buildFeatures(frame, physics, bodies, joints):
 
 # initializes joints output csv with headers
 def createjointcsv(output_joints_csv):
-  with open(output_joints_csv, 'w') as output:
+  with open(output_joints_csv, 'w+') as output:
     writer = csv.writer(output, delimiter=',')
     writer.writerow(['frame index', 'joint index', 'joint name', 'joint angle/position', 'joint angle (deg)', 'joint velocity', 
       'cartesian joint axis', 'World Position', 'World Orientation', 'COM Position', 'COM Orientation',
@@ -393,7 +393,7 @@ def cleanFiles(prefix):
 
 def writeOutput(filename, output):
   print("Writing to file: " + filename)
-  file = open(filename, 'w')
+  file = open(filename, 'w+')
   for row in output:
     file.write("%s\n" % row)
 
