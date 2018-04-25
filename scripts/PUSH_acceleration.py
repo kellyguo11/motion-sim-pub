@@ -53,42 +53,43 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string('filename', None, 'txt file to be converted.')
 flags.DEFINE_string('dir', None, 'directory containing all txt files.')
 
-height = 0
-ms2_to_G = 0.101972
-num_frames = 0
-
-pos_x = dict()
-pos_y = dict()
-pos_z = dict()
-
 DELTA_T = 1/30
 
-def find_rotation_matrix(ax, ay, az, imu_ax, imu_ay, imu_az):
+def find_rotation_matrix(pos_data, IMU_data, filename):
   print("Finding rotation matrix...")
   rx = 0
   ry = 0
   rz = 0
 
-  diff_a = []
-  imu_a = []
+  lshank_diff_a = []
+  lshank_imu_a = []
+  lthigh_diff_a = []
+  lthigh_imu_a = []
+  rshank_diff_a = []
+  rshank_imu_a = []
+  rthigh_diff_a = []
+  rthigh_imu_a = []
 
   # Kabsch algorithm setup
-  for i in range(np.minimum(len(ax), len(imu_ax))):
-    diff_a.append([ax[i], ay[i], az[i]])
-  for i in range(np.minimum(len(ax), len(imu_ax))):
-    imu_a.append([imu_ax[i], imu_ay[i], imu_az[i] + 20])
+  for i in range(len(pos_data[0])):
+    lshank_diff_a.append([pos_data[0][i], pos_data[1][i], pos_data[2][i]])
+    lthigh_diff_a.append([pos_data[3][i], pos_data[4][i], pos_data[5][i]])
+    rshank_diff_a.append([pos_data[6][i], pos_data[7][i], pos_data[8][i]])
+    rthigh_diff_a.append([pos_data[9][i], pos_data[10][i], pos_data[11][i]])
+  for i in range(len(IMU_data[0]) - 2):
+    lshank_imu_a.append([IMU_data[0][i], IMU_data[1][i], IMU_data[2][i] + 20])
+    lthigh_imu_a.append([IMU_data[3][i], IMU_data[4][i], IMU_data[5][i] + 20])
+    rshank_imu_a.append([IMU_data[6][i], IMU_data[7][i], IMU_data[8][i] + 20])
+    rthigh_imu_a.append([IMU_data[9][i], IMU_data[10][i], IMU_data[11][i] + 20])
 
-  diff_a = np.array(diff_a)
-  imu_a = np.array(imu_a)
+  # diff_a = np.array(diff_a)
+  # imu_a = np.array(imu_a)
 
-  print("Rotation matrix: ", rmsd.kabsch(diff_a, imu_a))
-  print("RMSD: ", rmsd.kabsch_rmsd(diff_a, imu_a))
-  # diff_a -= rmsd.centroid(diff_a)
-  # imu_a -= rmsd.centroid(imu_a)
-  # print("Rotation matrix after translation: ", rmsd.kabsch(diff_a, imu_a))
-  # print("RMSD after translation: ", rmsd.kabsch_rmsd(diff_a, imu_a))
-
-  rotated_a = rmsd.kabsch_rotate(diff_a, imu_a)
+  # lshank
+  print("Rotation matrix for LShank: ", rmsd.kabsch(lshank_diff_a, lshank_imu_a))
+  print("RMSD for LShank: ", rmsd.kabsch_rmsd(lshank_diff_a, lshank_imu_a))
+  rotated_a = rmsd.kabsch_rotate(lshank_diff_a, lshank_imu_a)
+  np.save(filename + "_LShank.npy", rotated_a)
   r_ax = []
   r_ay = []
   r_az = []
@@ -98,12 +99,79 @@ def find_rotation_matrix(ax, ay, az, imu_ax, imu_ay, imu_az):
     r_az.append(rotated_a[i][2])
 
   x_axis = np.array(range(len(r_ax)))
-  plt.figure(5)
-  plt.title("Rotated Differentiated Acceleration")
-  plt.plot(x_axis, r_ax, label='x', color='red')
-  plt.plot(x_axis, r_ay, label='y', color='green')
-  plt.plot(x_axis, r_az, label='z', color='blue')
-  plt.legend()
+  fig = plt.figure(5)
+  ax = fig.add_subplot(313)
+  ax.set_title("Rotated Differentiated Acceleration -- LShank")
+  ax.plot(x_axis, r_ax, label='x', color='red')
+  ax.plot(x_axis, r_ay, label='y', color='green')
+  ax.plot(x_axis, r_az, label='z', color='blue')
+  ax.legend()
+
+  # lthigh
+  print("Rotation matrix for LThigh: ", rmsd.kabsch(lthigh_diff_a, lthigh_imu_a))
+  print("RMSD for LThigh: ", rmsd.kabsch_rmsd(lthigh_diff_a, lthigh_imu_a))
+  rotated_a = rmsd.kabsch_rotate(lthigh_diff_a, lthigh_imu_a)
+  np.save(filename + "_LThigh.npy", rotated_a)
+  r_ax = []
+  r_ay = []
+  r_az = []
+  for i in range(len(rotated_a)):
+    r_ax.append(rotated_a[i][0])
+    r_ay.append(rotated_a[i][1])
+    r_az.append(rotated_a[i][2])
+
+  x_axis = np.array(range(len(r_ax)))
+  fig = plt.figure(6)
+  ax = fig.add_subplot(313)
+  ax.set_title("Rotated Differentiated Acceleration -- LThigh")
+  ax.plot(x_axis, r_ax, label='x', color='red')
+  ax.plot(x_axis, r_ay, label='y', color='green')
+  ax.plot(x_axis, r_az, label='z', color='blue')
+  ax.legend()
+
+  # rshank
+  print("Rotation matrix for RShank: ", rmsd.kabsch(rshank_diff_a, rshank_imu_a))
+  print("RMSD for RShank: ", rmsd.kabsch_rmsd(rshank_diff_a, rshank_imu_a))
+  rotated_a = rmsd.kabsch_rotate(rshank_diff_a, rshank_imu_a)
+  np.save(filename + "_RShank.npy", rotated_a)
+  r_ax = []
+  r_ay = []
+  r_az = []
+  for i in range(len(rotated_a)):
+    r_ax.append(rotated_a[i][0])
+    r_ay.append(rotated_a[i][1])
+    r_az.append(rotated_a[i][2])
+
+  x_axis = np.array(range(len(r_ax)))
+  fig = plt.figure(7)
+  ax = fig.add_subplot(313)
+  ax.set_title("Rotated Differentiated Acceleration -- RShank")
+  ax.plot(x_axis, r_ax, label='x', color='red')
+  ax.plot(x_axis, r_ay, label='y', color='green')
+  ax.plot(x_axis, r_az, label='z', color='blue')
+  ax.legend()
+
+  # rthigh
+  print("Rotation matrix for RThigh: ", rmsd.kabsch(rthigh_diff_a, rthigh_imu_a))
+  print("RMSD for RThigh: ", rmsd.kabsch_rmsd(rthigh_diff_a, rthigh_imu_a))
+  rotated_a = rmsd.kabsch_rotate(rthigh_diff_a, rthigh_imu_a)
+  np.save(filename + "_RThigh.npy", rotated_a)
+  r_ax = []
+  r_ay = []
+  r_az = []
+  for i in range(len(rotated_a)):
+    r_ax.append(rotated_a[i][0])
+    r_ay.append(rotated_a[i][1])
+    r_az.append(rotated_a[i][2])
+
+  x_axis = np.array(range(len(r_ax)))
+  fig = plt.figure(8)
+  ax = fig.add_subplot(313)
+  ax.set_title("Rotated Differentiated Acceleration -- RThigh")
+  ax.plot(x_axis, r_ax, label='x', color='red')
+  ax.plot(x_axis, r_ay, label='y', color='green')
+  ax.plot(x_axis, r_az, label='z', color='blue')
+  ax.legend()
 
 def parse_IMU(filename):
   print("Parsing IMU file...")
@@ -141,80 +209,81 @@ def parse_IMU(filename):
   # lshank
   x_axis = np.array(range(len(lshank_x)))
   plt.figure(5)
-  plt.subplot(211)
+  plt.subplot(311)
   plt.title("IMU Acceleration -- LShank")
   plt.plot(x_axis, lshank_x, label='x', color='red')
   plt.plot(x_axis, lshank_y, label='y', color='green')
   plt.plot(x_axis, lshank_z, label='z', color='blue')
   plt.legend()
 
-  sav_x, sav_y, sav_z = savgol(lshank_x, lshank_y, lshank_z, 151)
-  x_axis = np.array(range(len(sav_x)))
-  plt.subplot(212)
+  lshank_sav_x, lshank_sav_y, lshank_sav_z = savgol(lshank_x, lshank_y, lshank_z, 151)
+  x_axis = np.array(range(len(lshank_sav_x)))
+  plt.subplot(312)
   plt.title("IMU Acceleration with Savgol Filter -- LShank")
-  plt.plot(x_axis, sav_x, label='x', color='red')
-  plt.plot(x_axis, sav_y, label='y', color='green')
-  plt.plot(x_axis, sav_z, label='z', color='blue')
+  plt.plot(x_axis, lshank_sav_x, label='x', color='red')
+  plt.plot(x_axis, lshank_sav_y, label='y', color='green')
+  plt.plot(x_axis, lshank_sav_z, label='z', color='blue')
   plt.legend()
 
   # lthigh
   x_axis = np.array(range(len(lthigh_x)))
   plt.figure(6)
-  plt.subplot(211)
+  plt.subplot(311)
   plt.title("IMU Acceleration -- LThigh")
   plt.plot(x_axis, lthigh_x, label='x', color='red')
   plt.plot(x_axis, lthigh_y, label='y', color='green')
   plt.plot(x_axis, lthigh_z, label='z', color='blue')
   plt.legend()
 
-  sav_x, sav_y, sav_z = savgol(lthigh_x, lthigh_y, lthigh_z, 151)
-  x_axis = np.array(range(len(sav_x)))
-  plt.subplot(212)
+  lthigh_sav_x, lthigh_sav_y, lthigh_sav_z = savgol(lthigh_x, lthigh_y, lthigh_z, 151)
+  x_axis = np.array(range(len(lthigh_sav_x)))
+  plt.subplot(312)
   plt.title("IMU Acceleration with Savgol Filter -- LThigh")
-  plt.plot(x_axis, sav_x, label='x', color='red')
-  plt.plot(x_axis, sav_y, label='y', color='green')
-  plt.plot(x_axis, sav_z, label='z', color='blue')
+  plt.plot(x_axis, lthigh_sav_x, label='x', color='red')
+  plt.plot(x_axis, lthigh_sav_y, label='y', color='green')
+  plt.plot(x_axis, lthigh_sav_z, label='z', color='blue')
   plt.legend()
 
   # rshank
   x_axis = np.array(range(len(rshank_x)))
   plt.figure(7)
-  plt.subplot(211)
+  plt.subplot(311)
   plt.title("IMU Acceleration -- RShank")
   plt.plot(x_axis, rshank_x, label='x', color='red')
   plt.plot(x_axis, rshank_y, label='y', color='green')
   plt.plot(x_axis, rshank_z, label='z', color='blue')
   plt.legend()
 
-  sav_x, sav_y, sav_z = savgol(rshank_x, rshank_y, rshank_z, 151)
-  x_axis = np.array(range(len(sav_x)))
-  plt.subplot(212)
+  rshank_sav_x, rshank_sav_y, rshank_sav_z = savgol(rshank_x, rshank_y, rshank_z, 151)
+  x_axis = np.array(range(len(rshank_sav_x)))
+  plt.subplot(312)
   plt.title("IMU Acceleration with Savgol Filter -- RShank")
-  plt.plot(x_axis, sav_x, label='x', color='red')
-  plt.plot(x_axis, sav_y, label='y', color='green')
-  plt.plot(x_axis, sav_z, label='z', color='blue')
+  plt.plot(x_axis, rshank_sav_x, label='x', color='red')
+  plt.plot(x_axis, rshank_sav_y, label='y', color='green')
+  plt.plot(x_axis, rshank_sav_z, label='z', color='blue')
   plt.legend()
 
   # rthigh
   x_axis = np.array(range(len(rthigh_x)))
   plt.figure(8)
-  plt.subplot(211)
+  plt.subplot(311)
   plt.title("IMU Acceleration -- RThigh")
   plt.plot(x_axis, rthigh_x, label='x', color='red')
   plt.plot(x_axis, rthigh_y, label='y', color='green')
   plt.plot(x_axis, rthigh_z, label='z', color='blue')
   plt.legend()
 
-  sav_x, sav_y, sav_z = savgol(rthigh_x, rthigh_y, rthigh_z, 151)
-  x_axis = np.array(range(len(sav_x)))
-  plt.subplot(212)
+  rthigh_sav_x, rthigh_sav_y, rthigh_sav_z = savgol(rthigh_x, rthigh_y, rthigh_z, 151)
+  x_axis = np.array(range(len(rthigh_sav_x)))
+  plt.subplot(312)
   plt.title("IMU Acceleration with Savgol Filter -- RThigh")
-  plt.plot(x_axis, sav_x, label='x', color='red')
-  plt.plot(x_axis, sav_y, label='y', color='green')
-  plt.plot(x_axis, sav_z, label='z', color='blue')
+  plt.plot(x_axis, rthigh_sav_x, label='x', color='red')
+  plt.plot(x_axis, rthigh_sav_y, label='y', color='green')
+  plt.plot(x_axis, rthigh_sav_z, label='z', color='blue')
   plt.legend()
 
-  return [sav_x, sav_y, sav_z]
+  return [lshank_sav_x, lshank_sav_y, lshank_sav_z, lthigh_sav_x, lthigh_sav_y, lthigh_sav_z, 
+    rshank_sav_x, rshank_sav_y, rshank_sav_z, rthigh_sav_x, rthigh_sav_y, rthigh_sav_z]
 
 def savgol(pos_x, pos_y, pos_z, window):
   x = np.array(range(len(pos_x)))
@@ -303,8 +372,8 @@ def parse_data(filename):
 
   acc_x, acc_y, acc_z = calc_acceleration(vel_x, vel_y, vel_z)
   plot_acc(acc_x, acc_y, acc_z, 325, "Differentiated Acceleration -- LShank")
-  sav_acc_x, sav_acc_y, sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
-  plot_acc(sav_acc_x, sav_acc_y, sav_acc_z, 326, "Savgol Filter^2 Acceleration -- LShank")
+  lshank_sav_acc_x, lshank_sav_acc_y, lshank_sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
+  plot_acc(lshank_sav_acc_x, lshank_sav_acc_y, lshank_sav_acc_z, 326, "Savgol Filter^2 Acceleration -- LShank")
 
   # lthigh
   plt.figure(2)
@@ -320,8 +389,8 @@ def parse_data(filename):
 
   acc_x, acc_y, acc_z = calc_acceleration(vel_x, vel_y, vel_z)
   plot_acc(acc_x, acc_y, acc_z, 325, "Differentiated Acceleration -- LThigh")
-  sav_acc_x, sav_acc_y, sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
-  plot_acc(sav_acc_x, sav_acc_y, sav_acc_z, 326, "Savgol Filter^2 Acceleration -- LThigh")
+  lthigh_sav_acc_x, lthigh_sav_acc_y, lthigh_sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
+  plot_acc(lthigh_sav_acc_x, lthigh_sav_acc_y, lthigh_sav_acc_z, 326, "Savgol Filter^2 Acceleration -- LThigh")
 
   # rshank
   plt.figure(3)
@@ -337,8 +406,8 @@ def parse_data(filename):
 
   acc_x, acc_y, acc_z = calc_acceleration(vel_x, vel_y, vel_z)
   plot_acc(acc_x, acc_y, acc_z, 325, "Differentiated Acceleration -- RShank")
-  sav_acc_x, sav_acc_y, sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
-  plot_acc(sav_acc_x, sav_acc_y, sav_acc_z, 326, "Savgol Filter^2 Acceleration -- RShank")
+  rshank_sav_acc_x, rshank_sav_acc_y, rshank_sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
+  plot_acc(rshank_sav_acc_x, rshank_sav_acc_y, rshank_sav_acc_z, 326, "Savgol Filter^2 Acceleration -- RShank")
 
   # rthigh
   plt.figure(4)
@@ -354,10 +423,11 @@ def parse_data(filename):
 
   acc_x, acc_y, acc_z = calc_acceleration(vel_x, vel_y, vel_z)
   plot_acc(acc_x, acc_y, acc_z, 325, "Differentiated Acceleration -- RThigh")
-  sav_acc_x, sav_acc_y, sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
-  plot_acc(sav_acc_x, sav_acc_y, sav_acc_z, 326, "Savgol Filter^2 Acceleration -- RThigh")
+  rthigh_sav_acc_x, rthigh_sav_acc_y, rthigh_sav_acc_z = calc_acceleration(sav_sav_vel_x, sav_sav_vel_y, sav_sav_vel_z)
+  plot_acc(rthigh_sav_acc_x, rthigh_sav_acc_y, rthigh_sav_acc_z, 326, "Savgol Filter^2 Acceleration -- RThigh")
 
-  return [sav_acc_x, sav_acc_y, sav_acc_z]
+  return [lshank_sav_acc_x, lshank_sav_acc_y, lshank_sav_acc_z, lthigh_sav_acc_x, lthigh_sav_acc_y, lthigh_sav_acc_z, 
+    rshank_sav_acc_x, rshank_sav_acc_y, rshank_sav_acc_z, rthigh_sav_acc_x, rthigh_sav_acc_y, rthigh_sav_acc_z]
 
 def diff_acc(m_ax, m_ay, m_az, ax, ay, az):
   diff_x = []
@@ -383,12 +453,13 @@ def plot_acc(x, y, z, fig, title):
 def main(unused_argv):
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir):
-      acc_x, acc_y, acc_z = parse_data(filename)
-      plot_acc(acc_x, acc_y, acc_z)
+      pos_data = parse_data(filename)
+      IMU_data = parse_IMU(filename)
+      find_rotation_matrix(pos_data, IMU_data, filename)
   elif FLAGS.filename:
-    acc_x, acc_y, acc_z = parse_data(FLAGS.filename)
-    ax, ay, az = parse_IMU(FLAGS.filename)
-    find_rotation_matrix(acc_x, acc_y, acc_z, ax, ay, az)
+    pos_data = parse_data(FLAGS.filename)
+    IMU_data = parse_IMU(FLAGS.filename)
+    find_rotation_matrix(pos_data, IMU_data, FLAGS.filename)
     plt.show()
   else:
     print("Please provide input source.")

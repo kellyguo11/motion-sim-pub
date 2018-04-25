@@ -111,7 +111,7 @@ def outputPositions(filename, pos):
 def main(unused_argv):
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir):
-      parseData(filename, FLAGS.simulate, FLAGS.maxframe)
+      parseData(filename, False, FLAGS.maxframe)
   elif FLAGS.filename:
     parseData(FLAGS.filename, FLAGS.simulate, FLAGS.maxframe)
   else:

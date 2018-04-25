@@ -487,7 +487,7 @@ def main(unused_argv):
   if FLAGS.dir:
     for filename in glob.iglob(FLAGS.dir + '/**/*.amc', recursive=True):
       #try:
-      parsedata(filename, FLAGS.simulate, FLAGS.noise)
+      parsedata(filename, False, FLAGS.noise)
       #except Exception as e:
         #print(e)
   elif FLAGS.filename:
