@@ -60,18 +60,18 @@ The script applies Savgol filter to smoothen the position, velocity and accelera
 
 The output of this script includes 2 Figures and 1 output file for each joint:
 * Figure 1 - 6 subplots
-- Raw Position (XYZ)
-- Position with Savgol Filter (XYZ)
-- Raw Differentiated Velocity (XYZ)
-- Velocity with Savgol Filter (XYZ)
-- Raw Differentiated Acceleration (XYZ)
-- Acceleration with Savgol Filter (XYZ)
+    * Raw Position (XYZ)
+    * Position with Savgol Filter (XYZ)
+    * Raw Differentiated Velocity (XYZ)
+    * Velocity with Savgol Filter (XYZ)
+    * Raw Differentiated Acceleration (XYZ)
+    * Acceleration with Savgol Filter (XYZ)
 * Figure 2 - 3 subplots
-- Raw IMU Acceleration (XYZ)
-- IMU Acceleration with Savgol Filter (XYZ)
-- Differentiated Acceleration with Savgol Filter with Rotation Transformation (XYZ)
+    * Raw IMU Acceleration (XYZ)
+    * IMU Acceleration with Savgol Filter (XYZ)
+    * Differentiated Acceleration with Savgol Filter with Rotation Transformation (XYZ)
 * Output File - 1 per joint (4 in total) named `<filename>_<joint_name>.npy` under IK_cut_spline directory
-- XYZ coordinates of differentiated acceleration after Savgol Filter and with rotation matrix applied
+    * XYZ coordinates of differentiated acceleration after Savgol Filter and with rotation matrix applied
 
 Example of execution:
 `python scripts/PUSH_acceleration.py --filename=/home/kelly/Documents/motion-sim/IK_cut_spline/RunNormalSpeed1.npy`
