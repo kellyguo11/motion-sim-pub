@@ -74,8 +74,8 @@ JOINT_BODIES = ["lfemur", "lfemur", "lfemur", "ltibia", "lfoot", "lfoot", "ltoes
                 "thorax", "thorax", "lowerneck", "lowerneck", "lowerneck", "upperneck", "upperneck",
                 "upperneck", "head", "head", "head", "lclavicle", "lclavicle", "lhumerus", 
                 "lhumerus", "lhumerus", "lradius", "lwrist", "lhand", "lhand", "lfingers",
-                "lthumb", "lthumb", "rclavicle", "rclavicle", "rclavicle", "rhumerus", "rhumerus",
-                "rhumerus", "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
+                "lthumb", "lthumb", "rclavicle", "rclavicle", "rhumerus", "rhumerus", "rhumerus",
+                "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
 
 def outputstate2csv(output_state_csv, converted):
   with open(output_state_csv, 'w') as output:
@@ -454,7 +454,7 @@ def parsedata(filename, sim, noise):
   writeOutput(file_prefix + "_features_parent.txt", output_parent)
 
   if sim:
-    visualizeJoint(49, joints)
+   # visualizeJoint(49, joints)
 
     plt.figure(2)
     tic = time.time()

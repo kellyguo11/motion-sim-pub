@@ -65,9 +65,23 @@ JOINT_BODIES = ["lfemur", "lfemur", "lfemur", "ltibia", "lfoot", "lfoot", "ltoes
                 "thorax", "thorax", "lowerneck", "lowerneck", "lowerneck", "upperneck", "upperneck",
                 "upperneck", "head", "head", "head", "lclavicle", "lclavicle", "lhumerus", 
                 "lhumerus", "lhumerus", "lradius", "lwrist", "lhand", "lhand", "lfingers",
-                "lthumb", "lthumb", "rclavicle", "rclavicle", "rclavicle", "rhumerus", "rhumerus",
-                "rhumerus", "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
+                "lthumb", "lthumb", "rclavicle", "rclavicle", "rhumerus", "rhumerus", "rhumerus",
+                "rradius", "rwrist", "rhand", "rhand", "rfingers", "rthumb", "rthumb"]
 
+# bodies in order of .amc files
+AMC_ORDER = ["root", "lowerback", "upperback", "thorax", "lowerneck", "upperneck", "head",
+             "rclavicle", "rhumerus", "rradius", "rwrist", "rhand", "rfingers", "rthumb",
+             "lclavicle", "lhumerus", "lradius", "lwrist", "lhand", "lfingers", "lthumb",
+             "rfemur", "rtibia", "rfoot", "rtoes", "lfemur", "ltibia", "lfoot", "ltoes"]
+
+INIT_QPOS = [-20, 0, 0, 0, 0, 0, 0,
+            20, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 85, 
+            0, -30, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, -85, 0, -30, 
+            0, 0, 0, 0, 0, 0, 0]
 '''
 1 Base of the spine - lowerback(rz, ry, rx)
 2 Middle of the spine - upperback(rz, ry, rx)
@@ -97,35 +111,31 @@ JOINT_BODIES = ["lfemur", "lfemur", "lfemur", "ltibia", "lfoot", "lfoot", "ltoes
 '''
 
 JOINT_MAPPING = dict()
-JOINT_MAPPING[1] = ["lowerbackrz", "lowerbackry", "lowerbackrx"]
-JOINT_MAPPING[2] = ["upperbackrz", "upperbackry", "upperbackrx"]
-JOINT_MAPPING[3] = ["upperneckrz", "upperneckry", "upperneckrx"]
-JOINT_MAPPING[4] = ["headrx", "headry", "headrx"]
-JOINT_MAPPING[5] = ["lhumerusrz", "lhumerusry", "lhumerusrx"]
+JOINT_MAPPING[1] = ["lowerbackrx", "lowerbackry", "lowerbackrz"]
+JOINT_MAPPING[2] = ["upperbackrx", "upperbackry", "upperbackrz"]
+JOINT_MAPPING[3] = ["upperneckrx", "upperneckry", "upperneckrz"]
+JOINT_MAPPING[4] = ["headrx", "headry", "headrz"]
+JOINT_MAPPING[5] = ["lhumerusrx", "lhumerusry", "lhumerusrz"]
 JOINT_MAPPING[6] = ["lradiusrx"]
 JOINT_MAPPING[7] = ["lwristry"]
-JOINT_MAPPING[8] = ["lhandrz", "lhandrx"]
-JOINT_MAPPING[9] = ["rhumerusrz", "rhumerusry", "rhumerusrx"]
+JOINT_MAPPING[8] = ["lhandrx", "lhandrz"]
+JOINT_MAPPING[9] = ["rhumerusrx", "rhumerusry", "rhumerusrz"]
 JOINT_MAPPING[10] = ["rradiusrx"]
 JOINT_MAPPING[11] = ["rwristry"]
-JOINT_MAPPING[12] = ["rhandrz", "rhandrx"]
-JOINT_MAPPING[13] = ["lfemurrz", "lfemurry", "lfemurrx"]
+JOINT_MAPPING[12] = ["rhandrx", "rhandrz"]
+JOINT_MAPPING[13] = ["lfemurrx", "lfemurry", "lfemurrz"]
 JOINT_MAPPING[14] = ["ltibiarx"]
-JOINT_MAPPING[15] = ["lfootrz", "lfootrx"]
+JOINT_MAPPING[15] = ["lfootrx", "lfootrz"]
 JOINT_MAPPING[16] = ["ltoesrx"]
-JOINT_MAPPING[17] = ["rfemurrz", "rfemurry", "rfemurrx"]
+JOINT_MAPPING[17] = ["rfemurrx", "rfemurry", "rfemurrz"]
 JOINT_MAPPING[18] = ["rtibiarx"]
-JOINT_MAPPING[19] = ["rfootrz", "rfootrx"]
+JOINT_MAPPING[19] = ["rfootrx", "rfootrz"]
 JOINT_MAPPING[20] = ["rtoesrx"]
-JOINT_MAPPING[21] = ["lowerneckrz", "lowerneckry", "lowerneckrx"]
+JOINT_MAPPING[21] = ["lowerneckrx", "lowerneckry", "lowerneckrz"]
 JOINT_MAPPING[22] = ["lfingersrx"]
-JOINT_MAPPING[23] = ["lthumbrz", "lthumbrx"]
+JOINT_MAPPING[23] = ["lthumbrx", "lthumbrz"]
 JOINT_MAPPING[24] = ["rfingersrx"]
-JOINT_MAPPING[25] = ["rthumbrz", "rthumbrx"]
-
-
-J = [[1, 2, 3, 4, 5, 6, 7, 7, 3, 10, 11, 12, 13, 14, 3, 16, 17, 18, 19, 19, 11, 22, 23, 24],
-     [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]];
+JOINT_MAPPING[25] = ["rthumbrx", "rthumbrz"]
 
 def normalize(v):
   norm = np.linalg.norm(v, ord=1)
@@ -134,6 +144,7 @@ def normalize(v):
   return v/norm
 
 def parsedata(filename, sim):
+  output = dict()
   file = open(filename, 'r')
   lines = file.read().split('\n')
 
@@ -155,10 +166,12 @@ def parsedata(filename, sim):
       # add position of each joint per frame
       for f in frames:
         positions = f.split(' ')
-        positions = normalize(np.array([float(positions[0]), float(positions[2]), float(positions[1])]))
+        positions = np.array([float(positions[0]), float(positions[1]), float(positions[2])])
         pos_list[j].append(positions)
         if j == 1:
           frame_count += 1
+        # if j == 11:
+        #   print(positions)
       j += 1
 
   # build initial joint positions (for frame 0)
@@ -181,108 +194,79 @@ def parsedata(filename, sim):
   joints = dict()
   bodies = dict()
 
-  default_angle = []
+  file  = open(filename + ".amc", "w") 
 
   for i in range(int(max_frame)):
+    file.write(str(i + 1) + '\n')
+    output['lclavicle'] = "lclavicle 0 0"
+    output['rclavicle'] = "rclavicle 0 0"
+    output['thorax'] = "thorax 0 0 0"
     with env.physics.reset_context():
       for j in range(1, num_joints + 1):
         joint_names = JOINT_MAPPING[j]
         cur_pos = pos_list[j][i]
 
         joint_index = env.physics.model.name2id(joint_names[0], 'joint')
-        body_index = env.physics.model.name2id(JOINT_BODIES[joint_index], 'body')
+        body_index = env.physics.model.name2id(JOINT_BODIES[joint_index - 1], 'body')
 
         body_pos = env.physics.data.xpos[body_index]
         body_rot = env.physics.data.xmat[body_index].reshape(3, 3)
 
-        #joint_2_joint_vec = normalize(np.subtract(np.array(pos_list[j][i]), np.array(pos_list[J[0][j - 2]][i])))
         joint_pos = pos_list[j][i]
 
-        # calculate initial angle from default mujoco model
-        if i == 1:
-          default_joint_pos = body_pos
+        body_name = env.physics.model.id2name(body_index, "body")
 
-          # convert positions to body-frame reference
-          body_frame_pos_prev = np.array([0.0, 0.0, 0.0])
-          body_frame_pos_cur = np.matmul(np.subtract(joint_pos, body_pos), body_rot)
+        output[body_name] = body_name
+        if j == 1:
+          output["root"] = "root " + str(pos_list[j][i][0]) + " " + str(pos_list[j][i][1] + 17) + " " + str(pos_list[j][i][2])
 
-          angle_init = [0, 0, 0]
+        init_joint_vec = (init_pos[j-1] - body_pos).dot(body_rot)
 
-          # calculate rotation angle around each axis
-          for name in joint_names:
-            if name[-2:] == 'rz':
-              #project onto xy plane
-              normal = np.cross(body_rot[0,:], body_rot[1,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.array([0.0, 0.0, 1.0])
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              #env.physics.data.qpos[joint_index + 6] = rad
-              #angle_init[0] = rad
-            elif name[-2:] == 'rx':
-              #project onto yz plane
-              normal = np.cross(body_rot[1,:], body_rot[2,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.array([1.0, 0.0, 0.0])
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              #env.physics.data.qpos[joint_index + 6] = rad
-              #angle_init[1] = rad
-            elif name[-2:] == 'ry':
-              #project onto xz plane
-              normal = np.cross(body_rot[0,:], body_rot[2,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.array([0.0, 1.0, 0.0])
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              #env.physics.data.qpos[joint_index + 6] = rad
-              #angle_init[2] = rad
-          default_angle.append(angle_init)
-        elif i > 1 and j > 1:
-          #init_joint_vec = normalize(np.subtract(np.array(init_pos[j-1]), np.array(init_pos[J[0][j - 2]-1])))
-          init_joint_vec = init_pos[j-1]
+        # convert positions to body-frame reference
+        body_frame_pos_cur = np.matmul(np.subtract(joint_pos, body_pos), body_rot)
 
-          # convert positions to body-frame reference
-          body_frame_pos_prev = np.matmul(np.subtract(init_joint_vec, body_pos), body_rot)
-          body_frame_pos_cur = np.matmul(np.subtract(joint_pos, body_pos), body_rot)
+        for name in joint_names:
+          if name[-2:] == 'rz':
+            dot = min(1, 
+                    (np.dot(np.array([init_joint_vec[0], init_joint_vec[1]]), np.array([body_frame_pos_cur[0], body_frame_pos_cur[1]]))
+                      / (np.linalg.norm(np.array([init_joint_vec[0], init_joint_vec[1]]))*np.linalg.norm(np.array([body_frame_pos_cur[0], body_frame_pos_cur[1]]))))
+                    )
+            angle = np.arccos(dot)
 
-          diff = np.subtract(body_frame_pos_cur, body_frame_pos_prev)
-          if np.array_equal(diff, np.array([0.0, 0.0, 0.0])):
-            continue
+            joint_index = env.physics.model.name2id(name, 'joint')
+            env.physics.data.qpos[joint_index + 6] = np.radians(INIT_QPOS[joint_index - 1]) + angle
+            output[body_name] = output[body_name] + " " + str(np.degrees(angle) + INIT_QPOS[joint_index - 1])
+            if j == 1:
+              output["root"] = output["root"] + " " + str(np.degrees(angle))
 
-          # calculate rotation angle around each axis
-          for name in joint_names:
-            if name[-2:] == 'rz':
-              #project onto xy plane
-              normal = np.cross(body_rot[0,:], body_rot[1,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.subtract(body_frame_pos_prev, np.multiply(np.dot(body_frame_pos_prev, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle*360)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              env.physics.data.qpos[joint_index + 6] = rad + default_angle[j-1][0]
-            elif name[-2:] == 'rx':
-              #project onto yz plane
-              normal = np.cross(body_rot[1,:], body_rot[2,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.subtract(body_frame_pos_prev, np.multiply(np.dot(body_frame_pos_prev, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle*360)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              env.physics.data.qpos[joint_index + 6] = rad + default_angle[j-1][1]
-            elif name[-2:] == 'ry':
-              #project onto xz plane
-              normal = np.cross(body_rot[0,:], body_rot[2,:])
-              projection = np.subtract(body_frame_pos_cur, np.multiply(np.dot(body_frame_pos_cur, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              projection_prev = np.subtract(body_frame_pos_prev, np.multiply(np.dot(body_frame_pos_prev, normal), normal)/(np.linalg.norm(normal)*np.linalg.norm(normal)))
-              angle = np.arccos(np.dot(projection_prev, projection)/(np.linalg.norm(projection_prev) * np.linalg.norm(projection)))
-              rad = np.radians(angle*360)
-              joint_index = env.physics.model.name2id(name, 'joint')
-              env.physics.data.qpos[joint_index + 6] = rad + default_angle[j-1][2]
+          elif name[-2:] == 'rx':
+            dot = min(1, 
+                    (np.dot(np.array([init_joint_vec[1], init_joint_vec[2]]), np.array([body_frame_pos_cur[1], body_frame_pos_cur[2]]))
+                      / (np.linalg.norm(np.array([init_joint_vec[1], init_joint_vec[2]]))*np.linalg.norm(np.array([body_frame_pos_cur[1], body_frame_pos_cur[2]]))))
+                    )
+            angle = np.arccos(dot)
 
+            joint_index = env.physics.model.name2id(name, 'joint')
+            env.physics.data.qpos[joint_index + 6] = np.radians(INIT_QPOS[joint_index - 1]) + angle
+            output[body_name] = output[body_name] + " " + str(np.degrees(angle))
+            if j == 1:
+              output["root"] = output["root"] + " " + str(np.degrees(angle) + INIT_QPOS[joint_index - 1])
+
+          elif name[-2:] == 'ry':
+            dot = min(1, 
+                    (np.dot(np.array([init_joint_vec[0], init_joint_vec[2]]), np.array([body_frame_pos_cur[0], body_frame_pos_cur[2]]))
+                      / (np.linalg.norm(np.array([init_joint_vec[0], init_joint_vec[2]]))*np.linalg.norm(np.array([body_frame_pos_cur[0], body_frame_pos_cur[2]]))))
+                    )
+            angle = np.arccos(dot)
+
+            joint_index = env.physics.model.name2id(name, 'joint')
+            env.physics.data.qpos[joint_index + 6] = np.radians(INIT_QPOS[joint_index - 1]) + angle
+            output[body_name] = output[body_name] + " " + str(np.degrees(angle) + INIT_QPOS[joint_index - 1])
+            if j == 1:
+              output["root"] = output["root"] + " " + str(np.degrees(angle))
+
+      for name in AMC_ORDER:
+        file.write(output[name] + '\n')
       env.physics.step()
       print("Processing frame " + str(i))
       #outputbodies(os.path.basename(filename).split('.')[0] + "_bodies.csv", env.physics, i)
@@ -301,6 +285,8 @@ def parsedata(filename, sim):
   # writeOutput(file_prefix + "_features_world.txt", output_world)
   # writeOutput(file_prefix + "_features_com.txt", output_com)
   # writeOutput(file_prefix + "_features_parent.txt", output_parent)
+
+  file.close()
 
   if sim:
     #visualizeJoint(49, joints)
