@@ -50,7 +50,7 @@ ipython==6.2.1
 ipython-genutils==0.2.0
 ipywidgets==7.1.2
 jedi==0.11.1
-Jinja2==2.10
+Jinja2==2.11.3
 jsk-data==2.2.6
 jsk-recognition-utils==1.2.4
 jsk-topic-tools==2.2.6
