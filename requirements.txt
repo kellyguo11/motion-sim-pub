@@ -63,7 +63,7 @@ language-selector==0.1
 laser-geometry==1.6.4
 louis==2.6.4
 lxml==4.1.1
-Mako==1.0.3
+Mako==1.2.2
 MarkupSafe==1.0
 matplotlib==2.0.2
 message-filters==1.12.7
